@@ -84,6 +84,38 @@
       </div> <!-- .wrapper -->
     </section>
 
+    <section id="partners" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 id="partners" class="text-center">
+              {{ $t('partners_title') }}
+            </h2>
+            <h4 class="sml-push-y2 med-push-y3">
+              {{ $t('partners_description') }}
+            </h4>
+            <LogoCloud class="sml-push-y2 med-push-y3" />
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
+
+    <section id="contribute" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 id="contribute" class="text-center">
+              {{ $t('contribute_title') }}
+            </h2>
+            <h4 class="sml-push-y2 med-push-y3">
+              {{ $t('contribute_description') }}
+            </h4>
+            <ActionNetworkForm />
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
+
     <section id="resources" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
       <div class="wrapper">
         <div class="row">
@@ -101,20 +133,6 @@
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
-
-    <section id="donate" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
-      <div class="wrapper">
-        <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-center">{{ $t('contribute_title') }}</h2>
-            <h4 class="sml-push-y2 med-push-y3">
-              {{ $t('contribute_description') }}
-            </h4>
-            <ActionNetworkForm />
-          </div> <!-- .c -->
-        </div> <!-- .row -->
-      </div> <!-- .wrapper -->
-    </section>
   </DefaultLayout>
 </template>
 
@@ -124,13 +142,15 @@ import DefaultLayout from '~/components/DefaultLayout'
 import ActionNetworkForm from '~/components/ActionNetworkForm'
 import Cryptocurrencies from '~/components/Cryptocurrencies'
 import Leaderboard from '~/components/Leaderboard'
+import LogoCloud from '~/components/LogoCloud'
 
 export default {
   components: {
     DefaultLayout,
     ActionNetworkForm,
     Cryptocurrencies,
-    Leaderboard
+    Leaderboard,
+    LogoCloud
   },
 
   head() {
