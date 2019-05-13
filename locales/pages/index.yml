@@ -64,4 +64,13 @@ en:
     Do you want to receive email updates about the latest breaking news in the
     fight to defend crypto?  Would you like your organization to be listed with
     our partners?  Fill out the information below and let us know.
+  faqs:
+    title: FAQs
+    items:
+      - question: Question 1?
+        answer: Answer 1
+      - question: Question 2?
+        answer: Answer 2
+      - question: Question 3?
+        answer: Answer 3
 

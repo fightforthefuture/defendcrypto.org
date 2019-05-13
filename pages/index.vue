@@ -133,6 +133,23 @@
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
+
+    <section id="faqs" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center">{{ $t('faqs.title') }}</h2>
+
+            <div v-for="(faq, index) in $t('faqs.items')"
+                 :key="`faq-${index}`"
+                 class="sml-pad-y2 with-border-bottom">
+              <h4 class="text-brand">{{ faq.question }}</h4>
+              <h4 class="sml-push-y1">{{ faq. answer }}</h4>
+            </div>
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
   </DefaultLayout>
 </template>
 
