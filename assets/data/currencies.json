@@ -17,6 +17,11 @@
     "logo": "https://s3.fightforthefuture.org/donate/images/coins/bitcoin-cash.png"
   },
   {
+    "name": "Civic",
+    "code": "CVC",
+    "address": "0x8815b81039Ec95f366ae3BDDB4669cd28386Dc2e"
+  },
+  {
     "name": "Dai Stablecoin",
     "code": "DAI",
     "address": "0x96Df039f29C627f29d9986f5BE0A3169e59b1D01"
