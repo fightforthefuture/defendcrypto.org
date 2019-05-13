@@ -36,6 +36,7 @@ jobs:
           command: |
             git config --global user.email "team@fightforthefuture.org"
             git config --global user.name "CircleCI"
+            ssh-keyscan static1.fightforthefuture.org >> ~/.ssh/known_hosts
             npm run deploy
 
       - run:
