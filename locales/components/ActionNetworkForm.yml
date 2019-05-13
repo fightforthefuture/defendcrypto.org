@@ -2,7 +2,7 @@ en:
   petition_id: FIXME
   callpower_id: null
   text_flow_id: OP91C5097075BF0D9B12B2544A6052FB9D
-  subject: FIXME subject
+  subject: Defend Cryptocurrency
   contact_congress: NO
   fcc_docket: null
   tags:
@@ -26,7 +26,7 @@ en:
       Phone # (for text list)
     company: Company
     comment: Comment*
-    button_cta: Sign the Petition
+    button_cta: Sign Up
   thanks:
-    title: Thanks for signing the petition!
+    title: Thanks for signing up!
     share: Please consider sharing with your friends and family.

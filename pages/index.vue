@@ -52,7 +52,7 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-grey text-center">{{ $t('action_title') }}</h2>
-            <p class="sml-push-y2 med-push-y3" v-html="$t('action_html')"></p>
+            <div class="sml-push-y2 med-push-y3" v-html="$t('action_html')"></div>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->

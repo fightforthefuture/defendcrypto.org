@@ -44,20 +44,6 @@
         <input v-model="name" type="text" :placeholder="$t('form.name')" required>
         <input v-model="email" type="email" :placeholder="$t('form.email')" required>
       </div> <!-- .flex-grid -->
-      <div class="flex-grid sml-flex-row sml-push-y1">
-        <input v-model="address"
-               type="text"
-               class="sml-flex-2"
-               :placeholder="$t('form.address')">
-        <input v-model="zipCode"
-               type="tel"
-               :placeholder="$t('form.zip')"
-               required>
-        <input v-model.trim="phone"
-               type="tel"
-               class="sml-flex-2"
-               :placeholder="$t('form.phone')">
-      </div> <!-- .flex-grid -->
       <div v-if="hasCompany" class="sml-push-y1">
         <input v-model="companyName" type="text" :placeholder="$t('form.company')">
       </div>
