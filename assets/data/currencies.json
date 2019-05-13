@@ -15,5 +15,95 @@
     "code": "BCH",
     "address": "qp66tsfg6hguqyycpuavdlcs493sked5tvyadklsp9",
     "logo": "https://s3.fightforthefuture.org/donate/images/coins/bitcoin-cash.png"
+  },
+  {
+    "name": "Dai Stablecoin",
+    "code": "DAI",
+    "address": "0x96Df039f29C627f29d9986f5BE0A3169e59b1D01"
+  },
+  {
+    "name": "Decentraland",
+    "code": "MANA",
+    "address": "0x1993576985aB49EfDe564c6FF69585f50D544Aa6"
+  },
+  {
+    "name": "Etherium",
+    "code": "ETH",
+    "address": "0x8828F35914fB6e368d63c59c883b20A3f5786efa"
+  },
+  {
+    "name": "Etherium Classic",
+    "code": "ETC",
+    "address": "0x378A3527E1decE1cA104a2ae5DCe4eB52F94b7aa"
+  },
+  {
+    "name": "Foamland",
+    "code": "FOAM",
+    "address": "0x7Ca4FDf5bAed98C42267344CD352f56d59800A3b"
+  },
+  {
+    "name": "Golem",
+    "code": "GNT",
+    "address": "0xa5B91be40e516B64c4276330E7a0ddf9fabeC10E"
+  },
+  {
+    "name": "Kin",
+    "code": "KIN",
+    "address": "GD3V7O5NNYHZHGIZHHWGZ2YKMJ57LTPGKBGNBG42PQE4FACXFSFYOOZY"
+  },
+  {
+    "name": "Kyber Network",
+    "code": "KNC",
+    "address": "0x15eDEE09c899564d78fD7acc3F0f760a7ED9CB6D"
+  },
+  {
+    "name": "Litecoin",
+    "code": "LTC",
+    "address": "LXw7okMUSRWWBRLYrcYE3XeeGxsPBzewp1"
+  },
+  {
+    "name": "Loom Network",
+    "code": "LOOM",
+    "address": "0x1C8919D3D0BA87dB3EB1aF6609d38A90900072b0"
+  },
+  {
+    "name": "Maker",
+    "code": "MKR",
+    "address": "0x70312305Aa70F2ef27CE1296868D0900125A5bcC"
+  },
+  {
+    "name": "OmiseGo",
+    "code": "OMG",
+    "address": "0x452ee2956FBD1b2D31E9362D27F301e6254b30eF"
+  },
+  {
+    "name": "Props Token",
+    "code": "PROPS",
+    "address": "0xd370c3d9859FdFFA8e9d66ECd9876E22589fF6f9"
+  },
+  {
+    "name": "Stellar",
+    "code": "XLM",
+    "address": "GABW4H4JT7JX7X2DZIG3LGEQHJQNMI7MBTZJ2MKBNEZSJG4ITTQB42H6"
+  },
+  {
+    "name": "Ripple",
+    "code": "XRP",
+    "address": "rJLRHYnSYFeh86ktnqoMm9Y1TCKXKmByU5"
+  },
+  {
+    "name": "XYO",
+    "code": "XYO",
+    "address": "0x7fcEd3a4dDE7FD628D498912299CB3F3cAEA7D7a"
+  },
+  {
+    "name": "Zcash",
+    "code": "ZEC",
+    "address": "t1ayPBY8ghgptvENMZ97ebhA6KG333sfbjH"
+  },
+  {
+    "name": "Zilliqa",
+    "code": "ZIL",
+    "address": "0x4dD081F314aB76f3dbdd81BC6945acc494cE6Ea3"
   }
 ]
