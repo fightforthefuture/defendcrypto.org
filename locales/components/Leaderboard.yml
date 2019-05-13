@@ -13,5 +13,5 @@ en:
       amount: $2mm
     - name: Kin
       code: KIN
-      logo: FIXME
+      logo: https://s3.fightforthefuture.org/donate/images/coins/kin-logo.svg
       amount: $1mm
