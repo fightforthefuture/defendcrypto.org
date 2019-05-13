@@ -8,3 +8,10 @@ img.img-inline {
   display: inline-block;
   vertical-align: bottom;
 }
+img.coin-logo {
+  float: left;
+  display: block;
+  height: $base-font-size*$base-line-height;
+  width: auto;
+  margin-right: $gutter;
+}

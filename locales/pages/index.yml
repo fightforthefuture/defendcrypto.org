@@ -1,7 +1,7 @@
 en:
   page_title: "Defend Crypto"
   intro_html: |
-    <p>
+    <h4>
       The SEC has been shaping the future of crypto behind the scenes with
       settlements that set a dangerous precedent and could
       <a href="https://www.sec.gov/news/speech/peirce-how-we-howey-050919" target="_blank">
@@ -10,9 +10,8 @@ en:
       Coinbase Custody to take them on in court. But with so much on the line
       $5mm might not be enough, so we are asking others to contribute so that
       nothing gets left on the table.
-    </p>
+    </h4>
   scroll_down: Contribute
-  currently_pledged: pledged so far
   what_title: What’s happening?
   what_description: |
     Despite the fact that last month over 250,000 people earned and spent Kin as
@@ -31,18 +30,18 @@ en:
     this out on behalf of the industry.
   action_title: What can you do?
   action_html: |
-    <p>
+    <h4>
       If you too are fed up with this innovation tax, we encourage you to
       contribute also as we take on the SEC on behalf of the future of crypto
       in the US. Any additional contributions will be held with Coinbase Custody
       and will only be used if that $5mm isn’t enough. In that case, expenses
       will be open sourced, and any unspent contributions will be returned
       pro-rata after a court decision is made.
-    </p>
-    <p>
+    </h4>
+    <h4 class="sml-push-y1 med-push-y2">
       We need to let the SEC know that we won’t be bullied around anymore. It
       is time to Defend Crypto.
-    </p>
+    </h4>
   contribute_title: Contribute to the Kin Crypto Defense Fund
   contribute_description: |
     Below are the addresses for the 30 cryptocurrencies you can send to the

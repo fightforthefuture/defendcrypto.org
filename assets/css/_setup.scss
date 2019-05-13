@@ -3,17 +3,19 @@
 // This file is injected into every Vue component and SCSS file
 
 // Colors
-$white:              #FFF;
-$black:              #000;
-$grey-light-color:   #766998;
-$grey-color:         #4B1C77;
-$grey-dark-color:    #280F5A;
-$brand-color:        #00E4FF;
-$brand-light-color:  lighten($brand-color, 10%);
-$background-color:   $white;
-$text-color:         $grey-dark-color;
-$success-color:      green; // TODO
-$warn-color:         red; // TODO
+$white:               #FFF;
+$black:               #000;
+$grey-light-color:    #766998;
+$grey-med-color:      #684CAB;
+$grey-color:          #40277C;
+$grey-dark-color:     #280F5A;
+$grey-darkest-color:  #1E0F45;
+$brand-color:         #00E4FF;
+$brand-light-color:   lighten($brand-color, 10%);
+$background-color:    $white;
+$text-color:          $grey-dark-color;
+$success-color:       green; // TODO
+$warn-color:          red; // TODO
 
 $facebook-color:          #405993;
 $facebook-dark-color:     darken($facebook-color, 10%);
@@ -32,13 +34,14 @@ $base-line-height: 1.6;
 $font-size-1: 178px;
 $font-size-2: 62px;
 $font-size-3: 28px;
-// $font-size-4: $base-font-size;
+$font-size-4: 24px;
 // $font-size-5: 14px;
 $font-size-6: 12px;
 
 $m-font-size-1: 80px;
 $m-font-size-2: 48px;
-$m-font-size-3: 20px;
+$m-font-size-3: 22px;
+$m-font-size-4: 20px;
 $m-font-size-6: 10px;
 
 // Layout

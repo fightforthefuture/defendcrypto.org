@@ -8,18 +8,19 @@
           <div class="sml-c12 lrg-c8 grid-center text-center">
             <div v-html="$t('intro_html')"></div>
 
-            <ul class="hoz text-center sml-push-y3 med-push-y4">
-              <li>
-                <a @click.prevent="scrollTo('#donate')" class="btn">
-                  {{ $t('scroll_down') }}
-                </a>
-              </li>
-            </ul>
+            <Cryptocurrencies
+              :currencies="currencies"
+              class="sml-push-y2 med-push-y4" />
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
 
-            <p class="sml-push-y1">
-              <span class="text-brand">$ FIXME</span>
-              {{ $t('currently_pledged') }}
-            </p>
+    <section id="leaderboard" class="sml-push-y2 med-push-y4">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <Leaderboard />
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
@@ -30,7 +31,7 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-grey text-center">{{ $t('what_title') }}</h2>
-            <p class="sml-push-y2 med-push-y3">{{ $t('what_description') }}</p>
+            <h4 class="sml-push-y2 med-push-y3">{{ $t('what_description') }}</h4>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
@@ -41,7 +42,7 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-grey text-center">{{ $t('why_title') }}</h2>
-            <p class="sml-push-y2 med-push-y3">{{ $t('why_description') }}</p>
+            <h4 class="sml-push-y2 med-push-y3">{{ $t('why_description') }}</h4>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
@@ -63,7 +64,9 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-center">{{ $t('contribute_title') }}</h2>
-            <p class="sml-push-y2 med-push-y3">{{ $t('contribute_description') }}</p>
+            <h4 class="sml-push-y2 med-push-y3">
+              {{ $t('contribute_description') }}
+            </h4>
             <ActionNetworkForm />
           </div> <!-- .c -->
         </div> <!-- .row -->
@@ -76,16 +79,35 @@
 import { smoothScrollToElement } from '~/assets/js/helpers'
 import DefaultLayout from '~/components/DefaultLayout'
 import ActionNetworkForm from '~/components/ActionNetworkForm'
+import Cryptocurrencies from '~/components/Cryptocurrencies'
+import Leaderboard from '~/components/Leaderboard'
 
 export default {
   components: {
     DefaultLayout,
-    ActionNetworkForm
+    ActionNetworkForm,
+    Cryptocurrencies,
+    Leaderboard
   },
 
   head() {
     return {
       titleTemplate: `%s - ${this.$t('page_title')}`
+    }
+  },
+
+  async asyncData({ $axios }) {
+    let currencies = []
+
+    try {
+      const { data } = await $axios.get(`https://data.battleforthenet.com/crypto/fftf.json`)
+      currencies = data
+    } catch (error) {
+      //
+    }
+
+    return {
+      currencies: currencies
     }
   },
 
