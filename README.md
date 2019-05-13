@@ -1,6 +1,6 @@
-# fftf-starter-template
+# DefendCrypto.org
 
-> A Fight for the Future website
+> A Kin & Fight for the Future website
 
 ## Build Setup
 
