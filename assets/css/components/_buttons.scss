@@ -99,6 +99,7 @@ button.btn {
 // Buttons > Sharing
 .btn.btn-twitter {
   background-color: $twitter-color;
+  color: $white;
 }
 .btn.btn-twitter:hover,
 .btn.btn-twitter:focus {
@@ -107,6 +108,7 @@ button.btn {
 }
 .btn.btn-facebook {
   background-color: $facebook-color;
+  color: $white;
 }
 .btn.btn-facebook:hover,
 .btn.btn-facebook:focus {

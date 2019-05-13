@@ -1,12 +1,14 @@
 en:
-  petition_id: FIXME
+  petition_id: da282b2a-a137-4e4a-bdc4-d49e3a3d4c7b
   callpower_id: null
   text_flow_id: OP91C5097075BF0D9B12B2544A6052FB9D
   subject: Defend Cryptocurrency
   contact_congress: NO
   fcc_docket: null
   tags:
-    - net-neutrality
+    - defend-cryptocurrency
+    - encryption
+    - privacy
   privacy_html: |
     <a href="https://www.fightforthefuture.org/" target="_blank">
       Fight for the Future
@@ -25,7 +27,7 @@ en:
     phone: |
       Phone # (for text list)
     company: Company
-    comment: Comment*
+    comment: Comment
     button_cta: Sign Up
   thanks:
     title: Thanks for signing up!
