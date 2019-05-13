@@ -28,7 +28,9 @@
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
              class="grid-center">
-        <h1 class="text-center sml-push-y2 med-push-y4">{{ $t('page_title') }}</h1>
+        <h1 class="text-center sml-push-y2 med-push-y4">
+          {{ $t('page_title') }}
+        </h1>
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center text-center">
             <div v-html="$t('intro_html')"></div>
