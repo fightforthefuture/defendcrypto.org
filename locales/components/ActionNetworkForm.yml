@@ -1,22 +1,25 @@
 en:
-  petition_id: FIXME
+  petition_id: da282b2a-a137-4e4a-bdc4-d49e3a3d4c7b
   callpower_id: null
   text_flow_id: OP91C5097075BF0D9B12B2544A6052FB9D
-  subject: FIXME subject
+  subject: Defend Cryptocurrency
   contact_congress: NO
   fcc_docket: null
   tags:
-    - net-neutrality
-  privacy_html: |
+    - defend-cryptocurrency
+    - encryption
+    - privacy
+  privacy_html: >
+    <a href="https://www.kin.org/" target="_blank">Kin</a> and
     <a href="https://www.fightforthefuture.org/" target="_blank">
       Fight for the Future
     </a>
-    will email you updates, and you can unsubscribe at any time. If you enter
-    your number (it’s optional) we will follow up by SMS. Message & data rates
-    apply. You can always text STOP to stop receiving messages.
+    will email you updates, and you can unsubscribe at any time. Refer to
+    <a href="https://www.kin.org/privacy-policy.pdf" target="_blank">Kin</a> and
     <a href="https://www.fightforthefuture.org/privacy/" target="_blank">
-      Privacy Policy
-    </a>
+      Fight for the Future
+    </a>’s
+    privacy policies for more details.
   form:
     name: Name*
     email: Email*
@@ -25,8 +28,11 @@ en:
     phone: |
       Phone # (for text list)
     company: Company
-    comment: Comment*
-    button_cta: Sign the Petition
+    comment: Comment
+    button_cta: Join the Fight
   thanks:
-    title: Thanks for signing the petition!
-    share: Please consider sharing with your friends and family.
+    title: Thanks for contacting us!
+    share: >
+      Let’s make sure everyone knows about this important fight for the future
+      of cryptocurrencies. Please consider sharing this website with your
+      friends and family.

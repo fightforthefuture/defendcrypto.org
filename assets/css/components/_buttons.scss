@@ -4,36 +4,37 @@
 .btn {
   // TODO: update style
   display: inline-block;
-  padding: $gutter/2 $gutter*2 ($gutter/2 + 2);
+  padding: $gutter $gutter*2;
   overflow: hidden;
   background: $brand-color;
   border: none;
   border-radius: $default-border-radius;
-  color: $white;
+  color: $grey-dark-color;
   cursor: pointer;
-  font-size:  $m-font-size-2;
+  font-size:  $m-font-size-3;
   font-weight: $bold-font-weight;
   outline: none;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
     -moz-user-select:    none;
     -webkit-user-select: none;
   user-select:           none;
   -webkit-appearance: none;
 
   @include respond-to(med) {
-    padding-right: $gutter*4;
-    padding-left:  $gutter*4;
+    padding: $gutter*1.5 $gutter*4;
   }
 
   @include respond-to(lrg) {
-    font-size: $font-size-2;
+    font-size: $font-size-3;
   }
 }
 .btn:hover,
 .btn:focus {
-  background: $brand-dark-color;
+  background: $brand-light-color;
   border: none;
+  color: $grey-dark-color;
 }
 button.btn {
   vertical-align: top;
@@ -99,6 +100,7 @@ button.btn {
 // Buttons > Sharing
 .btn.btn-twitter {
   background-color: $twitter-color;
+  color: $white;
 }
 .btn.btn-twitter:hover,
 .btn.btn-twitter:focus {
@@ -107,6 +109,7 @@ button.btn {
 }
 .btn.btn-facebook {
   background-color: $facebook-color;
+  color: $white;
 }
 .btn.btn-facebook:hover,
 .btn.btn-facebook:focus {

@@ -265,11 +265,13 @@ export default {
       colorClasses: [
         'fill-white',
         'fill-grey-light',
+        'fill-grey-med',
         'fill-grey',
         'fill-grey-dark',
+        'fill-grey-darkest',
         'fill-black',
         'fill-brand',
-        'fill-brand-dark',
+        'fill-brand-light',
         'fill-success',
         'fill-warn'
       ],
@@ -281,6 +283,7 @@ export default {
         'text-left',
         'text-white',
         'text-meta',
+        'text-grey',
         'text-brand',
         'text-warn',
         'text-success'
@@ -314,7 +317,9 @@ export default {
         'fill-white',
         'fill-grey-light',
         'fill-grey',
+        'fill-grey-med',
         'fill-grey-dark',
+        'fill-grey-darkest',
         'fill-black',
         'fill-brand',
         'fill-success',

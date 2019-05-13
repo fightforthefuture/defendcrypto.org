@@ -11,19 +11,43 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $bold-font-weight;
 }
 h1 {
+  font-family: $heading-stack;
   font-size: $m-font-size-1;
-  line-height: 1.2;
+  font-weight: $base-font-weight;
+  line-height: 0.85;
+  text-transform: uppercase;
 
   @include respond-to(lrg) {
     font-size: $font-size-1;
   }
 }
 h2 {
+  font-family: $heading-stack;
   font-size: $m-font-size-2;
-  line-height: 1.2;
+  font-weight: $base-font-weight;
+  line-height: 1.1;
+  text-transform: uppercase;
 
   @include respond-to(lrg) {
     font-size: $font-size-2;
+  }
+}
+h3 {
+  font-size: $m-font-size-3;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  @include respond-to(lrg) {
+    font-size: $font-size-3;
+  }
+}
+h4 {
+  font-size: $m-font-size-4;
+  font-weight: $base-font-weight;
+  line-height: 1.4;
+
+  @include respond-to(lrg) {
+    font-size: $font-size-4;
   }
 }
 
@@ -71,6 +95,9 @@ small {
 .text-brand {
   color: $brand-color;
 }
+.text-grey {
+  color: $grey-color;
+}
 .text-warn {
   color: $warn-color;
 }
@@ -98,15 +125,13 @@ input[type=submit] {
   transition: $default-transition;
 }
 a {
-  // TODO: revisit this style
-  color: $brand-color;
+  color: inherit;
   cursor: pointer;
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus,
 button:hover,
 button:focus {
-  border-bottom: 1px solid $brand-color;
+  color: $brand-color;
 }

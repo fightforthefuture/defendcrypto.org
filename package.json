@@ -13,7 +13,8 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "analyze": "nuxt build --analyze",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy-gh": "push-dir --dir=dist --branch=gh-pages --cleanup --force --verbose",
+    "deploy": "rsync -avh dist/ fftf@static1.fightforthefuture.org:~/www/defendcrypto.org --delete"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
