@@ -10,9 +10,8 @@
 
             <ul class="hoz text-center sml-push-y3 med-push-y4">
               <li>
-                <a @click.prevent="scrollTo('#sign')">
-                  <img src="~assets/images/arrow-down.svg"
-                       :alt="$t('scroll_down')" />
+                <a @click.prevent="scrollTo('#donate')" class="btn">
+                  {{ $t('scroll_down') }}
                 </a>
               </li>
             </ul>
@@ -21,12 +20,12 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="sign" class="sml-pad-y3 med-pad-y6 fill-grey-light">
+    <section id="donate" class="sml-pad-y3 med-pad-y6 fill-grey-light">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center text-center">
-            <h2>{{ $t('sign_title') }}</h2>
-            <p class="sml-push-y2 med-push-y3">{{ $t('sign_description') }}</p>
+            <h2>{{ $t('contribute_title') }}</h2>
+            <p class="sml-push-y2 med-push-y3">{{ $t('contribute_description') }}</p>
             <ActionNetworkForm />
           </div> <!-- .c -->
         </div> <!-- .row -->
