@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Basic Attention Token",
+    "code": "BAT",
+    "address": "0xd9aAd86149BBF3a60BD0e5E2EC81777eb9205D6d"
+  },
+  {
+    "name": "Bitcoin",
+    "code": "BTC",
+    "address": "1NpbHhLxcH7N2pL3jb7Fv7xTRs9QXHtzbR",
+    "logo": "https://s3.fightforthefuture.org/donate/images/coins/bitcoin.svg"
+  },
+  {
+    "name": "Bitcoin Cash",
+    "code": "BCH",
+    "address": "qp66tsfg6hguqyycpuavdlcs493sked5tvyadklsp9",
+    "logo": "https://s3.fightforthefuture.org/donate/images/coins/bitcoin-cash.png"
+  }
+]

@@ -23,15 +23,9 @@
 </template>
 
 <script>
-export default {
-  props: {
-    currencies: {
-      type: Array,
-      required: true,
-      default: null
-    }
-  },
+import CRYPTOCURRENCIES from '~/assets/data/currencies.json'
 
+export default {
   data() {
     return {
       selectedCurrency: null
@@ -39,6 +33,8 @@ export default {
   },
 
   computed: {
+    currencies() { return CRYPTOCURRENCIES },
+
     currentCurrency() {
       if (this.selectedCurrency) {
         return this.currencies.find(o => o.code === this.selectedCurrency)

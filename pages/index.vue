@@ -35,9 +35,7 @@
           <div class="sml-c12 lrg-c8 grid-center text-center">
             <div v-html="$t('intro_html')"></div>
 
-            <Cryptocurrencies
-              :currencies="currencies"
-              class="sml-push-y2 med-push-y4" />
+            <Cryptocurrencies class="sml-push-y2 med-push-y4" />
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
@@ -175,21 +173,6 @@ export default {
   head() {
     return {
       titleTemplate: `%s - ${this.$t('page_title')}`
-    }
-  },
-
-  async asyncData({ $axios }) {
-    let currencies = []
-
-    try {
-      const { data } = await $axios.get(`https://data.battleforthenet.com/crypto/fftf.json`)
-      currencies = data
-    } catch (error) {
-      //
-    }
-
-    return {
-      currencies: currencies
     }
   },
 
