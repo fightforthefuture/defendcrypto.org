@@ -9,16 +9,17 @@ en:
     - defend-cryptocurrency
     - encryption
     - privacy
-  privacy_html: |
+  privacy_html: >
+    <a href="https://www.kin.org/" target="_blank">Kin</a> and
     <a href="https://www.fightforthefuture.org/" target="_blank">
       Fight for the Future
     </a>
-    will email you updates, and you can unsubscribe at any time. If you enter
-    your number (it’s optional) we will follow up by SMS. Message & data rates
-    apply. You can always text STOP to stop receiving messages.
+    will email you updates, and you can unsubscribe at any time. Refer to
+    <a href="https://www.kin.org/privacy-policy.pdf" target="_blank">Kin</a> and
     <a href="https://www.fightforthefuture.org/privacy/" target="_blank">
-      Privacy Policy
-    </a>
+      Fight for the Future
+    </a>’s
+    privacy policies for more details.
   form:
     name: Name*
     email: Email*
@@ -28,7 +29,10 @@ en:
       Phone # (for text list)
     company: Company
     comment: Comment
-    button_cta: Sign Up
+    button_cta: Join the Fight
   thanks:
-    title: Thanks for signing up!
-    share: Please consider sharing with your friends and family.
+    title: Thanks for contacting us!
+    share: >
+      Let’s make sure everyone knows about this important fight for the future
+      of cryptocurrencies. Please consider sharing this website with your
+      friends and family.

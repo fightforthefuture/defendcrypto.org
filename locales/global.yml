@@ -3,10 +3,14 @@ en:
   global:
     site_title: Defend Crypto
     sharing:
-      title: Defend Crypto
-      description: A Fight for the Future website
+      title: Cryptocurrencies are under attack!
+      description: >
+        The federal government is threatening cryptocurrencies, but you can help
+        protect innovation and economic freedom
       image: https://www.defendcrypto.org/share.jpg
-      default_tweet_text: FIXME
+      default_tweet_text: >
+        The federal government is threatening cryptocurrencies, but Kin has
+        donated $5MM to #DefendCrypto. Will you join this important fight?
       url: https://www.defendcrypto.org
     call_script: >
       TODO: call script goes here
