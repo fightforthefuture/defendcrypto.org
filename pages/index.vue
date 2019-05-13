@@ -8,6 +8,7 @@
 .video-hero video {
   position: absolute;
   top: 0;
+  width: 100%;
 }
 .video-hero .wrapper {
   position: relative; // to avoid strange video z-index behavior
@@ -16,7 +17,7 @@
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y3 med-pad-y6 fill-grey-dark">
+    <section class="video-hero sml-pad-y3 med-pad-y6 fill-black">
       <video autoplay loop muted class="fade-in"
              poster="/video-bg-poster.jpg">
         <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
