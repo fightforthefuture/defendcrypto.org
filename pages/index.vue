@@ -1,9 +1,29 @@
 <i18n src="~/locales/pages/index.yml"></i18n>
 
+<style lang="scss" scoped>
+.video-hero {
+  position: relative;
+  overflow: hidden;
+}
+.video-hero video {
+  position: absolute;
+  top: 0;
+}
+.video-hero .wrapper {
+  position: relative; // to avoid strange video z-index behavior
+}
+</style>
+
 <template>
   <DefaultLayout>
-    <section class="sml-pad-y3 med-pad-y6 sml-pad-y-top1 fill-grey-dark">
+    <section class="video-hero sml-pad-y3 med-pad-y6 fill-grey-dark">
+      <video autoplay loop muted class="fade-in"
+             poster="/video-bg-poster.jpg">
+        <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
+      </video>
+
       <div class="wrapper">
+        <h1 class="text-center">{{ $t('page_title') }}</h1>
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center text-center">
             <div v-html="$t('intro_html')"></div>

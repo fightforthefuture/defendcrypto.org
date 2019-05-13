@@ -1,7 +1,5 @@
 <template>
   <div>
-    <PageHeader />
-
     <slot />
 
     <PageFooter />
@@ -9,12 +7,10 @@
 </template>
 
 <script>
-import PageHeader from '~/components/PageHeader'
 import PageFooter from '~/components/PageFooter'
 
 export default {
   components: {
-    PageHeader,
     PageFooter
   }
 }
