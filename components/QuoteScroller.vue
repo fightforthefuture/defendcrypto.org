@@ -35,7 +35,7 @@
 }
 .arrow:hover,
 .arrow:focus {
-  background: $brand-dark-color;
+  background: $brand-light-color;
 }
 .arrow img {
   width: 15px;

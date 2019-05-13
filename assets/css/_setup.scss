@@ -6,10 +6,10 @@
 $white:              #FFF;
 $black:              #000;
 $grey-light-color:   #CCC;
-$grey-color:         #999;
-$grey-dark-color:    #222;
-$brand-color:        blue; // TODO
-$brand-dark-color:   darken($brand-color, 10%);
+$grey-color:         #4B1C77;
+$grey-dark-color:    #280F5A;
+$brand-color:        #00E4FF;
+$brand-light-color:  lighten($brand-color, 10%);
 $background-color:   $white;
 $text-color:         $grey-dark-color;
 $success-color:      green; // TODO

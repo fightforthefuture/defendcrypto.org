@@ -30,6 +30,7 @@
 }
 .fill-grey {
   background: $grey-color;
+  color: $white;
 }
 .fill-grey-dark {
   background: $grey-dark-color;
@@ -46,8 +47,8 @@
 .fill-brand {
   background: $brand-color;
 }
-.fill-brand-dark {
-  background: $brand-dark-color;
+.fill-brand-light {
+  background: $brand-light-color;
 }
 .fill-success {
   background: $success-color;

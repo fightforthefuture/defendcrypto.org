@@ -14,7 +14,7 @@ h1 {
   font-family: $heading-stack;
   font-size: $m-font-size-1;
   font-weight: $base-font-weight;
-  line-height: 1;
+  line-height: 0.85;
   text-transform: uppercase;
 
   @include respond-to(lrg) {
@@ -85,6 +85,9 @@ small {
 }
 .text-brand {
   color: $brand-color;
+}
+.text-grey {
+  color: $grey-color;
 }
 .text-warn {
   color: $warn-color;

@@ -1,5 +1,5 @@
 <template>
-  <header class="sml-pad-y-top3 med-pad-y-top6">
+  <header class="sml-pad-y-top3 med-pad-y-top6 fill-grey-dark">
     <div class="wrapper">
       <Logo class="grid-center text-center" />
     </div> <!-- .wrapper -->

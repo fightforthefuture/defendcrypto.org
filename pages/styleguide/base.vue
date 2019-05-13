@@ -281,6 +281,7 @@ export default {
         'text-left',
         'text-white',
         'text-meta',
+        'text-grey',
         'text-brand',
         'text-warn',
         'text-success'
