@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       # circleci/ruby:2.4-node-browsers + awscli
-      - image: kenmickles/fftf-static-site-builder:0.0.1
+      - image: kenmickles/fftf-static-site-builder:0.0.2
 
     steps:
       - add_ssh_keys:
