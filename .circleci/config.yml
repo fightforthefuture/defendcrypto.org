@@ -28,7 +28,7 @@ jobs:
             npm run generate
 
       - deploy:
-          name: Deploy to S3
+          name: Deploy Site
           command: |
             npm run deploy
 
