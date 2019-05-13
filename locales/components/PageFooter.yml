@@ -1,11 +1,6 @@
 en:
   project_by: "A project by:"
   collaboration_with: "In collaboration with:"
-  for_press: "For press inquiries, please contact us at:"
   press_contact_html: >
-    <a href="tel://5084745248">(508) 474-5248</a> or
-    <a href="mailto:press@fightforthefuture.org">press@fightforthefuture.org</a>
-  other_contact_html: >
-    All other inquiries, contact
-    <a href="mailto:team@fightforthefuture.org">
-      team@fightforthefuture.org</a>
+    Questions and press inquiries:
+    <a href="mailto:info@kinecosystem.com">info@kinecosystem.com</a>
