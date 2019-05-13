@@ -30,6 +30,8 @@ jobs:
       - deploy:
           name: Deploy Site
           command: |
+            git config --global user.email "team@fightforthefuture.org"
+            git config --global user.name "CircleCI"
             npm run deploy
 
       - run:
