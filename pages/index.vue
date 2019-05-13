@@ -84,7 +84,25 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="donate" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
+    <section id="resources" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center">{{ $t('resources.title') }}</h2>
+
+            <a v-for="(resource, index) in $t('resources.links')"
+               :key="`resource-${index}`"
+               class="sml-pad-2 sml-push-y2 with-border is-rounded"
+               :href="resource.link_url"
+               target="_blank">
+              {{ resource.title }}
+            </a>
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
+
+    <section id="donate" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">

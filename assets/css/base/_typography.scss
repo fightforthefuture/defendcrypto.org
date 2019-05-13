@@ -125,15 +125,13 @@ input[type=submit] {
   transition: $default-transition;
 }
 a {
-  // TODO: revisit this style
-  color: $brand-color;
+  color: inherit;
   cursor: pointer;
-  border-bottom: 1px solid transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus,
 button:hover,
 button:focus {
-  border-bottom: 1px solid $brand-color;
+  color: $brand-color;
 }
