@@ -1,0 +1,59 @@
+/// Modifiers
+
+// Modifiers > Borders
+
+.is-rounded {
+  border-radius: $default-border-radius;
+}
+.is-rounded-top {
+  border-top-right-radius: $default-border-radius;
+  border-top-left-radius:  $default-border-radius;
+}
+.is-rounded-bottom {
+  border-bottom-right-radius: $default-border-radius;
+  border-bottom-left-radius:  $default-border-radius;
+}
+.with-border {
+  border: 1px solid $grey-light-color;
+}
+.with-border-bottom {
+  border-bottom: 1px solid $grey-light-color;
+}
+.with-border-top {
+  border-top: 1px solid $grey-light-color;
+}
+
+// Modifiers > Fills
+
+.fill-grey-light {
+  background: $grey-light-color;
+}
+.fill-grey {
+  background: $grey-color;
+}
+.fill-grey-dark {
+  background: $grey-dark-color;
+  color: $white;
+}
+.fill-white {
+  background: $white;
+  color: $grey-dark-color; // TODO: update if page has a light background and this is not the text color
+}
+.fill-black {
+  background: $black;
+  color: $white;
+}
+.fill-brand {
+  background: $brand-color;
+}
+.fill-brand-dark {
+  background: $brand-dark-color;
+}
+.fill-success {
+  background: $success-color;
+  color: $white;
+}
+.fill-warn {
+  background: $warn-color;
+  color: $white;
+}

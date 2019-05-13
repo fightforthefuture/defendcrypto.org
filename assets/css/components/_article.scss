@@ -1,0 +1,28 @@
+// Article
+
+.article h1 {
+  margin-top: $gutter*6;
+  margin-bottom: $gutter*2;
+  text-align: center;
+}
+.article h2 {
+  margin-top: $gutter*4;
+  margin-bottom: $gutter*2;
+  text-align: center;
+}
+.article h3,
+.article p,
+.article ul,
+.article ol,
+.article iframe {
+  margin-bottom: $gutter;
+}
+.article img {
+  margin: $gutter*2 auto;
+}
+.article > :first-child {
+  margin-top: 0;
+}
+.article > :last-child {
+  margin-bottom: 0;
+}

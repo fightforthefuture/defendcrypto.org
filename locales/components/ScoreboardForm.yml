@@ -1,0 +1,7 @@
+en:
+  address: Street Address*
+  zip: ZIP Code*
+  searching: Searching...
+  button_cta: Let’s go!
+  disclaimer: Your information will only be used to look up your representative.
+  error: Oh no! We couldn’t find a representative for your address.

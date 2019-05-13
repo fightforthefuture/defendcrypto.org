@@ -1,0 +1,61 @@
+// Page Header
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: $gutter 0 $gutter*2;
+  z-index: 100;
+  background: $white;
+  border-bottom: 1px solid $grey-color;
+}
+.page-header a.logo {
+  display: block;
+  border-bottom: none; // TODO: change to underline if needed
+}
+.page-header a.logo img {
+  // TODO: Style if needed
+}
+.page-header .menu-wrapper {
+  text-align: right;
+}
+
+// Page Header > No-JS friendly mobile nav trigger
+.page-header #menu-label {
+  float: right;
+  margin-left: $gutter*2;
+  color: $brand-color;
+  cursor: pointer;
+  font-size: 31px; // TODO: TBD based on real design
+  line-height: 1;
+  text-align: right;
+}
+.page-header #menu-toggle {
+  display: none;
+}
+.page-header #menu {
+  display: none;
+}
+.page-header #menu-toggle:checked + #menu {
+  display: block;
+}
+
+// Page Header > Mega Menu styles
+.page-header #menu  {
+  position: fixed;
+  top: $header-height;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow-y: scroll;
+  z-index: 999;
+  background: $grey-light-color;
+  text-align: left;
+}
+.page-header #menu ul > li {
+  display: block;
+  margin-top: $gutter;
+}

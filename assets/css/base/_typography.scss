@@ -1,0 +1,112 @@
+/// Typography
+
+// Typography > Global
+body, select, input, textarea {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $sans-serif-stack;
+  color: $text-color;
+}
+
+// Typography > Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $bold-font-weight;
+}
+h1 {
+  font-size: $m-font-size-1;
+  line-height: 1.2;
+
+  @include respond-to(lrg) {
+    font-size: $font-size-1;
+  }
+}
+h2 {
+  font-size: $m-font-size-2;
+  line-height: 1.2;
+
+  @include respond-to(lrg) {
+    font-size: $font-size-2;
+  }
+}
+
+// Typography > Text
+p {
+  margin-bottom: $gutter;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+// Typography > Text > Modifiers
+strong {
+  font-weight: $bold-font-weight;
+}
+em {
+  font-style: italic;
+}
+small {
+  display: block;
+  font-size: $m-font-size-6;
+
+  @include respond-to(med) {
+    font-size: $font-size-6;
+  }
+}
+.text-loud {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: $white;
+}
+.text-meta {
+  color: $grey-color;
+}
+.text-brand {
+  color: $brand-color;
+}
+.text-warn {
+  color: $warn-color;
+}
+.text-success {
+  color: $success-color;
+}
+
+// Typography > Accessibility
+.text-accessibility {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+// Typography > Links
+a,
+button,
+input[type=submit] {
+  transition: $default-transition;
+}
+a {
+  // TODO: revisit this style
+  color: $brand-color;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  border-bottom: 1px solid $brand-color;
+}

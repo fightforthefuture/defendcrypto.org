@@ -1,0 +1,46 @@
+/// Lists
+
+// Lists > Bullets & Numbers
+.bullets,
+.numbers {
+  padding-left: $gutter*2;
+}
+.bullets > li,
+.numbers > li {
+  padding-top: $gutter*2;
+  text-align: left;
+}
+.bullets > li:first-of-type,
+.numbers > li:first-of-type {
+  padding-top: 0;
+}
+
+// Lists > Bullets
+.bullets {
+  list-style-type: disc;
+}
+
+// Lists > Numbers
+.numbers {
+  list-style-type: decimal;
+}
+
+// Lists > Horizontal
+.hoz {
+  list-style: none;
+}
+.hoz > li {
+  display: inline-block;
+  padding-left:  $gutter/2;
+  padding-right: $gutter/2;
+}
+.hoz > li:first-of-type {
+  @include respond-to(med) {
+    padding-left: 0;
+  }
+}
+.hoz > li:last-of-type {
+  @include respond-to(med) {
+    padding-right: 0;
+  }
+}

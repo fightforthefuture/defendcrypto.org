@@ -1,0 +1,149 @@
+/// Forms
+
+// Forms > Labels
+form label {
+  display: block;
+  padding-bottom: $gutter;
+}
+
+// Forms > Text Inputs & Textareas
+form input:focus,
+form textarea:focus {
+  outline: none
+}
+form input::-moz-focus-inner { // NOTE: property needs to be separate
+  outline: none;
+}
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form input[type=number],
+form input[type=tel],
+form textarea {
+  display: block;
+  width: 100%;
+  padding: ($gutter + 1) $gutter*2 ($gutter + 2);
+  background: $white;
+  border: 1px solid $grey-light-color;
+  border-radius: $default-border-radius;
+  -webkit-appearance: none;
+}
+form textarea {
+  height: $gutter*10;
+  max-width: 100%;
+  resize: vertical;
+}
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=password]:focus,
+form input[type=number]:focus,
+form input[type=tel]:focus,
+form textarea:focus {
+  border-color: $text-color;
+  border-width: 1px;
+}
+form input:disabled,
+form textarea:disabled,
+form select:disabled {
+  opacity: 0.6;
+}
+form input.flat-top,
+form textarea.flat-top {
+  border: none;
+  border-top-right-radius: 0;
+  border-top-left-radius:  0;
+}
+
+// Form > Placeholders
+::-webkit-input-placeholder {
+  color: $grey-light-color;
+  font-weight: $base-font-weight;
+}
+:-moz-placeholder {
+  color: $grey-light-color;
+  font-weight: $base-font-weight;
+}
+::-moz-placeholder {
+  color: $grey-light-color;
+  font-weight: $base-font-weight;
+}
+:-ms-input-placeholder {
+  color: $grey-light-color;
+  font-weight: $base-font-weight;
+}
+
+// Forms > Text Inputs & Textareas > Errors
+form input.error,
+form textarea.error,
+form input.error:focus,
+form textarea.error:focus{
+  border-color: $warn-color;
+}
+
+// Forms > Text Inputs & Textareas > Textarea with button
+form .textarea-with-btn {
+  position: relative;
+}
+form .textarea-with-btn textarea {
+  padding-right: $gutter*10; // NOTE: magic number based on length of button text
+}
+form .textarea-with-btn .btn {
+  position: absolute;
+  top:   $gutter;
+  right: $gutter*2;
+}
+
+// Form > Selects
+select {
+  width: 100%;
+}
+
+// Forms > Checkboxes & Radios
+form input[type=checkbox],
+form input[type=radio] {
+  margin-right: $gutter;
+}
+form input[type=checkbox] ~ label,
+form input[type=radio] ~ label {
+  font-size: $base-font-size;
+}
+form .checkbox,
+form .radio {
+  overflow: hidden;
+}
+form .checkbox input[type=checkbox],
+form .radio input[type=radio] {
+  float: left;
+  margin-top: $gutter/2;
+  // NOTE: Browsers may pay attention to some or none of these:
+  width:  $base-font-size;
+  height: $base-font-size;
+}
+form .checkbox label,
+form .radio label {
+  margin-left: $gutter*3; // NOTE: accounts for checkbox input width
+}
+
+// Forms > Checkboxes & Radios > Faux Button
+.faux-btn input[type=checkbox],
+.faux-btn input[type=radio] {
+  display: none;
+}
+.faux-btn label {
+  position: relative;
+  padding: 6px $gutter*3 7px;
+  border: 1px solid $text-color;
+  color: $text-color;
+  text-align: center;
+}
+.faux-btn label:hover,
+.faux-btn label:focus {
+  cursor: pointer;
+}
+.faux-btn input[type=checkbox]:checked ~ label,
+.faux-btn input[type=checkbox]:checked ~ label,
+.faux-btn input[type=radio]:checked ~ label,
+.faux-btn input[type=radio]:checked ~ label {
+  background-color: $brand-color;
+  color: $white;
+}

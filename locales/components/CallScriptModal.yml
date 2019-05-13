@@ -1,0 +1,5 @@
+en:
+  calling_now: Calling you now...
+  script_intro: "Introduce yourself, be polite, and say:"
+  if_busy: If lines are busy, we may call you in a few minutes.
+  done_calling: Done calling? Do these things, too!

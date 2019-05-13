@@ -1,0 +1,26 @@
+# GLOBAL Site Translations, intentionally namespaced
+en:
+  global:
+    site_title: Defend Crypto
+    sharing:
+      title: Defend Crypto
+      description: A Fight for the Future website
+      image: https://www.example.com/share.jpg
+      default_tweet_text: FIXME
+      url: https://www.example.com
+    call_script: >
+      TODO: call script goes here
+    letter_text: |
+      TODO: letter text goes here
+    common:
+      # In Alphabetical Order
+      clear: Clear
+      donate: Donate
+      error: Sorry, that didn’t work for some reason. 😞 Please try again.
+      from: from
+      logo_alt: Fight for the Future logo
+      next: Next
+      previous: Previous
+      sending: Sending...
+      share: Share
+      tweet: Tweet

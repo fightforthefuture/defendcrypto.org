@@ -1,0 +1,41 @@
+// Selfies
+
+.selfie-wrapper {
+  position: relative;
+}
+.selfie-wrapper.is-trigger {
+  cursor: pointer;
+}
+.selfie-wrapper.is-trigger:before,
+.selfie-wrapper.is-trigger:before {
+  // NOTE: must be `display: block` before hover/focus so iPhones don't require
+  //       2 taps to activate links
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+}
+.selfie-wrapper.is-trigger:hover:before,
+.selfie-wrapper.is-trigger:focus:before {
+  background: transparentize($white, 0.7);
+}
+.selfie-wrapper.has-quote:after {
+  display: block;
+  content: "\201C";
+  position: absolute;
+  top:  8px;
+  left: 8px;
+  padding: 5px 0 0;
+  width:  40px;
+  height: 40px;
+  background: $brand-color;
+  border-radius: 100px;
+  color: $white;
+  font-size: $font-size-1;
+  line-height: 1.1;
+  text-align: center;
+}

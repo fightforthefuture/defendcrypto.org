@@ -1,0 +1,28 @@
+en:
+  quotes:
+    - text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        ipsum ut felis ultricies ultricies ut sed velit. Proin lobortis
+        efficitur turpis in commodo. Integer faucibus, tellus ac faucibus
+        luctus, sapien diam ultricies elit, vel eleifend quam orci et lorem.
+      source: Anon 1
+    - text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        ipsum ut felis ultricies ultricies ut sed velit.
+      source: Anon 2
+    - text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        ipsum ut felis ultricies ultricies ut sed velit. Proin lobortis
+        efficitur turpis in commodo.
+      source: Anon 3
+    - text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        ipsum ut felis ultricies ultricies ut sed velit. Proin lobortis
+        efficitur turpis in commodo. Integer faucibus, tellus ac faucibus
+        luctus, sapien diam ultricies elit.
+      source: Anon 4
+    - text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat
+        ipsum ut felis ultricies ultricies ut sed velit. Proin lobortis
+        efficitur.
+      source: Anon 5

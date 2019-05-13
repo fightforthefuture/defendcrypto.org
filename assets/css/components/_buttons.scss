@@ -1,0 +1,115 @@
+/// Buttons
+
+// Button > Default
+.btn {
+  // TODO: update style
+  display: inline-block;
+  padding: $gutter/2 $gutter*2 ($gutter/2 + 2);
+  overflow: hidden;
+  background: $brand-color;
+  border: none;
+  border-radius: $default-border-radius;
+  color: $white;
+  cursor: pointer;
+  font-size:  $m-font-size-2;
+  font-weight: $bold-font-weight;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+    -moz-user-select:    none;
+    -webkit-user-select: none;
+  user-select:           none;
+  -webkit-appearance: none;
+
+  @include respond-to(med) {
+    padding-right: $gutter*4;
+    padding-left:  $gutter*4;
+  }
+
+  @include respond-to(lrg) {
+    font-size: $font-size-2;
+  }
+}
+.btn:hover,
+.btn:focus {
+  background: $brand-dark-color;
+  border: none;
+}
+button.btn {
+  vertical-align: top;
+}
+.btn::-moz-focus-inner {
+  outline: none;
+  border: 0;
+}
+// Button > with image
+.btn img {
+  display: inline-block;
+  height: $m-font-size-2 * $base-line-height;
+  width: auto;
+  // TODO: can add margin on left or right depending on placement
+  vertical-align: top;
+
+  @include respond-to(lrg) {
+    height: $font-size-2 * $base-line-height;
+  }
+}
+
+// Buttons > Block
+.btn.btn-block {
+  display: block;
+  width: 100%;
+}
+
+// Buttons > Small
+.btn.btn-sml {
+  padding: $gutter/2 $gutter;
+  font-size: $base-font-size;
+}
+// Button > Small > with image
+.btn.btn-sml img {
+  max-height: $base-font-size;
+  vertical-align: baseline;
+}
+
+// Buttons > Disabled
+.btn:disabled,
+.btn[disabled],
+.btn.btn-disabled,
+.btn:disabled:hover,
+.btn[disabled]:hover,
+.btn.btn-disabled:hover,
+.btn:disabled:focus,
+.btn[disabled]:focus,
+.btn.btn-disabled:focus, {
+  background: $grey-color;
+  cursor: default;
+}
+
+// Buttons > Alt
+.btn.btn-alt {
+  background: $grey-light-color;
+  color: $grey-color;
+}
+.btn.btn-alt:hover,
+.btn.btn-alt:focus {
+  color: $grey-dark-color;
+}
+
+// Buttons > Sharing
+.btn.btn-twitter {
+  background-color: $twitter-color;
+}
+.btn.btn-twitter:hover,
+.btn.btn-twitter:focus {
+  background: $twitter-dark-color;
+  color: $white;
+}
+.btn.btn-facebook {
+  background-color: $facebook-color;
+}
+.btn.btn-facebook:hover,
+.btn.btn-facebook:focus {
+  background: $facebook-dark-color;
+  color: $white;
+}

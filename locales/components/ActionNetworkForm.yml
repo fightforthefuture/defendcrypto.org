@@ -1,0 +1,32 @@
+en:
+  petition_id: FIXME
+  callpower_id: null
+  text_flow_id: OP91C5097075BF0D9B12B2544A6052FB9D
+  subject: FIXME subject
+  contact_congress: NO
+  fcc_docket: null
+  tags:
+    - net-neutrality
+  privacy_html: |
+    <a href="https://www.fightforthefuture.org/" target="_blank">
+      Fight for the Future
+    </a>
+    will email you updates, and you can unsubscribe at any time. If you enter
+    your number (it’s optional) we will follow up by SMS. Message & data rates
+    apply. You can always text STOP to stop receiving messages.
+    <a href="https://www.fightforthefuture.org/privacy/" target="_blank">
+      Privacy Policy
+    </a>
+  form:
+    name: Name*
+    email: Email*
+    address: Address
+    zip: ZIP*
+    phone: |
+      Phone # (for text list)
+    company: Company
+    comment: Comment*
+    button_cta: Sign the Petition
+  thanks:
+    title: Thanks for signing the petition!
+    share: Please consider sharing with your friends and family.

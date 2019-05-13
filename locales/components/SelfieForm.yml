@@ -1,0 +1,10 @@
+en:
+  comment_label: "Your Net Neutrality thoughts:"
+  comment_placeholder: I care about Net Neutrality because...
+  upload_button: Upload
+  take_photo: Take Photo
+  retake_photo: Retake Photo
+  submit_button: Submit my photo
+  camera_connection_error: Couldn't connect to camera 😞
+  starting: Starting...
+  ready_in: Ready in
