@@ -1,17 +1,17 @@
 en:
-  currently_pledged_amount: $FIXME
+  currently_pledged_amount: $5mm
   currently_pledged_text: pledged so far
   arrow_alt: Arrow pointing to amount contributed
   top_currencies:
     - name: Bitcoin
       code: BTC
       logo: https://s3.fightforthefuture.org/donate/images/coins/bitcoin.svg
-      amount: $FIXME
+      amount: $2mm
     - name: Ethereum
       code: ETH
       logo: https://s3.fightforthefuture.org/donate/images/coins/ethereum.svg
-      amount: $FIXME
-    - name: Litecoin
-      code: LTC
-      logo: https://s3.fightforthefuture.org/donate/images/coins/litecoin.svg
-      amount: $FIXME
+      amount: $2mm
+    - name: Kin
+      code: KIN
+      logo: FIXME
+      amount: $1mm

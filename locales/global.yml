@@ -5,9 +5,9 @@ en:
     sharing:
       title: Defend Crypto
       description: A Fight for the Future website
-      image: https://www.example.com/share.jpg
+      image: https://www.defendcrypto.org/share.jpg
       default_tweet_text: FIXME
-      url: https://www.example.com
+      url: https://www.defendcrypto.org
     call_script: >
       TODO: call script goes here
     letter_text: |

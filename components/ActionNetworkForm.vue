@@ -147,7 +147,7 @@ export default {
     hasComment: {
       type: Boolean,
       required: false,
-      default: false
+      default: true
     },
     hasCompany: {
       type: Boolean,
