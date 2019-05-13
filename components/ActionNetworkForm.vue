@@ -8,7 +8,7 @@
         <h2 class="text-success">{{ $t('thanks.title') }}</h2>
         <p class="sml-push-y1">{{ $t('thanks.share') }}</p>
         <div class="row sml-push-y2 med-push-y3">
-          <div class="sml-c12 lrg-c4">
+          <div class="sml-c12 lrg-c6">
             <ShareButton
               network="twitter"
               class="btn-block"
@@ -17,20 +17,13 @@
               <span>{{ $t('global.common.tweet') }}</span>
             </ShareButton>
           </div> <!-- .c -->
-          <div class="sml-c12 lrg-c4 sml-push-y1 lrg-push-y0">
+          <div class="sml-c12 lrg-c6 sml-push-y1 lrg-push-y0">
             <ShareButton
               network="facebook"
               class="btn-block"
               @click.native="$trackClick(`facebook_share_button_sucess_${routeName}`)">
               <span>{{ $t('global.common.share') }}</span>
             </ShareButton>
-          </div> <!-- .c -->
-          <div class="sml-c12 lrg-c4 sml-push-y1 lrg-push-y0">
-            <a :href="donateUrl"
-               class="btn btn-block btn-bright"
-               @click="$trackClick(`donate_button_success_${routeName}`)">
-              <span>{{ $t('global.common.donate') }}</span>
-            </a>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- v-if -->
@@ -43,34 +36,16 @@
       <div class="flex-grid sml-flex-row">
         <input v-model="name" type="text" :placeholder="$t('form.name')" required>
         <input v-model="email" type="email" :placeholder="$t('form.email')" required>
+        <div v-if="hasCompany">
+          <input v-model="companyName" type="text" :placeholder="$t('form.company')">
+        </div>
       </div> <!-- .flex-grid -->
-      <div class="flex-grid sml-flex-row sml-push-y1">
-        <input v-model="address"
-               type="text"
-               class="sml-flex-2"
-               :placeholder="$t('form.address')">
-        <input v-model="zipCode"
-               type="tel"
-               :placeholder="$t('form.zip')"
-               required>
-        <input v-model.trim="phone"
-               type="tel"
-               class="sml-flex-2"
-               :placeholder="$t('form.phone')">
-      </div> <!-- .flex-grid -->
-      <div v-if="hasCompany" class="sml-push-y1">
-        <input v-model="companyName" type="text" :placeholder="$t('form.company')">
-      </div>
       <div v-if="hasComment" class="sml-push-y1 textarea-with-btn">
         <textarea
           v-model="comment"
           ref="comment"
-          :placeholder="$t('form.comment')"
-          required>
+          :placeholder="$t('form.comment')">
         </textarea>
-        <a class="btn btn-sml btn-alt" @click.prevent="clearComment()">
-          {{ $t('global.common.clear') }}
-        </a>
       </div> <!-- .textarea-with-btn -->
 
       <button class="btn btn-block btn-bright sml-push-y1" :disabled="isSending">
@@ -161,12 +136,12 @@ export default {
     hasComment: {
       type: Boolean,
       required: false,
-      default: false
+      default: true
     },
     hasCompany: {
       type: Boolean,
       required: false,
-      default: false
+      default: true
     },
     tweetText: {
       type: String,
@@ -236,10 +211,6 @@ export default {
     }
   },
 
-  created() {
-    this.comment = this.$t('global.letter_text')
-  },
-
   methods: {
     async submitForm() {
       if (this.isSending) return
@@ -279,17 +250,13 @@ export default {
         this.hasSigned = true
 
         if (this.phone) {
-          this.startTextFlow()
+          // NOTE: no text flows for this campaign yet
+          // this.startTextFlow()
         }
       } catch (err) {
         this.isSending = false
         this.errorMessage = this.$t('global.common.error')
       }
-    },
-
-    clearComment() {
-      this.comment = ''
-      this.$refs.comment.focus()
     },
 
     startTextFlow() {

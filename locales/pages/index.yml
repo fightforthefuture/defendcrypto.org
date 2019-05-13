@@ -1,15 +1,76 @@
 en:
   page_title: "Defend Crypto"
-  intro:
-    Sub heading goes here, lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. In nibh libero, venenatis sed justo eu, sollicitudin nisi. Integer
-    semper tortor orci, id ultricies velit laoreet in. Vestibulum sit amet ante
-    vel risus ornare ultrices sed id leo.
-  scroll_down: Scroll down
-  sign_title: Sign the petition
-  sign_description: |
-    This issue is important because lorem ipsum dolor sit amet, consectetur
-    elit. In nibh libero, venenatis sed justo eu, sollicitudin nisi. Integer
-    semper tortor orci, id ultricies velit laoreet in. Vestibulum sit amet ante
-    vel risus ornare ultrices sed id leo.
+  intro_html: |
+    <h4>
+      The SEC has been shaping the future of crypto behind the scenes with
+      settlements that set a dangerous precedent and could
+      <a href="https://www.sec.gov/news/speech/peirce-how-we-howey-050919" target="_blank">
+        push innovation offshore</a>.
+      Kin is unwilling to let that happen and is setting aside $5mm with
+      Coinbase Custody to take them on in court. But with so much on the line
+      $5mm might not be enough, so we are asking others to contribute so that
+      nothing gets left on the table.
+    </h4>
+  scroll_down: Contribute
+  what_title: What’s happening?
+  what_description: |
+    Despite the fact that last month over 250,000 people earned and spent Kin as
+    a currency, the SEC continues to say even that isn’t a security. After
+    months of trying to find a reasonable solution Kin has been unable to reach
+    a settlement that wouldn’t severely impact everyone in the space. So Kin is
+    going to take on the SEC in court to make sure there is a foundation for
+    innovation going forward.
+  why_title: Why does it matter?
+  why_description:
+    For the future of crypto, we all need Kin to win. This will be the new Howey
+    Test for how cryptocurrencies are regulated in the United States. That’s why
+    we set up the Defend Crypto fund to ensure that the funds are there to do
+    this the right way. Kin has already spent over $5mm and is committing
+    another $5mm of BTC, ETH, and KIN in a Coinbase Custody account to fight
+    this out on behalf of the industry.
+  action_title: What can you do?
+  action_html: |
+    <h4>
+      If you too are fed up with this innovation tax, we encourage you to
+      contribute also as we take on the SEC on behalf of the future of crypto
+      in the US. Any additional contributions will be held with Coinbase Custody
+      and will only be used if that $5mm isn’t enough. In that case, expenses
+      will be open sourced, and any unspent contributions will be returned
+      pro-rata after a court decision is made.
+    </h4>
+    <h4 class="sml-push-y1 med-push-y2">
+      We need to let the SEC know that we won’t be bullied around anymore. It
+      is time to Defend Crypto.
+    </h4>
+  resources:
+    title: Additional Information
+    links:
+      - title: How Kik’s Looming SEC Fight Could Define Blockchain’s Future
+        link_url: https://breakermag.com/how-kiks-looming-sec-fight-could-unfold-and-why-it-will-define-blockchains-future/\
+      - title: Kik Is Gearing Up for a Fight with the SEC
+        link_url: https://cointelegraph.com/news/under-fire-kik-is-gearing-up-for-a-fight-with-the-sec
+      - title: "A Legal Battle Every ICO Project Must Follow:  Kin vs. SEC"
+        link_url: https://cryptonews.com/news/a-legal-battle-every-ico-project-must-follow-kin-vs-sec-3275.htm
+      - title: Kin Founder Kiks Back at SEC
+        link_url: https://cryptobriefing.com/kin-founder-kiks-back-at-sec/
+      - title: Breaking Down Kik’s Fight against the SEC and Their $100 Million ICO
+        link_url: https://www.crowdfundinsider.com/2019/02/143914-breaking-down-kiks-fight-against-the-sec-and-their-100-million-ico/
+  partners_title: Our partners
+  partners_description: >
+    This project wouldn’t be possible without the support of many courageous
+    individuals and organizations.
+  contribute_title: Help Us Win
+  contribute_description: |
+    Do you want to receive email updates about the latest breaking news in the
+    fight to defend crypto?  Would you like your organization to be listed with
+    our partners?  Fill out the information below and let us know.
+  faqs:
+    title: FAQs
+    items:
+      - question: Question 1?
+        answer: Answer 1
+      - question: Question 2?
+        answer: Answer 2
+      - question: Question 3?
+        answer: Answer 3
 

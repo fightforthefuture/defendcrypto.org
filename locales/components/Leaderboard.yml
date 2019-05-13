@@ -1,0 +1,17 @@
+en:
+  currently_pledged_amount: $5,000,000
+  currently_pledged_text: pledged so far
+  arrow_alt: Arrow pointing to amount contributed
+  top_currencies:
+    - name: Bitcoin
+      code: BTC
+      logo: https://s3.fightforthefuture.org/donate/images/coins/bitcoin.svg
+      amount: $2,000,000
+    - name: Ethereum
+      code: ETH
+      logo: https://s3.fightforthefuture.org/donate/images/coins/ethereum.svg
+      amount: $2,000,000
+    - name: Kin
+      code: KIN
+      logo: https://s3.fightforthefuture.org/donate/images/coins/kin-logo.svg
+      amount: $1,000,000
