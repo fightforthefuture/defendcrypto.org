@@ -1,5 +1,6 @@
 en:
-  built_by: "Built by:"
+  project_by: "A project by:"
+  collaboration_with: "In collaboration with:"
   for_press: "For press inquiries, please contact us at:"
   press_contact_html: >
     <a href="tel://5084745248">(508) 474-5248</a> or

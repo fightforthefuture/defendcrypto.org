@@ -5,8 +5,14 @@
   <div class="page-footer text-center">
     <div class="sml-pad-y4">
       <div class="wrapper">
-        <p>{{ $t('built_by') }}</p>
-        <a href="https://www.fightforthefuture.org">
+        <p>{{ $t('project_by') }}</p>
+        <a href="https://www.kin.org" target="_blank">
+          <img src="~assets/images/kin-logo.svg"
+               :alt="$t('global.common.logo_kin_alt')"
+               class="grid-center sml-push-y-half">
+        </a>
+        <p>{{ $t('collaboration_with') }}</p>
+        <a href="https://www.fightforthefuture.org" target="_blank">
           <img src="~assets/images/fftf-logo.svg"
                :alt="$t('global.common.logo_alt')"
                class="grid-center sml-push-y-half">

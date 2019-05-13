@@ -1,4 +1,5 @@
 <i18n src="~/locales/pages/index.yml"></i18n>
+<i18n src="~/locales/global.yml"></i18n>
 
 <style lang="scss" scoped>
 .video-hero {
@@ -24,7 +25,10 @@
       </video>
 
       <div class="wrapper">
-        <h1 class="text-center">{{ $t('page_title') }}</h1>
+        <img src="~assets/images/kin-logo.svg"
+             :alt="$t('global.common.logo_kin_alt')"
+             class="grid-center">
+        <h1 class="text-center sml-push-y2 med-push-y4">{{ $t('page_title') }}</h1>
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center text-center">
             <div v-html="$t('intro_html')"></div>
