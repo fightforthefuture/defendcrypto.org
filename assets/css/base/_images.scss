@@ -8,10 +8,15 @@ img.img-inline {
   display: inline-block;
   vertical-align: bottom;
 }
-img.coin-logo {
-  float: left;
+.coin-logo {
   display: block;
+  float: left;
   height: $base-font-size*$base-line-height;
   width: $base-font-size*$base-line-height;
   margin-right: $gutter;
+}
+.coin-logo img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
 }

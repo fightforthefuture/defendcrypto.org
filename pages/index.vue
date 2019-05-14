@@ -5,6 +5,7 @@
 .video-hero {
   position: relative;
   overflow: hidden;
+  padding-bottom: $gutter*10;
   background: #0B0316; // One-off Matches video
   color: $white;
 
@@ -31,7 +32,7 @@
         <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
       </video>
 
-      <div class="wrapper">
+      <div class="wrapper with-overflow">
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
              class="grid-center">

@@ -29,6 +29,11 @@ body.full-width .wrapper {
 .tuck-bottom {
   margin-bottom: 0;
 }
+// USE SPARINGLY!
+.wrapper.with-overflow,
+.wrapper.with-overflow > .row {
+  overflow: visible;
+}
 
 // Grid > Columns all widths
 @for $i from 1 through 12 {

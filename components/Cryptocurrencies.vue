@@ -1,22 +1,58 @@
 <i18n src="~/locales/components/Cryptocurrencies.yml"></i18n>
 
+<style lang="scss">
+.multiselect,
+.multiselect__tags {
+  min-height: 47px;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+}
+.multiselect__select {
+  height: 45px;
+}
+.multiselect__single,
+.multiselect__option {
+  overflow: hidden;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+}
+</style>
+
 <template>
   <div>
-    <select v-model="selectedCurrency" class="sml-push-y1 med-push-y0">
-      <option :value="null">
-        {{ $t('choose_currency') }}
-      </option>
-      <option v-for="(c, index) in currencies" :key="`c-${index}`" :value="c.code">
-        {{ c.name }} ({{ c.code }})
-      </option>
-    </select>
+    <multiselect
+      v-model="selectedCurrency"
+      :options="currencies"
+      :close-on-select="true"
+      :clear-on-select="false"
+      :hide-selected="false"
+      :preserve-search="true"
+      :show-labels="false"
+      :placeholder="$t('choose_currency')"
+      label="name"
+      track-by="name"
+      :preselect-first="false"
+      id="example">
+      <template slot="singleLabel" slot-scope="props">
+        <div class="coin-logo">
+          <img :src="props.option.logo" :alt="props.option.name">
+        </div> <!-- .coin-logo -->
+        {{ props.option.name }} ({{ props.option.code }})
+      </template>
+      <template slot="option" slot-scope="props">
+        <div class="coin-logo">
+          <img :src="props.option.logo" :alt="props.option.name">
+        </div> <!-- .coin-logo -->
+        {{ props.option.name }} ({{ props.option.code }})
+      </template>
+    </multiselect>
 
     <form class="sml-push-y1">
       <input
         type="text"
         class="text-input"
-        :value="currentCurrency !== null ? currentCurrency.address : null"
-        :disabled="currentCurrency === null"
+        :value="selectedCurrency !== null ? selectedCurrency.address : null"
+        :disabled="selectedCurrency === null"
         :placeholder="$t('choose_currency')" />
     </form>
   </div>
@@ -33,15 +69,7 @@ export default {
   },
 
   computed: {
-    currencies() { return CRYPTOCURRENCIES },
-
-    currentCurrency() {
-      if (this.selectedCurrency) {
-        return this.currencies.find(o => o.code === this.selectedCurrency)
-      } else {
-        return null
-      }
-    }
+    currencies() { return CRYPTOCURRENCIES }
   }
 }
 </script>
