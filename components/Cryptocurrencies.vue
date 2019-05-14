@@ -3,18 +3,21 @@
 <style lang="scss">
 .multiselect,
 .multiselect__tags {
-  min-height: 47px;
+  min-height: 50px;
   line-height: $base-line-height;
   font-size: $base-font-size;
 }
 .multiselect__select {
-  height: 45px;
+  height: 48px;
 }
 .multiselect__single,
 .multiselect__option {
   overflow: hidden;
   line-height: $base-line-height;
   font-size: $base-font-size;
+}
+.multiselect__content-wrapper {
+  height: 150px;
 }
 </style>
 

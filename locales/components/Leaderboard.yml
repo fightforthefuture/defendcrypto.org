@@ -5,13 +5,13 @@ en:
   top_currencies:
     - name: Bitcoin
       code: BTC
-      logo: https://s3.fightforthefuture.org/donate/images/coins/bitcoin.svg
+      logo: /coins/bitcoin.svg
       amount: $2,000,000
     - name: Ethereum
       code: ETH
-      logo: https://s3.fightforthefuture.org/donate/images/coins/ethereum.svg
+      logo: /coins/ethereum.svg
       amount: $2,000,000
     - name: Kin
       code: KIN
-      logo: https://s3.fightforthefuture.org/donate/images/coins/kin-logo.svg
+      logo: /coins/kin-logo.png
       amount: $1,000,000
