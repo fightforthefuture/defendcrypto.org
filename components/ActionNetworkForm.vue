@@ -33,11 +33,24 @@
       <p v-if="errorMessage" class="text-warn">
         {{ errorMessage }}
       </p>
-      <div class="flex-grid sml-flex-row">
-        <input v-model="name" type="text" :placeholder="$t('form.name')" required>
-        <input v-model="email" type="email" :placeholder="$t('form.email')" required>
+      <div class="flex-grid sml-flex-col med-flex-row">
+        <input
+            v-model="name"
+            type="text"
+            :placeholder="$t('form.name')"
+            required>
+        <input
+            v-model="email"
+            type="email"
+            :placeholder="$t('form.email')"
+            class="sml-push-y1 med-push-y0"
+            required>
         <div v-if="hasCompany">
-          <input v-model="companyName" type="text" :placeholder="$t('form.company')">
+          <input
+              v-model="companyName"
+              type="text"
+              class="sml-push-y1 med-push-y0"
+              :placeholder="$t('form.company')">
         </div>
       </div> <!-- .flex-grid -->
       <div v-if="hasComment" class="sml-push-y1 textarea-with-btn">
