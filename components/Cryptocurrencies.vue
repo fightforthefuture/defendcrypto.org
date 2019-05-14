@@ -29,7 +29,7 @@
       :close-on-select="true"
       :clear-on-select="false"
       :hide-selected="false"
-      :preserve-search="true"
+      :searchable="false"
       :show-labels="false"
       :placeholder="$t('choose_currency')"
       label="name"
@@ -62,8 +62,6 @@
 </template>
 
 <script>
-import CRYPTOCURRENCIES from '~/assets/data/currencies.json'
-
 export default {
   data() {
     return {
@@ -72,7 +70,13 @@ export default {
   },
 
   computed: {
-    currencies() { return CRYPTOCURRENCIES }
+    currencies() {
+      const coins = []
+      for (const coin in this.$t('coins')) {
+        coins.push(this.$t('coins')[coin])
+      }
+      return coins
+    }
   }
 }
 </script>
