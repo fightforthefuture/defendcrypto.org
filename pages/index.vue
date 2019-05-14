@@ -148,10 +148,13 @@
 
             <a v-for="(resource, index) in $t('resources.links')"
                :key="`resource-${index}`"
-               class="sml-pad-2 sml-push-y2 with-border is-rounded"
+               class="sml-pad-2 sml-push-y2 with-border is-rounded flex-grid sml-flex-row"
                :href="resource.link_url"
                target="_blank">
-              {{ resource.title }}
+              <img src="~assets/images/link-icon.svg"
+                   :alt="$t('resources.link_icon_alt')"
+                   class="img-inline">
+              <span>{{ resource.title }}</span>
             </a>
           </div> <!-- .c -->
         </div> <!-- .row -->
