@@ -19,7 +19,7 @@
 <template>
   <DefaultLayout>
     <section class="video-hero sml-pad-y3 med-pad-y6 fill-black">
-      <video autoplay loop muted class="fade-in"
+      <video autoplay loop muted playsinline class="fade-in"
              poster="/video-bg-poster.jpg">
         <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
       </video>
