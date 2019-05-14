@@ -22,8 +22,8 @@ img.arrow {
            :class="{ 'with-border-bottom': index < totalNumCurrencies - 1 }">
         <div class="sml-flex-2 med-flex-1">
           <div class="coin-logo">
-            <img :src="currency.logo" :alt="`${currency.name}-logo`" />
-          </div> <!-- .coin-logo -->
+            <img :src="currency.logo" :alt="`${currency.name}-logo`">
+          </div>
           {{ currency.name }} ({{ currency.code }})
         </div>
         <img src="~assets/images/arrow-right.svg"
