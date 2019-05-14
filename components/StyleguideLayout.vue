@@ -11,7 +11,7 @@
     <header class="page-header">
       <div class="sml-c10 med-c8">
         <nuxt-link to="/styleguide">
-          <h2>{{ title }} - Styleguide</h2>
+          <h4>{{ title }} - Styleguide</h4>
         </nuxt-link>
       </div> <!-- .c -->
       <div class="sml-c2 med-c4 menu-wrapper">
