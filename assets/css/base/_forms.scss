@@ -24,7 +24,7 @@ form textarea {
   width: 100%;
   padding: ($gutter + 1) $gutter*2 ($gutter + 2);
   background: transparent;
-  border: 1px solid $white;
+  border: 1px solid $grey-lighter-color;
   border-radius: $default-border-radius;
   color: $white;
   -webkit-appearance: none;
@@ -41,8 +41,8 @@ form input[type=number]:focus,
 form input[type=tel]:focus,
 form textarea:focus {
   background: $white;
-  color: $grey-dark-color;
   border-width: 1px;
+  color: $grey-dark-color;
 }
 form input:disabled,
 form textarea:disabled,
