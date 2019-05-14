@@ -264,6 +264,7 @@ export default {
     return {
       colorClasses: [
         'fill-white',
+        'fill-grey-lighter',
         'fill-grey-light',
         'fill-grey-med',
         'fill-grey',
@@ -315,6 +316,7 @@ export default {
       modifierClasses: [
         '',
         'fill-white',
+        'fill-grey-lighter',
         'fill-grey-light',
         'fill-grey',
         'fill-grey-med',

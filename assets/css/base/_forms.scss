@@ -24,7 +24,7 @@ form textarea {
   width: 100%;
   padding: ($gutter + 1) $gutter*2 ($gutter + 2);
   background: transparent;
-  border: 1px solid $grey-light-color;
+  border: 1px solid $white;
   border-radius: $default-border-radius;
   color: $white;
   -webkit-appearance: none;
@@ -40,13 +40,15 @@ form input[type=password]:focus,
 form input[type=number]:focus,
 form input[type=tel]:focus,
 form textarea:focus {
-  border-color: $white;
+  background: $white;
+  color: $grey-dark-color;
   border-width: 1px;
 }
 form input:disabled,
 form textarea:disabled,
 form select:disabled {
   opacity: 0.6;
+  border-color: $grey-light-color;
 }
 form input.flat-top,
 form textarea.flat-top {
@@ -57,19 +59,19 @@ form textarea.flat-top {
 
 // Form > Placeholders
 ::-webkit-input-placeholder {
-  color: $grey-light-color;
+  color: $grey-lighter-color;
   font-weight: $base-font-weight;
 }
 :-moz-placeholder {
-  color: $grey-light-color;
+  color: $grey-lighter-color;
   font-weight: $base-font-weight;
 }
 ::-moz-placeholder {
-  color: $grey-light-color;
+  color: $grey-lighter-color;
   font-weight: $base-font-weight;
 }
 :-ms-input-placeholder {
-  color: $grey-light-color;
+  color: $grey-lighter-color;
   font-weight: $base-font-weight;
 }
 

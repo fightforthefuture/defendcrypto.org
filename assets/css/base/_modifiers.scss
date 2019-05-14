@@ -44,6 +44,9 @@ a.with-border:focus {
 
 // Modifiers > Fills
 
+.fill-grey-lighter {
+  background: $grey-lighter-color;
+}
 .fill-grey-light {
   background: $grey-light-color;
 }

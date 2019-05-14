@@ -12,6 +12,6 @@ img.coin-logo {
   float: left;
   display: block;
   height: $base-font-size*$base-line-height;
-  width: auto;
+  width: $base-font-size*$base-line-height;
   margin-right: $gutter;
 }

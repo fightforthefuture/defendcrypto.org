@@ -5,6 +5,13 @@
 .video-hero {
   position: relative;
   overflow: hidden;
+  background: #0B0316; // One-off Matches video
+  color: $white;
+
+  @include respond-to-max(med) {
+    background: #0B0316 url('/video-bg-poster.jpg') top center no-repeat;
+    background-size: contain;
+  }
 }
 .video-hero video {
   position: absolute;
@@ -18,8 +25,8 @@
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y3 med-pad-y6 fill-black">
-      <video autoplay loop muted playsinline class="fade-in"
+    <section class="video-hero sml-pad-y3 med-pad-y6">
+      <video autoplay loop muted playsinline class="fade-in sml-hide lrg-show"
              poster="/video-bg-poster.jpg">
         <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
       </video>
