@@ -56,10 +56,18 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-grey text-center">{{ $t('what_title') }}</h2>
-            <h4 class="sml-push-y2 med-push-y3">{{ $t('what_description') }}</h4>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
+      <div class="with-border-left sml-push-y2 med-push-y3">
+        <div class="wrapper">
+          <div class="row">
+            <div class="sml-c12 lrg-c8 grid-center">
+              <h4>{{ $t('what_description') }}</h4>
+            </div> <!-- .c -->
+          </div> <!-- .row -->
+        </div> <!-- .wrapper -->
+      </div> <!-- .with-border-left -->
     </section>
 
     <section id="why" class="sml-push-y3 med-push-y6">
@@ -67,10 +75,18 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-grey text-center">{{ $t('why_title') }}</h2>
-            <h4 class="sml-push-y2 med-push-y3">{{ $t('why_description') }}</h4>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
+      <div class="with-border-left sml-push-y2 med-push-y3">
+        <div class="wrapper">
+          <div class="row">
+            <div class="sml-c12 lrg-c8 grid-center">
+              <h4>{{ $t('why_description') }}</h4>
+            </div> <!-- .c -->
+          </div> <!-- .row -->
+        </div> <!-- .wrapper -->
+      </div> <!-- .with-border-left -->
     </section>
 
     <section id="action" class="sml-pad-y3 med-pad-y6">
@@ -78,10 +94,18 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-grey text-center">{{ $t('action_title') }}</h2>
-            <div class="sml-push-y2 med-push-y3" v-html="$t('action_html')"></div>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
+      <div class="with-border-left sml-push-y2 med-push-y3">
+        <div class="wrapper">
+          <div class="row">
+            <div class="sml-c12 lrg-c8 grid-center">
+              <div v-html="$t('action_html')"></div>
+            </div> <!-- .c -->
+          </div> <!-- .row -->
+        </div> <!-- .wrapper -->
+      </div> <!-- .with-border-left -->
     </section>
 
     <section id="partners" class="sml-pad-y3 med-pad-y6 fill-grey-dark">

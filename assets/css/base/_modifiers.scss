@@ -29,6 +29,18 @@ a.with-border:focus {
 .with-border-top {
   border-top: 1px solid $grey-med-color;
 }
+.with-border-left {
+  position: relative;
+}
+.with-border-left:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-left: 5px solid $grey-color;
+}
 
 // Modifiers > Fills
 

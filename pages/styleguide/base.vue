@@ -327,6 +327,7 @@ export default {
         'with-border',
         'with-border-bottom',
         'with-border-top',
+        'with-border-left',
         'with-border is-rounded',
         'with-border is-rounded-top',
         'with-border is-rounded-bottom'
