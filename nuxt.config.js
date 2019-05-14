@@ -79,7 +79,8 @@ module.exports = {
         fallbackLocale: 'en'
       },
       vueI18nLoader: true
-    }]
+    }],
+    'nuxt-vue-multiselect'
   ],
   /*
   ** Axios module configuration

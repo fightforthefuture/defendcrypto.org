@@ -20,7 +20,8 @@
     "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^5.2.0",
     "nuxt": "^2.6.3",
-    "nuxt-i18n": "^5.10.0"
+    "nuxt-i18n": "^5.10.0",
+    "nuxt-vue-multiselect": "^1.0.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
