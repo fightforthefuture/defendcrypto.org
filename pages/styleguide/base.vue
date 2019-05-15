@@ -165,6 +165,10 @@
           <input type="text" placeholder="Placeholder text">
         </div>
         <div class="sml-push-y2">
+          <label>Inverted style field</label>
+          <input type="text" placeholder="Placeholder text" class="input-inverted">
+        </div>
+        <div class="sml-push-y2">
           <label>Label</label>
           <textarea>Textarea</textarea>
         </div>
@@ -284,6 +288,7 @@ export default {
         'text-left',
         'text-white',
         'text-meta',
+        'text-grey-med',
         'text-grey',
         'text-brand',
         'text-warn',

@@ -6,7 +6,7 @@
 $white:               #FFF;
 $black:               #000;
 $grey-lighter-color:  #AB8BFF;
-$grey-light-color:    #766998;
+$grey-light-color:    #7139FF;
 $grey-med-color:      #684CAB;
 $grey-color:          #40277C;
 $grey-dark-color:     #280F5A;
@@ -16,7 +16,7 @@ $brand-light-color:   lighten($brand-color, 15%);
 $background-color:    $white;
 $text-color:          $grey-dark-color;
 $success-color:       #00CF96;
-$warn-color:          red; // TODO
+$warn-color:          #EB3B43;
 
 $facebook-color:          #405993;
 $facebook-dark-color:     darken($facebook-color, 10%);
@@ -48,7 +48,7 @@ $m-font-size-6: 11px;
 // Layout
 $gutter: 10px;
 $site-max-width: 1040px;
-$header-height: 64px;
+$header-height: 62px;
 
 // Decoration
 $default-transition: all 0.3s ease-in-out;

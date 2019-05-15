@@ -26,7 +26,7 @@
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y3 med-pad-y6">
+    <section class="video-hero sml-pad-y2 med-pad-y4">
       <video autoplay loop muted playsinline class="fade-in sml-hide lrg-show"
              poster="/video-bg-poster.jpg">
         <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
@@ -35,8 +35,8 @@
       <div class="wrapper with-overflow">
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
-             class="grid-center">
-        <h1 class="text-center sml-push-y2 med-push-y4">
+             class="grid-center kin-logo-sm">
+        <h1 class="text-center sml-push-y2">
           {{ $t('page_title') }}
         </h1>
         <div class="row">
