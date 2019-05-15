@@ -44,7 +44,7 @@ h3 {
 h4 {
   font-size: $m-font-size-4;
   font-weight: $base-font-weight;
-  line-height: 1.4;
+  line-height: 1.3;
 
   @include respond-to(lrg) {
     font-size: $font-size-4;
@@ -94,6 +94,9 @@ small {
 }
 .text-brand {
   color: $brand-color;
+}
+.text-grey-med {
+  color: $grey-med-color;
 }
 .text-grey {
   color: $grey-color;

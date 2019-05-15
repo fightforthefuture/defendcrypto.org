@@ -9,7 +9,7 @@ img.arrow {
 
 <template>
   <div>
-    <div class="fill-grey-darkest sml-pad-2 is-rounded-top">
+    <div class="fill-grey-dark sml-pad-2 is-rounded-top">
       <h4 class="text-center">
         <strong class="text-brand">{{ $t('currently_pledged_amount') }}</strong>
         {{ $t('currently_pledged_text') }}

@@ -53,10 +53,11 @@
     <form class="sml-push-y1">
       <input
         type="text"
-        class="text-input"
+        class="text-input input-inverted"
         :value="selectedCurrency !== null ? selectedCurrency.address : null"
         :disabled="selectedCurrency === null"
-        :placeholder="$t('choose_currency')" />
+        :placeholder="$t('choose_currency')"
+        readonly />
     </form>
   </div>
 </template>

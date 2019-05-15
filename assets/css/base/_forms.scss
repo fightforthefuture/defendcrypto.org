@@ -57,6 +57,18 @@ form textarea.flat-top {
   border-top-left-radius:  0;
 }
 
+// Forms > Text Inputs & Textareas > Inverted
+form input[type=text].input-inverted {
+  background: $white;
+  color: $grey-dark-color;
+}
+form input[type=text].input-inverted:focus {
+  box-shadow: 0 0 20px transparentize($grey-lighter-color, 0.2);
+}
+form input[type=text].input-inverted:disabled {
+ opacity: 0;
+}
+
 // Form > Placeholders
 ::-webkit-input-placeholder {
   color: $grey-lighter-color;

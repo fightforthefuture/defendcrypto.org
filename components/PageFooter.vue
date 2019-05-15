@@ -19,7 +19,7 @@
             </div> <!-- .lrg-pull-right -->
           </div> <!-- .pad -->
           <div class="sml-pad-y4 sml-pad-2 lrg-pad-x3 lrg-flex-3">
-            <p>{{ $t('collaboration_with') }}</p>
+            <p class="text-grey-med">{{ $t('collaboration_with') }}</p>
             <a href="https://www.fightforthefuture.org" target="_blank">
               <img src="~assets/images/fftf-logo.svg"
                    :alt="$t('global.common.logo_alt')"
