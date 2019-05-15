@@ -83,7 +83,7 @@ button.btn {
 .btn:disabled:focus,
 .btn[disabled]:focus,
 .btn.btn-disabled:focus, {
-  background: $grey-color;
+  opacity: 0.5;
   cursor: default;
 }
 
