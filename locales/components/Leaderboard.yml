@@ -35,3 +35,23 @@ en:
       code: MANA
       logo: /coins/mana.png
       amount: 0
+    - name: Ethereum Classic
+      code: ETC
+      logo: /coins/ethereum-classic.svg
+      amount: 0
+    - name: Foamland
+      code: FOAM
+      logo: /coins/foam.png
+      amount: 0
+    - name: Golem
+      code: GNT
+      logo: /coins/golem.png
+      amount: 0
+    - name: Kyber Network
+      code: KNC
+      logo: /coins/kyber.png
+      amount: 0
+    - name: Litecoin
+      code: LTC
+      logo: /coins/litecoin.svg
+      amount: 0
