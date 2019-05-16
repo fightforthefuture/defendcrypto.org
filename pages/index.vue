@@ -71,7 +71,7 @@
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
-              <h4>{{ $t('what_description') }}</h4>
+              <div v-html="$t('what_html')"></div>
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->

@@ -13,13 +13,15 @@ en:
     </h4>
   scroll_down: Contribute
   what_title: What’s happening?
-  what_description: |
-    Despite the fact that last month over 250,000 people earned and spent Kin as
-    a currency, the SEC is still saying that it might be a security. After
-    months of trying to find a reasonable solution, Kin has been unable to reach
-    a settlement that wouldn’t severely impact the Kin project ... and everyone
-    else in the crypto space, too. So Kin is going to take on the SEC in court to
-    make sure a legal precedent for innovation is established going forward.
+  what_html: |
+    <h4>
+      Despite the fact that last month over 250,000 people earned and spent Kin
+      as a currency, the SEC is still saying that it might be a security. After
+      months of trying to find a reasonable solution, Kin has been unable to reach
+      a settlement that wouldn’t severely impact the Kin project ... and everyone
+      else in the crypto space, too. So Kin is going to take on the SEC in court
+      to make sure a legal precedent for innovation is established going forward.
+    </h4>
   why_title: Why does it matter?
   why_html: |
     <h4>
@@ -41,8 +43,8 @@ en:
       and will only be used if that $5MM isn’t enough. In that case, expenses
       will be disclosed, and &mdash; after a court decision is made &mdash; the
       Defend Crypto fund will allocate the remaining resources to other initiatives.
-      <strong>We need to let the SEC know that we won’t be bullied around anymore. It
-      is time to Defend Crypto.</strong>
+      <strong>We need to let the SEC know that we won’t be bullied around anymore.
+      It is time to Defend Crypto.</strong>
     </h4>
   resources:
     title: Additional Information
@@ -60,8 +62,8 @@ en:
         link_url: https://cointelegraph.com/news/social-media-platform-kik-promises-to-challenge-proposed-sec-enforcement-against-its-ico
       - title: Under Fire from the SEC, Kik’s Crypto Project is Going to War
         link_url: https://www.ccn.com/under-fire-from-the-sec-kiks-crypto-project-is-going-to-war
-  partners_title: Top Defenders
-  partners_description: >
+  defenders_title: Top Defenders
+  defenders_description: >
     This project wouldn’t be possible without the support of many courageous
     individuals and organizations.
   contribute_title: Help Us Win
@@ -73,7 +75,7 @@ en:
     title: FAQs
     items:
       - question: Is my contribution tax deductible?
-        answer: No, contributions are not tax deductible, and you should cCan my contribution be anonymous?nsult with your own tax advisors regarding the impact of making a contribution.
+        answer: No, contributions are not tax deductible, and you should consult with your own tax advisors regarding the impact of making a contribution.
       - question: How will I know that you are using the funds as you say?
         answer: We will be open and transparent about how we are spending funds, which is intended to be used in the legal case against Kik initially. Kik has already spent over $5MM on legal fees and expenses associated with responding to the SEC’s inquiries, document productions and witness testimony. Although we won’t share actual legal bills because they contain privileged information, we will share summaries and amounts billed on a monthly basis.
       - question: If I contribute, will it affect my project legally?
