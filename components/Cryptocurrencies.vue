@@ -3,6 +3,11 @@
 <style lang="scss">
 $mutliselect-height: 68px;
 
+// Inactive
+.no-currency {
+  opacity: 0;
+}
+
 // Multiselect > Chosen Selection area
 .multiselect,
 .multiselect__tags {
@@ -131,7 +136,7 @@ $mutliselect-height: 68px;
       </template>
     </multiselect>
 
-    <form class="sml-push-y1">
+    <form class="sml-push-y1" :class="{'no-currency': selectedCurrency === null}">
       <input
         type="text"
         class="text-input input-inverted"
@@ -139,6 +144,9 @@ $mutliselect-height: 68px;
         :disabled="selectedCurrency === null"
         :placeholder="$t('choose_currency')"
         readonly />
+      <div class="text-brand sml-push-y-half"
+           v-html="$t('copy_instructions_html')">
+      </div>
     </form>
   </div>
 </template>

@@ -65,9 +65,6 @@ form input[type=text].input-inverted {
 form input[type=text].input-inverted:focus {
   box-shadow: 0 0 20px transparentize($grey-lighter-color, 0.2);
 }
-form input[type=text].input-inverted:disabled {
- opacity: 0;
-}
 
 // Form > Placeholders
 ::-webkit-input-placeholder {
