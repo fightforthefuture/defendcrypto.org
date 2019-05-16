@@ -23,3 +23,15 @@ en:
       code: BCH
       logo: /coins/bitcoin-cash.png
       amount: 0
+    - name: Civic
+      code: CVC
+      logo: /coins/civic.svg
+      amount: 0
+    - name: Dai Stablecoin
+      code: DAI
+      logo: /coins/dai.png
+      amount: 0
+    - name: Decentraland
+      code: MANA
+      logo: /coins/mana.png
+      amount: 0
