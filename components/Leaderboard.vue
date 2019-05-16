@@ -2,7 +2,7 @@
 
 <style lang="scss" scoped>
 img.arrow {
-  margin-top: $gutter/2;
+  flex: 0 0 38px;
   height: $base-font-size;
 }
 </style>
@@ -18,7 +18,7 @@ img.arrow {
     <div class="fill-grey sml-pad-x2 sml-pad-y1 is-rounded-bottom">
       <div v-for="(currency, index) in $t('top_currencies')"
            :key="`top-currency-${index}`"
-           class="sml-pad-y1 flex-grid"
+           class="sml-pad-y1 flex-grid sml-flex-row"
            :class="{ 'with-border-bottom': index < totalNumCurrencies - 1 }">
         <div class="sml-flex-2 med-flex-1">
           <div class="coin-logo">
@@ -28,7 +28,7 @@ img.arrow {
         </div>
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
-             class="arrow grid-center">
+             class="arrow sml-push-y-half">
         <p class="text-right text-brand">
           {{ currency.amount }}
         </p>
