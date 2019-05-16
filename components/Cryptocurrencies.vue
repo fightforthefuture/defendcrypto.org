@@ -21,7 +21,7 @@ $mutliselect-height: 68px;
   color: $white;
 
   @include respond-to(lrg) {
-    padding-top: $gutter*1.5;
+    padding-top: $gutter*1.4;
   }
 }
 .multiselect__tags .multiselect__placeholder {
