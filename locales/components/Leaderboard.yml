@@ -55,3 +55,23 @@ en:
       code: LTC
       logo: /coins/litecoin.svg
       amount: 0
+          - name: Loom Network
+      code: LOOM
+      logo: /coins/loom.png
+      amount: 0
+     - name: Maker
+      code: MKR
+      logo: /coins/maker.png
+      amount: 0
+    - name: OmiseGo
+      code: OMG
+      logo: /coins/omisego.svg
+      amount: 0
+    - name: Stellar
+      code: XLM
+      logo: /coins/stellar.svg
+      amount: 0
+    - name: Ripple
+      code: XRP
+      logo: /coins/ripple.svg
+      amount: 0
