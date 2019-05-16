@@ -15,3 +15,7 @@ en:
       code: KIN
       logo: /coins/kin-logo.png
       amount: 21,276,595,744.7
+    - name: Basic Attention Token
+      code: BAT
+      logo: /coins/bat.png
+      amount: 0
