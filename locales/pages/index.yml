@@ -74,15 +74,15 @@ en:
   faqs:
     title: FAQs
     items:
+      - question: How will I know that you are using the funds as you say?
+        answer: We will be open and transparent about how we are spending funds, which is intended to be used in the legal case against Kin initially. Kin has already spent over $5MM on legal fees and expenses associated with responding to the SEC’s inquiries, document productions and witness testimony. Although we won’t share actual legal bills because they contain privileged information, we will share summaries and amounts billed on a monthly basis.
+      - question: Is my contribution anonymous?
+        answer: Yes. All contributions are anonymous by nature. The email sign up is not specifically tied to contributions. 
+      - question: If I contribute, will it affect my project legally?
+        answer: If you’re worried about being targeted because of your contribution to this defense fund, all contributions are anonymous and not disclosed publicly.
+      - question: If the funds are not used, what will be done with them?
+        answer: Once the case against Kin is finally resolved, all remaining funds, including any portion of the $5MM in BTC, ETH and KIN that we’ve contributed, will be rolled into a nonprofit organization to be used for other initiatives that help with innovation in our industry.
       - question: Is my contribution tax deductible?
         answer: No, contributions are not tax deductible, and you should consult with your own tax advisors regarding the impact of making a contribution.
-      - question: How will I know that you are using the funds as you say?
-        answer: We will be open and transparent about how we are spending funds, which is intended to be used in the legal case against Kik initially. Kik has already spent over $5MM on legal fees and expenses associated with responding to the SEC’s inquiries, document productions and witness testimony. Although we won’t share actual legal bills because they contain privileged information, we will share summaries and amounts billed on a monthly basis.
-      - question: If I contribute, will it affect my project legally?
-        answer: Obviously, we can’t promise that any other project that conducted an ICO will not be investigated or sued by the SEC. If you’re worried about being targeted because of your contribution to this defense fund, you can always donate anonymously.
-      - question: Can my contribution be anonymous?
-        answer: Yes. If you wish to remain anonymous, we recommend that you don’t complete the email portion and that you use a separate public address from which to send your contribution.
-      - question: If the funds are not used, what will be done with them?
-        answer: Once the case against Kik is finally resolved, all remaining funds, including any portion of the $5 million in BTC, ETH and KIN that we’ve contributed, will be rolled into a nonprofit organization to be used for other initiatives that help with innovation in our industry.
 
 
