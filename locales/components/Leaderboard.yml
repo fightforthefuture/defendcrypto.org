@@ -19,3 +19,71 @@ en:
       code: BAT
       logo: /coins/bat.png
       amount: 0
+    - name: Bitcoin Cash
+      code: BCH
+      logo: /coins/bitcoin-cash.png
+      amount: 0
+    - name: Civic
+      code: CVC
+      logo: /coins/civic.svg
+      amount: 0
+    - name: Dai Stablecoin
+      code: DAI
+      logo: /coins/dai.png
+      amount: 0
+    - name: Decentraland
+      code: MANA
+      logo: /coins/mana.png
+      amount: 0
+    - name: Ethereum Classic
+      code: ETC
+      logo: /coins/ethereum-classic.svg
+      amount: 0
+    - name: Foamland
+      code: FOAM
+      logo: /coins/foam.png
+      amount: 0
+    - name: Golem
+      code: GNT
+      logo: /coins/golem.png
+      amount: 0
+    - name: Kyber Network
+      code: KNC
+      logo: /coins/kyber.png
+      amount: 0
+    - name: Litecoin
+      code: LTC
+      logo: /coins/litecoin.svg
+      amount: 0
+     - name: Loom Network
+      code: LOOM
+      logo: /coins/loom.png
+      amount: 0
+     - name: Maker
+      code: MKR
+      logo: /coins/maker.png
+      amount: 0
+    - name: OmiseGo
+      code: OMG
+      logo: /coins/omisego.svg
+      amount: 0
+    - name: Stellar
+      code: XLM
+      logo: /coins/stellar.svg
+      amount: 0
+    - name: Ripple
+      code: XRP
+      logo: /coins/ripple.svg
+      amount: 0
+    - name: XYO
+      code: XYO
+      logo: /coins/xyo.png
+      amount: 0
+    - name: Zcash
+      code: ZEC
+      logo: /coins/zcash.png
+      amount: 0
+    - name: Zilliqa
+      code: ZIL
+      logo: /coins/zilliqa.png
+      amount: 0
