@@ -6,12 +6,12 @@ en:
     - name: Bitcoin
       code: BTC
       logo: /coins/bitcoin.svg
-      amount: $2,000,000
+      amount: 256.4
     - name: Ethereum
       code: ETH
       logo: /coins/ethereum.svg
-      amount: $2,000,000
+      amount: 9,808.5
     - name: Kin
       code: KIN
       logo: /coins/kin-logo.png
-      amount: $1,000,000
+      amount: 21,276,595,744.7
