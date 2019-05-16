@@ -55,7 +55,7 @@ en:
       code: LTC
       logo: /coins/litecoin.svg
       amount: 0
-          - name: Loom Network
+    - name: Loom Network
       code: LOOM
       logo: /coins/loom.png
       amount: 0
