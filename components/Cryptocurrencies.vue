@@ -20,13 +20,17 @@ $mutliselect-height: 68px;
   }
 }
 .multiselect__tags {
-  padding: $gutter*1.8 $gutter*6 0 $gutter;
+  padding: 17px 60px 0 $gutter;
   background: $grey-light-color;
   border: 1px solid $grey-color;
   color: $white;
 
+  @include respond-to(med) {
+    padding-right: 80px;
+    padding-left: $gutter*2;
+  }
   @include respond-to(lrg) {
-    padding-top: $gutter*1.3;
+    padding-top: 13px;
   }
 }
 .multiselect__tags .multiselect__placeholder {
@@ -49,6 +53,9 @@ $mutliselect-height: 68px;
     font-size: $font-size-4;
   }
 }
+.multiselect__single {
+  padding-left: 0;
+}
 .multiselect__single .coin-logo {
   margin-top: 2px;
 
@@ -59,10 +66,14 @@ $mutliselect-height: 68px;
 
 // Multselect > Drop down arrow
 .multiselect__select {
-  width: 55px;
+  width: 60px;
   height: $mutliselect-height - 2;
   padding: $gutter $gutter*2;
   border-left: 1px solid $grey-color;
+
+  @include respond-to(med) {
+    width: 80px;
+  }
 }
 .multiselect--active .multiselect__select {
   transform: rotateZ(0deg);
@@ -70,8 +81,8 @@ $mutliselect-height: 68px;
 .multiselect__select:before {
   display: block;
   content: '';
-  width: 15px;
-  height: 9px;
+  width: 20px;
+  height: 11px;
   top: 50%;
   transform: translateY(-50%) rotateZ(0deg);
   margin: 0 auto;
@@ -99,12 +110,18 @@ $mutliselect-height: 68px;
 // Multi Select > Drop down options container > Options
 .multiselect__option {
   font-size: $base-font-size;
+  padding: 12px $gutter;
+
+  @include respond-to(med) {
+    padding-left:  $gutter*2;
+    padding-right: $gutter*2;
+  }
 }
 .multiselect__option.multiselect__option--highlight {
   background: $grey-light-color;
 }
 .multiselect__option--selected.multiselect__option--highlight {
-  background: $warn-color;
+  background: $grey-light-color; // NOTE: change to `$warn-color` if `:allow-empty="true"`
 }
 </style>
 
@@ -121,6 +138,7 @@ $mutliselect-height: 68px;
       :placeholder="$t('choose_currency')"
       label="name"
       track-by="name"
+      :allow-empty="false"
       :preselect-first="false">
       <template slot="singleLabel" slot-scope="props">
         <div class="coin-logo">
