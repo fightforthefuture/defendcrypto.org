@@ -59,7 +59,7 @@ en:
       code: LOOM
       logo: /coins/loom.png
       amount: 0
-     - name: Maker
+    - name: Maker
       code: MKR
       logo: /coins/maker.png
       amount: 0
