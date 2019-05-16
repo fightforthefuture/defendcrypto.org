@@ -16,9 +16,6 @@
 .with-border {
   border: 1px solid $grey-color;
 }
-a.with-border {
-  display: block;
-}
 a.with-border:hover,
 a.with-border:focus {
   border-color: $brand-color;

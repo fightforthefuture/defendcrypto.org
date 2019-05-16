@@ -145,7 +145,7 @@
                target="_blank">
               <img src="~assets/images/link-icon.svg"
                    :alt="$t('resources.link_icon_alt')"
-                   class="img-inline">
+                   class="link-icon">
               <span>{{ resource.title }}</span>
             </a>
           </div> <!-- .c -->
