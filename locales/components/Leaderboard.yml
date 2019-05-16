@@ -67,11 +67,3 @@ en:
       code: OMG
       logo: /coins/omisego.svg
       amount: 0
-    - name: Stellar
-      code: XLM
-      logo: /coins/stellar.svg
-      amount: 0
-    - name: Ripple
-      code: XRP
-      logo: /coins/ripple.svg
-      amount: 0
