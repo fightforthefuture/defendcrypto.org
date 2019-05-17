@@ -1,0 +1,53 @@
+en:
+  events:
+    - date: September 12, 2017
+      description_html: >
+        Kin Token Sale<br>
+        2.5+ people using Kin in Kik
+
+    - date: September 15, 2017
+      description_html: >
+        SEC sends an inquiry<br>
+        (ongoing document production)
+
+    - date: December 2017
+      description_html: 5k+ people using Kin in Kik
+
+    - date: January 18, 2018
+      description_html: >
+        SEC issues first subpeona<br>
+        (ongoing document production)
+
+    - date: February 6, 2018
+      description_html: Kin gives a presentation to the SEC
+
+    - date: July 2018
+      description_html: 10k+ Monthly Active Spenders (MAS)
+
+    - date: Aug - Oct 2018
+      description_html: Formal testimonies
+
+    - date: October 2018
+      description_html: 30 Live Apps
+
+    - date: November 16, 2018
+      description_html: SEC issues Kin a Wells Notice
+
+    - date: December 2018
+      description_html: 50k MAS
+
+    - date: December 10, 2018
+      description_html: Kin responds with a Wells Submission
+
+    - date: February 2019
+      description_html: >
+        40 Live Apps / 100k MAS
+
+    - date: March 29, 2019
+      description_html: Kin gives another presentation to the SEC
+
+    - date: April 2019
+      description_html: 200k MAS
+
+    - date: May 2019
+      description_html: 300k MAS

@@ -15,32 +15,32 @@ en:
   what_title: What’s happening?
   what_html: |
     <h4>
-      In January 2019, Kin came out publicly to share what has been going on 
+      In January 2019, Kin came out publicly to share what has been going on
       <a href="https://www.wsj.com/articles/are-ico-tokens-securities-startup-wants-a-judge-to-decide-11548604800" target="_blank">
         behind the scenes</a>
-      with the SEC. This has been a burden for not just Kin, but many others in the 
-      space who are optimizing for regulation before innovation. Everyone is always 
+      with the SEC. This has been a burden for not just Kin, but many others in the
+      space who are optimizing for regulation before innovation. Everyone is always
       asking “what will the SEC think?” instead of “what is best for consumers?”
       <br>
       <br>
-      Despite the fact that last month over 250,000 people earned and spent Kin as a 
-      currency, the SEC is still saying that it might be a security. After months of 
-      trying to find a reasonable solution, Kin has been unable to reach a settlement 
-      that wouldn’t severely impact the Kin project and everyone in the space. So Kin 
-      is going to take on the SEC in court to make sure there is a foundation for 
+      Despite the fact that last month over 250,000 people earned and spent Kin as a
+      currency, the SEC is still saying that it might be a security. After months of
+      trying to find a reasonable solution, Kin has been unable to reach a settlement
+      that wouldn’t severely impact the Kin project and everyone in the space. So Kin
+      is going to take on the SEC in court to make sure there is a foundation for
       innovation going forward.
     </h4>
   why_title: Why does it matter?
   why_html: |
     <h4>
-      For the future of crypto, we all need Kin to win. This case will set a precedent, 
+      For the future of crypto, we all need Kin to win. This case will set a precedent,
       serving as the new
       <a href="https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets" target="_blank">
         Howey Test</a>
-      for how cryptocurrencies are regulated in the United States. That’s why Kin set 
-      up the Defend Crypto fund to ensure that the funds are there to do this the right 
-      way. Kin has already spent over $5MM and is committing another $5MM of BTC, ETH, 
-      and KIN in a Coinbase Custody account to fight this out on behalf of the industry. 
+      for how cryptocurrencies are regulated in the United States. That’s why Kin set
+      up the Defend Crypto fund to ensure that the funds are there to do this the right
+      way. Kin has already spent over $5MM and is committing another $5MM of BTC, ETH,
+      and KIN in a Coinbase Custody account to fight this out on behalf of the industry.
     </h4>
   action_title: What can you do?
   action_html: |
@@ -79,6 +79,9 @@ en:
     Do you want to receive email updates about the latest breaking news in the
     fight to defend crypto?  Would you like your organization to be listed with
     our partners?  Fill out the information below and let us know.
+  how_title: How We Got Here
+  how_description: >
+    The SEC first reached out three days after the token sale, and since then Kin has continued to comply with all of their requests and work hard to find a path forward with the SEC. Despite the regulatory overhang, the Kin ecosystem continues to grow with more and more developers building with Kin, and more and more people using Kin as a currency. Below is a timeline of events going all the way back to the token sale. During this entire time, Kin has been trying to find a reasonable settlement but has been unable to do so.
   faqs:
     title: FAQs
     items:

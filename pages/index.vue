@@ -116,7 +116,7 @@
       </div> <!-- .with-border-left -->
     </section>
 
-    <section id="contribute" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+    <section id="contribute" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -128,6 +128,22 @@
             </h4>
             <ActionNetworkForm />
           </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
+
+    <section id="how" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center">
+              {{ $t('how_title') }}
+            </h2>
+            <h4 class="sml-push-y2 med-push-y3">
+              {{ $t('how_description') }}
+            </h4>
+          </div> <!-- .c -->
+          <Timeline />
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
@@ -178,13 +194,15 @@ import DefaultLayout from '~/components/DefaultLayout'
 import ActionNetworkForm from '~/components/ActionNetworkForm'
 import Cryptocurrencies from '~/components/Cryptocurrencies'
 import Leaderboard from '~/components/Leaderboard'
+import Timeline from '~/components/Timeline'
 
 export default {
   components: {
     DefaultLayout,
     ActionNetworkForm,
     Cryptocurrencies,
-    Leaderboard
+    Leaderboard,
+    Timeline
   },
 
   head() {
