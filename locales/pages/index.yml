@@ -11,8 +11,11 @@ en:
       on the line, $5MM might not be enough. So we're calling on others to 
       contribute to the Defend Crypto fund.
       <br>
+      <br>
       <strong>Select a cryptocurrency from the list below and copy
-      the Coinbase Custody address displayed.</strong>
+      the <a href="https://custody.coinbase.com/" target="_blank">
+        Coinbase Custody</a>
+      address displayed.</strong>
     </h4>
   scroll_down: Contribute
   what_title: What’s happening?
