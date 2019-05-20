@@ -1,11 +1,13 @@
 en:
   choose_currency: "Choose a cryptocurrency"
+  <!--
   copy_instructions_html: |
     <p><small>
       *Copy this address and use it to contribute to the Defend Crypto
       <a href="https://custody.coinbase.com/" target="_blank">Coinbase Custody</a>
       account
     </small></p>
+  -->
   coins:
     - name: "Basic Attention Token"
       code: "BAT"
