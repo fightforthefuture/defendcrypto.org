@@ -68,7 +68,7 @@ en:
     - name: "US Dollar Coin"
       code: "USDC"
       address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
-      logo: "/coins/litecoin.svg"
+      logo: "/coins/USDC.png"
     - name: "Zcash"
       code: "ZEC"
       address: "t1T3QLVvFyuypTs7azCKcP9wrwJnpEsBYxH"
