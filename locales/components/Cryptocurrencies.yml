@@ -65,7 +65,7 @@ en:
       code: "LTC"
       address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
       logo: "/coins/litecoin.svg"
-     - name: "US Dollar Coin"
+    - name: "US Dollar Coin"
       code: "USDC"
       address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
       logo: "/coins/litecoin.svg"
