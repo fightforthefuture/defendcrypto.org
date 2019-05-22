@@ -25,15 +25,15 @@
 </style>
 
 <template>
-  <div class="leaderboard">
+  <div class="leaderboard" v-show="currencies.length > 0">
     <div class="fill-grey-dark sml-pad-2 is-rounded-top">
       <h4 class="text-center">
-        <strong class="text-brand">{{ $t('currently_pledged_amount') }}</strong>
+        <strong class="text-brand">{{ totalAmount }}</strong>
         {{ $t('currently_pledged_text') }}
       </h4>
     </div> <!-- .pad -->
     <div class="fill-grey sml-pad-x2 sml-pad-y1 is-rounded-bottom">
-      <div v-for="(currency, index) in $t('top_currencies')"
+      <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
            class="sml-pad-y1 flex-grid sml-flex-col med-flex-row"
            :class="{ 'with-border-bottom': index < totalNumCurrencies - 1 }">
@@ -55,13 +55,42 @@
 </template>
 
 <script>
+function formatCurrency(value) {
+  return '$' + value.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')
+}
+
 export default {
+  data() {
+    return {
+      currencies: [],
+      totalAmount: null
+    }
+  },
+
   computed: {
-    currencies() {
-      return this.$t('top_currencies')
-    },
     totalNumCurrencies() {
       return Object.keys(this.currencies).length
+    }
+  },
+
+  created() {
+    this.fetchCurrencies()
+  },
+
+  methods: {
+    async fetchCurrencies() {
+      const { data } = await this.$axios.get('https://api.defendcrypto.org/leaderboard')
+
+      for (const account of data.currencies) {
+        this.currencies.push({
+          name: account.name,
+          code: account.code,
+          logo: `/currencies/${account.name.toLowerCase().replace(/\s/g, '-')}.png`,
+          amount: formatCurrency(account.usd_balance)
+        })
+      }
+
+      this.totalAmount = formatCurrency(data.usd_total)
     }
   }
 }
