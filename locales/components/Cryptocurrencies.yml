@@ -1,13 +1,8 @@
 en:
   choose_currency: "Choose a cryptocurrency"
-  copy_instructions_html: |
-    <!--
-    <p><small>
-      *Copy this address and use it to contribute to the Defend Crypto
-      <a href="https://www.coinbase.com/" target="_blank">Coinbase</a>
-      account
-    </small></p>
-    -->
+  address_label: "Deposit Address:"
+  memo_label: "Memo ID:"
+  tag_label: "Tag:"
   coins:
     - name: "Augur"
       code: "REP"
@@ -41,6 +36,11 @@ en:
       code: "MANA"
       address: "0x5fF3e1b8B4f4ed6963541e2018984d0083edB9a1"
       logo: "/coins/mana.png"
+    - name: EOS
+      code: EOS
+      address: coinbasebase
+      memo: 2774506585
+      logo: "/coins/eos.png"
     - name: "Ethereum"
       code: "ETH"
       address: "0xa6f306743B6308C2cBB4bB41074812478dA7a0ae"
@@ -61,10 +61,31 @@ en:
       code: "LOOM"
       address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
       logo: "/coins/loom.png"
+<<<<<<< HEAD
     - name: "US Dollar Coin"
       code: "USDC"
       address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
       logo: "/coins/USDC.png"
+=======
+    - name: "Litecoin"
+      code: "LTC"
+      address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
+      logo: "/coins/litecoin.svg"
+    - name: Stellar
+      code: XLM
+      address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
+      memo:  3892875212
+      logo: "/coins/stellar.svg"
+    - name: "US Dollar Coin"
+      code: "USDC"
+      address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
+      logo: "/coins/us-dollar-coin.png"
+    - name: Ripple
+      code: XRP
+      address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
+      tag:  3715048635
+      logo: "/coins/ripple.png"
+>>>>>>> Add more memo and tag crypto fields
     - name: "Zcash"
       code: "ZEC"
       address: "t1T3QLVvFyuypTs7azCKcP9wrwJnpEsBYxH"
@@ -73,3 +94,5 @@ en:
       code: "ZRX"
       address: "0x8b8c8829dd800bA6F6Ea234f4F4c02762E71E6F2"
       logo: "/coins/0x.png"
+
+
