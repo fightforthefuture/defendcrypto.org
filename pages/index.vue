@@ -5,11 +5,12 @@
 .video-hero {
   position: relative;
   overflow: hidden;
-  background: #0B0316; // One-off Matches video
-  color: $white;
+  padding-bottom: $gutter*10;
+  background: $white;
+  color: $black;
+  padding-top: 80px;
 
   @include respond-to-max(med) {
-    background: #0B0316 url('/video-bg-poster.jpg') top center no-repeat;
     background-size: contain;
   }
 }
@@ -25,21 +26,16 @@
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y3 med-pad-y4">
-      <video autoplay loop muted playsinline class="fade-in sml-hide lrg-show"
-             poster="/video-bg-poster.jpg">
-        <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
-      </video>
-
+    <section class="video-hero sml-pad-y2 med-pad-y4">
       <div class="wrapper with-overflow">
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
              class="grid-center kin-logo-sm">
-        <h1 class="text-center sml-push-y2">
+        <h1 class="text-center sml-push-y4">
           {{ $t('page_title') }}
         </h1>
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center text-center">
+          <div class="sml-c12 lrg-c8 grid-center sml-push-y4">
             <div v-html="$t('intro_html')"></div>
 
             <Cryptocurrencies class="sml-push-y2 med-push-y4" />

@@ -1,22 +1,29 @@
 en:
   page_title: "Defend Crypto"
   intro_html: |
-    <h4>
+    <p>
       The SEC has been shaping the future of crypto behind the scenes with
       settlements that set a dangerous precedent and stifle
       <a href="https://www.sec.gov/news/speech/peirce-how-we-howey-050919" target="_blank">
         innovation</a>.
+      <br>
+      <br>
       Kin is unwilling to let that happen and is setting aside $5MM with
-      Coinbase to take them on in court. But with the future of crypto on the line,
+      Coinbase to take them on in court.
+      <br>
+      <br>
+      But with the future of crypto on the line,
       $5MM might not be enough. That's why we're calling on others to contribute to
       the Defend Crypto fund.
       <br>
       <br>
-      <strong>Want to Contribute?  Select a cryptocurrency from the list below and
+      <strong>Want to Contribute?</strong>
+      <br>
+      Select a cryptocurrency from the list below and
       copy the <a href="https://www.coinbase.com/" target="_blank">
         Coinbase</a>
-      address displayed.</strong>
-    </h4>
+      address displayed.
+    </p>
   scroll_down: Contribute
   what_title: What’s happening?
   what_html: |
