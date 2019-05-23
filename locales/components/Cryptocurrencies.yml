@@ -61,12 +61,6 @@ en:
       code: "LOOM"
       address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
       logo: "/coins/loom.png"
-    <!--
-    - name: "Litecoin"
-      code: "LTC"
-      address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
-      logo: "/coins/litecoin.svg"
-    -->
     - name: "US Dollar Coin"
       code: "USDC"
       address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
