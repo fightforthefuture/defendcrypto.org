@@ -26,17 +26,16 @@
 
 <template>
   <div class="leaderboard" v-show="currencies.length > 0">
-    <div class="fill-grey-dark sml-pad-2 is-rounded-top">
-      <h4 class="text-center">
+    <div class="fill-blue-dark sml-pad-2 sml-pad-y6 is-rounded-top">
+      <h2 class="text-center">
         <strong class="text-brand">{{ totalAmount }}</strong>
         {{ $t('currently_pledged_text') }}
-      </h4>
+      </h2>
     </div> <!-- .pad -->
-    <div class="fill-grey sml-pad-x2 sml-pad-y1 is-rounded-bottom">
+    <div class="fill-blue-dark sml-pad-x2 sml-pad-y1 is-rounded-bottom">
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
-           class="sml-pad-y1 flex-grid sml-flex-col med-flex-row"
-           :class="{ 'with-border-bottom': index < totalNumCurrencies - 1 }">
+           class="sml-pad-y1 flex-grid sml-flex-col med-flex-row">
         <div class="sml-flex-2 med-flex-1">
           <div class="coin-logo">
             <img :src="currency.logo" :alt="`${currency.name}-logo`">

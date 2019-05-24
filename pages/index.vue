@@ -22,6 +22,10 @@
 .video-hero .wrapper {
   position: relative; // to avoid strange video z-index behavior
 }
+
+#leaderboard {
+  background: $dark-blue-color;
+}
 </style>
 
 <template>

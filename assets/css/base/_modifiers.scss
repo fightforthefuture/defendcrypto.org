@@ -62,6 +62,10 @@ a.with-border:focus {
   background: $grey-darkest-color;
   color: $white;
 }
+.fill-blue-dark {
+  background: $dark-blue-color;
+  color: $white;
+}
 .fill-white {
   background: $white;
   color: $grey-dark-color; // TODO: update if page has a light background and this is not the text color
