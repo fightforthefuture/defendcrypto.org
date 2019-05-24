@@ -146,9 +146,9 @@
             <h2 class="text-center bold-color-text">
               {{ $t('how_title') }}
             </h2>
-            <p class="sml-push-y2 med-push-y3 font-color-light-grey">
+            <div class="sml-push-y2 med-push-y3 font-color-light-grey">
               <div v-html="$t('how_description_html')"></div>
-            </p>
+            </div>
           </div> <!-- .c -->
           <Timeline />
         </div> <!-- .row -->
