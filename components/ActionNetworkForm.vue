@@ -3,9 +3,9 @@
 
 <template>
   <div class="sml-push-y2 med-push-y3">
-    <div class="text-center">
+    <div>
       <div v-if="hasSigned">
-        <h2 class="text-success">{{ $t('thanks.title') }}</h2>
+        <h2 class="text-success text-center">{{ $t('thanks.title') }}</h2>
         <p class="sml-push-y1">{{ $t('thanks.share') }}</p>
         <div class="row sml-push-y2 med-push-y3">
           <div class="sml-c12 lrg-c6">

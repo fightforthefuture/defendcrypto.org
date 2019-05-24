@@ -142,7 +142,7 @@
     <section id="how" class="sml-pad-y3 med-pad-y6">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
+          <div class="sml-c12 lrg-c8 grid-center sml-pad-y2 med-pad-y6">
             <h2 class="text-center bold-color-text">
               {{ $t('how_title') }}
             </h2>
