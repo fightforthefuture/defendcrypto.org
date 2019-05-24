@@ -16,10 +16,10 @@ en:
       code: "BTC"
       address: "3NVEvcb2tbWYLQgcN67qQaCFsjcHEdqtUa"
       logo: "/coins/bitcoin.svg"
-    - name: "Bitcoin Cash"
-      code: "BCH"
-      address: "qrzsq3hhjwu770xvdr59820kzlemcl70ngnxdly9ys"
-      logo: "/coins/bitcoin-cash.png"
+    # - name: "Bitcoin Cash"
+    #   code: "BCH"
+    #   address: "qrzsq3hhjwu770xvdr59820kzlemcl70ngnxdly9ys"
+    #   logo: "/coins/bitcoin-cash.png"
     - name: "Civic"
       code: "CVC"
       address: "0x2e295457717E765Ab35C6Aeed4516ad95306ADe8"
@@ -36,11 +36,11 @@ en:
       code: "MANA"
       address: "0x5fF3e1b8B4f4ed6963541e2018984d0083edB9a1"
       logo: "/coins/mana.png"
-    - name: EOS
-      code: EOS
-      address: coinbasebase
-      memo: 2774506585
-      logo: "/coins/eos.png"
+    # - name: EOS
+    #   code: EOS
+    #   address: coinbasebase
+    #   memo: 2774506585
+    #   logo: "/coins/eos.png"
     - name: "Ethereum"
       code: "ETH"
       address: "0xa6f306743B6308C2cBB4bB41074812478dA7a0ae"
@@ -61,10 +61,10 @@ en:
       code: "LOOM"
       address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
       logo: "/coins/loom.png"
-    - name: "Litecoin"
-      code: "LTC"
-      address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
-      logo: "/coins/litecoin.svg"
+    # - name: "Litecoin"
+    #   code: "LTC"
+    #   address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
+    #   logo: "/coins/litecoin.svg"
     - name: Stellar
       code: XLM
       address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
