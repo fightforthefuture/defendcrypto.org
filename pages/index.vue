@@ -66,7 +66,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="what" class="sml-pad-y3 med-pad-y6">
+    <section id="what" class="sml-pad-y6 med-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -104,7 +104,7 @@
       </div> <!-- -->
     </section>
 
-    <section id="action" class="med-pad-y6">
+    <section id="action" class="med-pad-y6 sml-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -126,7 +126,7 @@
     <section id="contribute" class="sml-pad-y3">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
+          <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
             <h2 id="contribute" class="text-center">
               {{ $t('contribute_title') }}
             </h2>
@@ -143,7 +143,7 @@
     <section id="how" class="sml-pad-y3 med-pad-y6">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
+          <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
             <h2 class="text-center">
               {{ $t('how_title') }}
             </h2>
