@@ -111,7 +111,7 @@ en:
     </p>
   press_contact_html: >
     Questions and press inquiries:
-    <a href="mailto:info@kinecosystem.com">info@kinecosystem.com</a>
+    <a href="mailto:{email}">{email}</a>
   faqs:
     title: FAQs
     items:

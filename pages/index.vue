@@ -186,7 +186,7 @@
               <span>{{ resource.title }}</span>
             </a>
             <br>
-            <p v-html="$t('press_contact_html')"></p>
+            <p v-html="$t('press_contact_html', { email: $t('global.contact.email') })"></p>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
