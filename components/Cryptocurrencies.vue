@@ -144,6 +144,7 @@ form input[type=text].input-inverted {
   font-weight: $bold-font-weight;
   background: $grey-light-color;
   border: none;
+  color: $black;
 }
 </style>
 

@@ -27,7 +27,7 @@ en:
   scroll_down: Contribute
   what_title: What’s happening?
   what_html: |
-    <h4>
+    <p>
       In January 2019, Kin came out publicly to share what has been going on
       <a href="https://www.wsj.com/articles/are-ico-tokens-securities-startup-wants-a-judge-to-decide-11548604800" target="_blank">
         behind the scenes</a>
@@ -42,10 +42,10 @@ en:
       that wouldn’t severely impact the Kin project and everyone in the space. So Kin
       is going to take on the SEC in court to make sure there is a foundation for
       innovation going forward.
-    </h4>
+    </p>
   why_title: Why does it matter?
   why_html: |
-    <h4>
+    <p>
       For the future of crypto, we all need Kin to win. This case will set a precedent,
       serving as the new
       <a href="https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets" target="_blank">
@@ -54,10 +54,10 @@ en:
       up the Defend Crypto fund to ensure that the funds are there to do this the right
       way. Kin has already spent over $5MM and is committing another $5MM of BTC, ETH,
       and KIN in a Coinbase account to fight this out on behalf of the industry.
-    </h4>
+    </p>
   action_title: What can you do?
   action_html: |
-    <h4>
+    <p>
       If you too are fed up with this innovation tax, we encourage you to
       contribute also as we take on the SEC on behalf of the future of crypto
       in the US. Any additional contributions will be held with Coinbase and
@@ -68,7 +68,7 @@ en:
       <br>
       <strong>We need to let the SEC know that we won’t be pushed around anymore.
       It is time to Defend Crypto.</strong>
-    </h4>
+    </p>
   resources:
     title: Additional Information
     link_icon_alt: Link icon

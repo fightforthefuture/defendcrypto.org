@@ -5,6 +5,7 @@
 // Colors
 $white:               #FFF;
 $black:               #000;
+$grey-lightest-color: #f3f3f3;
 $grey-lighter-color:  #E2E2E2;
 $grey-light-color:    #F2F2F2;
 $grey-med-color:      #684CAB;
@@ -13,8 +14,9 @@ $grey-dark-color:     #280F5A;
 $grey-darkest-color:  #1E0F45;
 $brand-color:         #6645F5;
 $brand-light-color:   lighten($brand-color, 15%);
+$bold-color:          #36ef8b;
 $background-color:    $white;
-$text-color:          $grey-dark-color;
+$text-color:          $black;
 $success-color:       #00CF96;
 $warn-color:          #EB3B43;
 $dark-blue-color:     #0F325A;

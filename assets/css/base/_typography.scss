@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-family: $heading-stack;
   font-size: $m-font-size-2;
-  font-weight: $base-font-weight;
+  font-weight: $bold-font-weight;
   line-height: 1.1;
   text-transform: capitalize;
 
@@ -95,6 +95,9 @@ small {
 }
 .text-brand {
   color: $brand-color;
+}
+.text-bold {
+  color: $bold-color;
 }
 .text-grey-med {
   color: $grey-med-color;

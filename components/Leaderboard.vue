@@ -18,6 +18,9 @@
   }
 }
 .leaderboard .amount {
+  color: $white;
+}
+.leaderboard .amount {
   @include respond-to(med) {
     text-align: right;
   }
@@ -28,11 +31,11 @@
   <div class="leaderboard" v-show="currencies.length > 0">
     <div class="fill-blue-dark sml-pad-2 sml-pad-y6 is-rounded-top">
       <h2 class="text-center">
-        <strong class="text-brand">{{ totalAmount }}</strong>
+        <strong class="text-bold">{{ totalAmount }}</strong>
         {{ $t('currently_pledged_text') }}
       </h2>
     </div> <!-- .pad -->
-    <div class="fill-blue-dark sml-pad-x2 sml-pad-y1 is-rounded-bottom">
+    <div class="fill-blue-dark sml-pad-x2 sml-pad-y2 is-rounded-bottom">
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
            class="sml-pad-y1 flex-grid sml-flex-col med-flex-row">
@@ -45,7 +48,7 @@
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
              class="arrow sml-push-y-half sml-hide med-show">
-        <p class="amount text-brand">
+        <p class="amount text-bold">
           {{ currency.amount }}
         </p>
       </div> <!-- v-for -->
