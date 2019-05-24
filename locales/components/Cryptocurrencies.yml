@@ -61,12 +61,6 @@ en:
       code: "LOOM"
       address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
       logo: "/coins/loom.png"
-<<<<<<< HEAD
-    - name: "US Dollar Coin"
-      code: "USDC"
-      address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
-      logo: "/coins/USDC.png"
-=======
     - name: "Litecoin"
       code: "LTC"
       address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
@@ -85,7 +79,6 @@ en:
       address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
       tag:  3715048635
       logo: "/coins/ripple.png"
->>>>>>> Add more memo and tag crypto fields
     - name: "Zcash"
       code: "ZEC"
       address: "t1T3QLVvFyuypTs7azCKcP9wrwJnpEsBYxH"
