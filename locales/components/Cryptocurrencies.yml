@@ -65,16 +65,16 @@ en:
       code: "LOOM"
       address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
       logo: "/coins/loom.png"
-    # - name: Ripple
-    #   code: XRP
-    #   address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
-    #   tag:  3715048635
-    #   logo: "/coins/ripple.png"
-    # - name: Stellar
-    #   code: XLM
-    #   address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
-    #   memo:  3892875212
-    #   logo: "/coins/stellar.svg"
+    - name: Ripple
+      code: XRP
+      address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
+      tag:  3715048635
+      logo: "/coins/ripple.png"
+    - name: Stellar
+      code: XLM
+      address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
+      memo:  3892875212
+      logo: "/coins/stellar.svg"
     - name: "US Dollar Coin"
       code: "USDC"
       address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
