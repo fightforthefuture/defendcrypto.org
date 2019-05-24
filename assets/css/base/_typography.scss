@@ -142,3 +142,24 @@ button:hover,
 button:focus {
   color: $grey-med-color;
 }
+
+// Terms of Service, etc.
+.legal-copy {
+  b {
+    font-weight: $bold-font-weight;
+  }
+
+  p > b:first-child {
+    margin-top: $gutter * 2;
+    display: inline-block;
+  }
+
+  ul {
+    margin-left: $gutter * 2;
+
+    li {
+      list-style-type: disc;
+      margin-bottom: $gutter;
+    }
+  }
+}
