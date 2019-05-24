@@ -43,14 +43,14 @@
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
              class="grid-center kin-logo-sm">
-        <h1 class="text-center sml-push-y4 serif-font">
+        <h1 class="text-center sml-push-y4">
           {{ $t('page_title') }}
         </h1>
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center sml-push-y4">
             <div v-html="$t('intro_html')"></div>
 
-            <Cryptocurrencies class="sml-push-y2 med-push-y4" />
+            <Cryptocurrencies class="sml-push-y2 med-push-y4 lrg-push-y6" />
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->

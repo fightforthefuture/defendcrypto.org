@@ -14,7 +14,7 @@ $mutliselect-height: 68px;
 
 // Multiselect > Chosen Selection area
 .multiselect {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 
   @include respond-to-max(sml) {
@@ -140,7 +140,7 @@ $mutliselect-height: 68px;
   background: $brand-color; // NOTE: change to `$warn-color` if `:allow-empty="true"`
 }
 .wallet-address {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 20px;
   font-family: $monospace-stack;
