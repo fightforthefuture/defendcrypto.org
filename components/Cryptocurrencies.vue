@@ -16,6 +16,10 @@ $mutliselect-height: 68px;
 .multiselect {
   width: 80%;
   margin: 0 auto;
+
+  @include respond-to-max(sml) {
+    width: 100%;
+  }
 }
 
 .multiselect,
@@ -139,6 +143,10 @@ $mutliselect-height: 68px;
   width: 80%;
   margin: 0 auto;
   margin-top: 20px;
+
+  @include respond-to-max(sml) {
+    width: 100%;
+  }
 }
 form input[type=text].input-inverted {
   font-weight: $bold-font-weight;
