@@ -143,13 +143,13 @@ $mutliselect-height: 68px;
   width: 80%;
   margin: 0 auto;
   margin-top: 20px;
+  font-family: $monospace-stack;
 
   @include respond-to-max(sml) {
     width: 100%;
   }
 }
 form input[type=text].input-inverted {
-  font-weight: $bold-font-weight;
   background: $grey-light-color;
   border: none;
   color: $black;

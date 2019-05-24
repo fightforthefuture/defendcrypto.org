@@ -28,14 +28,15 @@ $twitter-dark-color:      darken($twitter-color, 10%);
 
 // Typography
 $base-text-align: left; // switch for rtl
-$sans-serif-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$heading-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif-stack: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-stack: "IBM Plex Sans", "IBM Plex Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monospace-stack: "IBM Plex Monospace", "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size: 18px;
 $base-font-weight: 400;
 $bold-font-weight: 700;
 $base-line-height: 1.6;
 
-$font-size-1: 38px;
+$font-size-1: 32px;
 $font-size-2: 28px;
 $font-size-3: 28px;
 $font-size-4: 18px;
