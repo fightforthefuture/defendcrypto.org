@@ -18,10 +18,15 @@
 .leaderboard .amount {
   @include respond-to(sml) {
     text-align: right;
+  }
+}
+.leaderboard .amount {
+  @include respond-to-max(sml) {
     position: relative;
     bottom: 25px;
   }
 }
+
 </style>
 
 <template>
