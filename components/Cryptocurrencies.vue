@@ -14,7 +14,7 @@ $mutliselect-height: 68px;
 
 // Multiselect > Chosen Selection area
 .multiselect {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ $mutliselect-height: 68px;
 .multiselect__single,
 .multiselect__option {
   overflow: hidden;
-  line-height: $base-line-height;
+  line-height: 2;
 }
 
 // Multi Select > Drop down options container
@@ -136,10 +136,14 @@ $mutliselect-height: 68px;
   background: $brand-color; // NOTE: change to `$warn-color` if `:allow-empty="true"`
 }
 .wallet-address {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 20px;
+}
+form input[type=text].input-inverted {
   font-weight: $bold-font-weight;
+  background: $grey-light-color;
+  border: none;
 }
 </style>
 
