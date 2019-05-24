@@ -171,7 +171,7 @@ form input[type=text].input-inverted {
       track-by="name"
       :allow-empty="false"
       :preselect-first="false"
-      openDirection="bottom">
+      open-direction="bottom">
       <template slot="singleLabel" slot-scope="props">
         <div class="coin-logo">
           <img :src="props.option.logo" :alt="props.option.name">
