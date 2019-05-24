@@ -143,32 +143,14 @@
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
-            <h2 class="text-center">
+            <h2 class="text-center bold-color-text">
               {{ $t('how_title') }}
             </h2>
-            <p class="sml-push-y2 med-push-y3">
-              {{ $t('how_description') }}
+            <p class="sml-push-y2 med-push-y3 font-color-light-grey">
+              <div v-html="$t('how_description_html')"></div>
             </p>
           </div> <!-- .c -->
           <Timeline />
-        </div> <!-- .row -->
-      </div> <!-- .wrapper -->
-    </section>
-
-    <section id="resources" class="sml-pad-y3 med-pad-y6">
-      <div class="wrapper">
-        <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-center">{{ $t('resources.title') }}</h2>
-
-            <a v-for="(resource, index) in $t('resources.links')"
-               :key="`resource-${index}`"
-               class="sml-pad-2 sml-push-y2 with-border is-rounded flex-grid sml-flex-row"
-               :href="resource.link_url"
-               target="_blank">
-              <span>{{ resource.title }}</span>
-            </a>
-          </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
@@ -185,6 +167,25 @@
               <p class="bold-text">{{ faq.question }}</p>
               <p class="sml-push-y1">{{ faq. answer }}</p>
             </div>
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
+
+    <section id="resources" class="sml-pad-y3 med-pad-y6">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center">{{ $t('resources.title') }}</h2>
+
+            <a v-for="(resource, index) in $t('resources.links')"
+               :key="`resource-${index}`"
+               class="sml-pad-2 sml-push-y2 is-rounded no-padding flex-grid sml-flex-row"
+               :href="resource.link_url"
+               target="_blank">
+              <span>{{ resource.title }}</span>
+            </a>
+            <br>
             <p v-html="$t('press_contact_html')"></p>
           </div> <!-- .c -->
         </div> <!-- .row -->

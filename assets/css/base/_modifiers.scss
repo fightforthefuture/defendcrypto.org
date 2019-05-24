@@ -91,6 +91,9 @@ a.with-border:focus {
 .font-color-grey {
   color: $grey-med-color;
 }
+.font-color-light-grey {
+  color: $grey-light-color;
+}
 .border-div {
   width: 310px;
   height: 7px;
@@ -101,6 +104,12 @@ a.with-border:focus {
 .bold-text {
   font-weight: $bold-font-weight;
 }
+.bold-color-text {
+  color: $bold-color;
+}
 .serif-font {
   font-family: $serif-stack;
+}
+.no-padding {
+  padding: 0;
 }

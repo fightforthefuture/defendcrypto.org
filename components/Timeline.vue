@@ -8,7 +8,7 @@ $padding: $gutter * 1.5;
 ul {
   width: 600px;
   max-width: 96%;
-  margin: $gutter*3 auto;
+  margin: 0px auto;
 }
 
 li {

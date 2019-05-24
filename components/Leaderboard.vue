@@ -3,7 +3,7 @@
 <style lang="scss" scoped>
 .leaderboard img.arrow {
   flex: 0 0 38px;
-  height: $base-font-size;
+  height: 8px;
 }
 .leaderboard .coin-logo {
   @include respond-to-max(sml) {

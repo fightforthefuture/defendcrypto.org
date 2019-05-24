@@ -93,16 +93,22 @@ en:
     to defend crypto or want to find more ways to get involved, fill out the
     information below and let us know.
   how_title: How We Got Here
-  how_description: >
+  how_description_html: |
+    <p>
     The SEC first reached out three days after the token sale, and since then Kin has
     continued to comply with all of their requests and work hard to find a path forward
     with the SEC.
+    <br>
+    <br>
     Despite the regulatory overhang, the Kin ecosystem continues to grow
     with more and more developers building with Kin, and more and more people using Kin
     as a currency.
+    <br>
+    <br>
     Below is a timeline of events going all the way back to the token sale.
     During this entire time, Kin has been trying to find a reasonable settlement but has
     been unable to do so.
+    </p>
   press_contact_html: >
     Questions and press inquiries:
     <a href="mailto:info@kinecosystem.com">info@kinecosystem.com</a>
