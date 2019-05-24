@@ -6,7 +6,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: $gutter*10;
-  background: $white;
+  background: $grey-lightest-color;
   color: $black;
   padding-top: 80px;
 
@@ -43,7 +43,7 @@
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
              class="grid-center kin-logo-sm">
-        <h1 class="text-center sml-push-y4">
+        <h1 class="text-center sml-push-y4 serif-font">
           {{ $t('page_title') }}
         </h1>
         <div class="row">
@@ -56,7 +56,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="leaderboard" class="sml-push-y2 med-push-y4">
+    <section id="leaderboard">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -130,7 +130,6 @@
             <h2 id="contribute" class="text-center">
               {{ $t('contribute_title') }}
             </h2>
-            <div class="border-div"></div>
             <p class="sml-push-y2 med-push-y3">
               {{ $t('contribute_description') }}
             </p>

@@ -5,7 +5,7 @@
 // Colors
 $white:               #FFF;
 $black:               #000;
-$grey-lightest-color: #f3f3f3;
+$grey-lightest-color: #f9f9f9;
 $grey-lighter-color:  #E2E2E2;
 $grey-light-color:    #F2F2F2;
 $grey-med-color:      #C4C4C4;
@@ -29,7 +29,8 @@ $twitter-dark-color:      darken($twitter-color, 10%);
 // Typography
 $base-text-align: left; // switch for rtl
 $sans-serif-stack: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$heading-stack: "IBM Plex Sans", "IBM Plex Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-stack: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-stack: "IBM Plex Serif", "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $monospace-stack: "IBM Plex Monospace", "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size: 18px;
 $base-font-weight: 400;
