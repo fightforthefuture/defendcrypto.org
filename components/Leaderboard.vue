@@ -1,11 +1,6 @@
 <i18n src="~/locales/components/Leaderboard.yml"></i18n>
 
 <style lang="scss" scoped>
-.leaderboard {
-  @include respond-to-max(sml) {
-    text-align: center;
-  }
-}
 .leaderboard img.arrow {
   flex: 0 0 38px;
   height: $base-font-size;
@@ -21,8 +16,10 @@
   color: $white;
 }
 .leaderboard .amount {
-  @include respond-to(med) {
+  @include respond-to(sml) {
     text-align: right;
+    position: relative;
+    bottom: 25px;
   }
 }
 </style>
