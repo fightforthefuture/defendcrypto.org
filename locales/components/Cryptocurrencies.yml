@@ -24,18 +24,18 @@ en:
       code: "CVC"
       address: "0x2e295457717E765Ab35C6Aeed4516ad95306ADe8"
       logo: "/coins/civic.svg"
-    - name: "Dai Stablecoin"
-      code: "DAI"
-      address: "0xC2b1BbD137a01412b0B6634A2F5314617b192231"
-      logo: "/coins/dai.png"
-    - name: "district0x"
-      code: "DNT"
-      address: "0x6B41b4ab063e1d552C5b2C56950DDA621EE4b99f"
-      logo: "/coins/district0x.png"
+    # - name: "Dai"
+    #   code: "DAI"
+    #   address: "0xC2b1BbD137a01412b0B6634A2F5314617b192231"
+    #   logo: "/coins/dai.png"
     - name: "Decentraland"
       code: "MANA"
       address: "0x5fF3e1b8B4f4ed6963541e2018984d0083edB9a1"
       logo: "/coins/mana.png"
+    - name: "district0x"
+      code: "DNT"
+      address: "0x6B41b4ab063e1d552C5b2C56950DDA621EE4b99f"
+      logo: "/coins/district0x.png"
     # - name: EOS
     #   code: EOS
     #   address: coinbasebase
@@ -57,28 +57,28 @@ en:
       code: "KIN"
       address: "GBJHE4MXYF5YI6VRXRWSFXLJZ5G6YCK44I4VI3MDTMEXT3UQM2R5FSRQ"
       logo: "/coins/kin-logo.png"
-    - name: "Loom Network"
-      code: "LOOM"
-      address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
-      logo: "/coins/loom.png"
     # - name: "Litecoin"
     #   code: "LTC"
     #   address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
     #   logo: "/coins/litecoin.svg"
-    - name: Stellar
-      code: XLM
-      address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
-      memo:  3892875212
-      logo: "/coins/stellar.svg"
+    - name: "Loom Network"
+      code: "LOOM"
+      address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
+      logo: "/coins/loom.png"
+    # - name: Ripple
+    #   code: XRP
+    #   address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
+    #   tag:  3715048635
+    #   logo: "/coins/ripple.png"
+    # - name: Stellar
+    #   code: XLM
+    #   address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
+    #   memo:  3892875212
+    #   logo: "/coins/stellar.svg"
     - name: "US Dollar Coin"
       code: "USDC"
       address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
       logo: "/coins/us-dollar-coin.png"
-    - name: Ripple
-      code: XRP
-      address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
-      tag:  3715048635
-      logo: "/coins/ripple.png"
     - name: "Zcash"
       code: "ZEC"
       address: "t1T3QLVvFyuypTs7azCKcP9wrwJnpEsBYxH"
