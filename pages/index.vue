@@ -5,7 +5,6 @@
 .video-hero {
   position: relative;
   overflow: hidden;
-  padding-bottom: $gutter*10;
   background: #0B0316; // One-off Matches video
   color: $white;
 
@@ -26,7 +25,7 @@
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y2 med-pad-y4">
+    <section class="video-hero sml-pad-y3 med-pad-y4">
       <video autoplay loop muted playsinline class="fade-in sml-hide lrg-show"
              poster="/video-bg-poster.jpg">
         <source src="~assets/videos/video-bg.mp4" type="video/mp4" />

@@ -3,6 +3,10 @@
 <style lang="scss">
 $mutliselect-height: 68px;
 
+.currency-selector {
+  min-height: 243px; // Magic number
+}
+
 // Inactive
 .no-currency {
   opacity: 0;
@@ -103,7 +107,7 @@ $mutliselect-height: 68px;
 
 // Multi Select > Drop down options container
 .multiselect__content-wrapper {
-  height: 150px;
+  height: 190px;
   border-color: $grey-color;
 }
 
@@ -126,7 +130,7 @@ $mutliselect-height: 68px;
 </style>
 
 <template>
-  <div>
+  <div class="currency-selector">
     <multiselect
       v-model="selectedCurrency"
       :options="currencies"
@@ -155,6 +159,25 @@ $mutliselect-height: 68px;
     </multiselect>
 
     <form class="sml-push-y1" :class="{'no-currency': selectedCurrency === null}">
+      <div v-if="selectedCurrency && selectedCurrency.memo">
+        <label>{{ $t('memo_label') }}</label>
+        <input
+          type="text"
+          class="text-input input-inverted"
+          :value="selectedCurrency.memo"
+          readonly />
+      </div> <!-- v-if -->
+      <div v-if="selectedCurrency && selectedCurrency.tag">
+        <label>{{ $t('tag_label') }}</label>
+        <input
+          type="text"
+          class="text-input input-inverted"
+          :value="selectedCurrency.tag"
+          readonly />
+      </div> <!-- v-if -->
+      <label :class="{'sml-push-y-half': selectedCurrency && (selectedCurrency.memo || selectedCurrency.tag) }">
+        {{ $t('address_label') }}
+      </label>
       <input
         type="text"
         class="text-input input-inverted"
@@ -162,9 +185,6 @@ $mutliselect-height: 68px;
         :disabled="selectedCurrency === null"
         :placeholder="$t('choose_currency')"
         readonly />
-      <div class="text-brand sml-push-y-half"
-           v-html="$t('copy_instructions_html')">
-      </div>
     </form>
   </div>
 </template>

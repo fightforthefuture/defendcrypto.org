@@ -3,7 +3,9 @@
 // Forms > Labels
 form label {
   display: block;
-  padding-bottom: $gutter;
+  padding-bottom: $gutter/2;
+  text-align: left;
+  font-size: $font-size-6;
 }
 
 // Forms > Text Inputs & Textareas
