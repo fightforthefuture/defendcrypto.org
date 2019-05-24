@@ -11,7 +11,7 @@
               <div class="flex-grid sml-flex-col lrg-flex-row">
                 <p class="lrg-push-y2 lrg-flex-2">{{ $t('project_by') }}</p>
                 <a href="https://www.kin.org" target="_blank">
-                  <img src="~assets/images/kin-logo.svg"
+                  <img src="~assets/images/kin-logo-white.svg"
                        :alt="$t('global.common.logo_kin_alt')"
                        class="sml-push-y-half">
                 </a>
@@ -28,13 +28,6 @@
           </div> <!-- .pad -->
         </div> <!-- .flex-grid -->
       </div>
-    </div> <!-- .fill -->
-    <div class="fill-grey-darkest sml-pad-y2">
-      <div class="wrapper">
-        <div class="sml-c12 lrg-c8 grid-center">
-          <h4 v-html="$t('press_contact_html')"></h4>
-        </div> <!-- .c -->
-      </div> <!-- .wrapper -->
     </div> <!-- .fill -->
   </div> <!-- .page-footer -->
 </template>

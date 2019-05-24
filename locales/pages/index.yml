@@ -1,26 +1,33 @@
 en:
   page_title: "Defend Crypto"
   intro_html: |
-    <h4>
+    <p>
       The SEC has been shaping the future of crypto behind the scenes with
       settlements that set a dangerous precedent and stifle
       <a href="https://www.sec.gov/news/speech/peirce-how-we-howey-050919" target="_blank">
         innovation</a>.
+      <br>
+      <br>
       Kin is unwilling to let that happen and is setting aside $5MM with
-      Coinbase to take them on in court. But with the future of crypto on the line,
+      Coinbase to take them on in court.
+      <br>
+      <br>
+      But with the future of crypto on the line,
       $5MM might not be enough. That's why we're calling on others to contribute to
       the Defend Crypto fund.
       <br>
       <br>
-      <strong>Want to Contribute?  Select a cryptocurrency from the list below and
+      <strong>Want to Contribute?</strong>
+      <br>
+      Select a cryptocurrency from the list below and
       copy the <a href="https://www.coinbase.com/" target="_blank">
         Coinbase</a>
-      address displayed.</strong>
-    </h4>
+      address displayed.
+    </p>
   scroll_down: Contribute
   what_title: What’s happening?
   what_html: |
-    <h4>
+    <p>
       In January 2019, Kin came out publicly to share what has been going on
       <a href="https://www.wsj.com/articles/are-ico-tokens-securities-startup-wants-a-judge-to-decide-11548604800" target="_blank">
         behind the scenes</a>
@@ -35,10 +42,10 @@ en:
       that wouldn’t severely impact the Kin project and everyone in the space. So Kin
       is going to take on the SEC in court to make sure there is a foundation for
       innovation going forward.
-    </h4>
+    </p>
   why_title: Why does it matter?
   why_html: |
-    <h4>
+    <p>
       For the future of crypto, we all need Kin to win. This case will set a precedent,
       serving as the new
       <a href="https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets" target="_blank">
@@ -47,10 +54,10 @@ en:
       up the Defend Crypto fund to ensure that the funds are there to do this the right
       way. Kin has already spent over $5MM and is committing another $5MM of BTC, ETH,
       and KIN in a Coinbase account to fight this out on behalf of the industry.
-    </h4>
+    </p>
   action_title: What can you do?
   action_html: |
-    <h4>
+    <p>
       If you too are fed up with this innovation tax, we encourage you to
       contribute also as we take on the SEC on behalf of the future of crypto
       in the US. Any additional contributions will be held with Coinbase and
@@ -61,7 +68,7 @@ en:
       <br>
       <strong>We need to let the SEC know that we won’t be pushed around anymore.
       It is time to Defend Crypto.</strong>
-    </h4>
+    </p>
   resources:
     title: Additional Information
     link_icon_alt: Link icon
@@ -80,20 +87,31 @@ en:
   defenders_description: >
     This project wouldn’t be possible without the support of many courageous
     individuals and organizations.
-  contribute_title: Help Us Win
+  contribute_title: Together We Can Win
   contribute_description: |
     If you want to receive email updates about the latest breaking news in the fight
     to defend crypto or want to find more ways to get involved, fill out the
     information below and let us know.
   how_title: How We Got Here
-  how_description: >
+  how_description_html: |
+    <p>
     The SEC first reached out three days after the token sale, and since then Kin has
     continued to comply with all of their requests and work hard to find a path forward
-    with the SEC. Despite the regulatory overhang, the Kin ecosystem continues to grow
+    with the SEC.
+    <br>
+    <br>
+    Despite the regulatory overhang, the Kin ecosystem continues to grow
     with more and more developers building with Kin, and more and more people using Kin
-    as a currency. Below is a timeline of events going all the way back to the token sale.
+    as a currency.
+    <br>
+    <br>
+    Below is a timeline of events going all the way back to the token sale.
     During this entire time, Kin has been trying to find a reasonable settlement but has
     been unable to do so.
+    </p>
+  press_contact_html: >
+    Questions and press inquiries:
+    <a href="mailto:info@kinecosystem.com">info@kinecosystem.com</a>
   faqs:
     title: FAQs
     items:

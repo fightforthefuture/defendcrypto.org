@@ -13,9 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-family: $heading-stack;
   font-size: $m-font-size-1;
-  font-weight: $base-font-weight;
+  font-weight: $bold-font-weight;
   line-height: 0.85;
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   @include respond-to(lrg) {
     font-size: $font-size-1;
@@ -24,9 +24,9 @@ h1 {
 h2 {
   font-family: $heading-stack;
   font-size: $m-font-size-2;
-  font-weight: $base-font-weight;
+  font-weight: $bold-font-weight;
   line-height: 1.1;
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   @include respond-to(lrg) {
     font-size: $font-size-2;
@@ -54,6 +54,7 @@ h4 {
 // Typography > Text
 p {
   margin-bottom: $gutter;
+  font-size: $m-font-size-4;
 }
 p:last-of-type {
   margin-bottom: 0;
@@ -94,6 +95,9 @@ small {
 }
 .text-brand {
   color: $brand-color;
+}
+.text-bold {
+  color: $bold-color;
 }
 .text-grey-med {
   color: $grey-med-color;
@@ -136,5 +140,5 @@ a:hover,
 a:focus,
 button:hover,
 button:focus {
-  color: $brand-color;
+  color: $grey-med-color;
 }

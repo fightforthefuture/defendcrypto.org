@@ -13,6 +13,10 @@
     padding-left:  $gutter*2;
     padding-right: $gutter*2;
   }
+
+  @include respond-to-max(sml) {
+    width: 90%;
+  }
 }
 body.full-width .wrapper {
   max-width: none;

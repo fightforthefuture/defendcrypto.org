@@ -5,18 +5,21 @@
 // Colors
 $white:               #FFF;
 $black:               #000;
-$grey-lighter-color:  #AB8BFF;
-$grey-light-color:    #7139FF;
-$grey-med-color:      #684CAB;
+$grey-lightest-color: #f9f9f9;
+$grey-lighter-color:  #E2E2E2;
+$grey-light-color:    #F2F2F2;
+$grey-med-color:      #C4C4C4;
 $grey-color:          #40277C;
 $grey-dark-color:     #280F5A;
 $grey-darkest-color:  #1E0F45;
-$brand-color:         #00E4FF;
+$brand-color:         #6645F5;
 $brand-light-color:   lighten($brand-color, 15%);
+$bold-color:          #36ef8b;
 $background-color:    $white;
-$text-color:          $grey-dark-color;
+$text-color:          $black;
 $success-color:       #00CF96;
 $warn-color:          #EB3B43;
+$dark-blue-color:     #0F325A;
 
 $facebook-color:          #405993;
 $facebook-dark-color:     darken($facebook-color, 10%);
@@ -25,25 +28,27 @@ $twitter-dark-color:      darken($twitter-color, 10%);
 
 // Typography
 $base-text-align: left; // switch for rtl
-$sans-serif-stack: "neue-haas-grotesk-display", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$heading-stack: "mongoose", "Helvetica CY", "Impact", sans-serif;
+$sans-serif-stack: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-stack: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-stack: "IBM Plex Serif", "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monospace-stack: "IBM Plex Monospace", "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size: 18px;
-$base-font-weight: 500;
+$base-font-weight: 400;
 $bold-font-weight: 700;
 $base-line-height: 1.6;
 
-$font-size-1: 178px;
-$font-size-2: 62px;
+$font-size-1: 32px;
+$font-size-2: 28px;
 $font-size-3: 28px;
-$font-size-4: 23px;
+$font-size-4: 18px;
 // $font-size-5: 14px;
 $font-size-6: 14px;
 
-$m-font-size-1: 80px;
-$m-font-size-2: 48px;
-$m-font-size-3: 22px;
-$m-font-size-4: 20px;
-$m-font-size-6: 12px;
+$m-font-size-1: 38px;
+$m-font-size-2: 28px;
+$m-font-size-3: 18px;
+$m-font-size-4: 18px;
+$m-font-size-6: 14px;
 
 // Layout
 $gutter: 10px;

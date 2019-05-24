@@ -8,7 +8,7 @@ $padding: $gutter * 1.5;
 ul {
   width: 600px;
   max-width: 96%;
-  margin: $gutter*3 auto;
+  margin: 0px auto;
 }
 
 li {
@@ -18,11 +18,11 @@ li {
   .divider {
     position: absolute;
     width: 40%;
-    border-top: 2px solid $grey-color;
+    border-top: 2px solid $bold-color;
 
     &:after {
       content:"";
-      background: $grey-color;
+      background: $bold-color;
       position: absolute;
       top: -7.5px;
       left: 0;
@@ -34,7 +34,7 @@ li {
 
   .title {
     padding-top: $padding;
-    color: $brand-color;
+    color: $grey-med-color;
   }
 
   .description {
@@ -44,7 +44,7 @@ li {
   }
 
   &:nth-child(odd) {
-    border-left: 2px solid $grey-color;
+    border-left: 2px solid $bold-color;
     padding-bottom: $spacer;
     padding-left: $padding;
     float: right;

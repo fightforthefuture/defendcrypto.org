@@ -13,6 +13,15 @@ $mutliselect-height: 68px;
 }
 
 // Multiselect > Chosen Selection area
+.multiselect {
+  width: 60%;
+  margin: 0 auto;
+
+  @include respond-to-max(sml) {
+    width: 100%;
+  }
+}
+
 .multiselect,
 .multiselect__tags {
   min-height: $mutliselect-height;
@@ -25,9 +34,12 @@ $mutliselect-height: 68px;
 }
 .multiselect__tags {
   padding: 17px 60px 0 $gutter;
-  background: $grey-light-color;
-  border: 1px solid $grey-color;
+  background: $brand-color;
   color: $white;
+  font-weight: $bold-font-weight;
+  font-size: $m-font-size-4;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  border-radius: 4px;
 
   @include respond-to(med) {
     padding-right: 80px;
@@ -38,8 +50,8 @@ $mutliselect-height: 68px;
   }
 }
 .multiselect__tags .multiselect__placeholder {
-  padding-top: 0;
   color: $white;
+  padding-top: 4px;
 }
 .multiselect--active .multiselect__placeholder {
   display: inline;
@@ -73,7 +85,6 @@ $mutliselect-height: 68px;
   width: 60px;
   height: $mutliselect-height - 2;
   padding: $gutter $gutter*2;
-  border-left: 1px solid $grey-color;
 
   @include respond-to(med) {
     width: 80px;
@@ -102,19 +113,20 @@ $mutliselect-height: 68px;
 .multiselect__single,
 .multiselect__option {
   overflow: hidden;
-  line-height: $base-line-height;
+  line-height: 2;
 }
 
 // Multi Select > Drop down options container
 .multiselect__content-wrapper {
-  height: 190px;
-  border-color: $grey-color;
+  height: 150px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
 
 // Multi Select > Drop down options container > Options
 .multiselect__option {
   font-size: $base-font-size;
   padding: 12px $gutter;
+  border-bottom: 1px solid $grey-lighter-color;
 
   @include respond-to(med) {
     padding-left:  $gutter*2;
@@ -122,10 +134,25 @@ $mutliselect-height: 68px;
   }
 }
 .multiselect__option.multiselect__option--highlight {
-  background: $grey-light-color;
+  background: $brand-color;
 }
 .multiselect__option--selected.multiselect__option--highlight {
-  background: $grey-light-color; // NOTE: change to `$warn-color` if `:allow-empty="true"`
+  background: $brand-color; // NOTE: change to `$warn-color` if `:allow-empty="true"`
+}
+.wallet-address {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: $monospace-stack;
+
+  @include respond-to-max(sml) {
+    width: 100%;
+  }
+}
+form input[type=text].input-inverted {
+  background: $grey-light-color;
+  border: none;
+  color: $black;
 }
 </style>
 
@@ -158,7 +185,7 @@ $mutliselect-height: 68px;
       </template>
     </multiselect>
 
-    <form class="sml-push-y1" :class="{'no-currency': selectedCurrency === null}">
+    <form class="sml-push-y1 wallet-address" :class="{'no-currency': selectedCurrency === null}">
       <div v-if="selectedCurrency && selectedCurrency.memo">
         <label>{{ $t('memo_label') }}</label>
         <input

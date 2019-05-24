@@ -14,11 +14,11 @@
   border-bottom-left-radius:  $default-border-radius;
 }
 .with-border {
-  border: 1px solid $grey-color;
+  border: 1px solid $grey-med-color;
 }
 a.with-border:hover,
 a.with-border:focus {
-  border-color: $brand-color;
+  border-color: $grey-med-color;
 }
 .with-border-bottom {
   border-bottom: 1px solid $grey-med-color;
@@ -62,6 +62,10 @@ a.with-border:focus {
   background: $grey-darkest-color;
   color: $white;
 }
+.fill-blue-dark {
+  background: $dark-blue-color;
+  color: $white;
+}
 .fill-white {
   background: $white;
   color: $grey-dark-color; // TODO: update if page has a light background and this is not the text color
@@ -83,4 +87,29 @@ a.with-border:focus {
 .fill-warn {
   background: $warn-color;
   color: $white;
+}
+.font-color-grey {
+  color: $grey-med-color;
+}
+.font-color-light-grey {
+  color: $grey-light-color;
+}
+.border-div {
+  width: 310px;
+  height: 7px;
+  background: $brand-color;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.bold-text {
+  font-weight: $bold-font-weight;
+}
+.bold-color-text {
+  color: $bold-color;
+}
+.serif-font {
+  font-family: $serif-stack;
+}
+.no-padding {
+  padding: 0;
 }

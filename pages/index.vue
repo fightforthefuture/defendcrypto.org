@@ -5,11 +5,12 @@
 .video-hero {
   position: relative;
   overflow: hidden;
-  background: #0B0316; // One-off Matches video
-  color: $white;
+  padding-bottom: $gutter*10;
+  background: $grey-lightest-color;
+  color: $black;
+  padding-top: 80px;
 
   @include respond-to-max(med) {
-    background: #0B0316 url('/video-bg-poster.jpg') top center no-repeat;
     background-size: contain;
   }
 }
@@ -21,34 +22,41 @@
 .video-hero .wrapper {
   position: relative; // to avoid strange video z-index behavior
 }
+
+#leaderboard {
+  background: $dark-blue-color;
+}
+#what, #why, #action {
+  background: $grey-lightest-color;
+}
+
+#how {
+  background: $dark-blue-color;
+  color: $white;
+}
 </style>
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y3 med-pad-y4">
-      <video autoplay loop muted playsinline class="fade-in sml-hide lrg-show"
-             poster="/video-bg-poster.jpg">
-        <source src="~assets/videos/video-bg.mp4" type="video/mp4" />
-      </video>
-
+    <section class="video-hero sml-pad-y2 med-pad-y4">
       <div class="wrapper with-overflow">
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
              class="grid-center kin-logo-sm">
-        <h1 class="text-center sml-push-y2">
+        <h1 class="text-center sml-push-y4">
           {{ $t('page_title') }}
         </h1>
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center text-center">
+          <div class="sml-c12 lrg-c8 grid-center sml-push-y4">
             <div v-html="$t('intro_html')"></div>
 
-            <Cryptocurrencies class="sml-push-y2 med-push-y4" />
+            <Cryptocurrencies class="sml-push-y2 med-push-y4 lrg-push-y6" />
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="leaderboard" class="sml-push-y2 med-push-y4">
+    <section id="leaderboard">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -58,15 +66,15 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="what" class="sml-push-y3 med-push-y6">
+    <section id="what" class="sml-pad-y6 med-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-grey text-center">{{ $t('what_title') }}</h2>
+            <h2>{{ $t('what_title') }}</h2>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="with-border-left sml-push-y2 med-push-y3">
+      <div class="sml-pad-y2">
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
@@ -74,18 +82,18 @@
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->
-      </div> <!-- .with-border-left -->
+      </div> <!-- -->
     </section>
 
-    <section id="why" class="sml-push-y3 med-push-y6">
+    <section id="why">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-grey text-center">{{ $t('why_title') }}</h2>
+            <h2>{{ $t('why_title') }}</h2>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="with-border-left sml-push-y2 med-push-y3">
+      <div class="sml-push-y2">
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
@@ -93,18 +101,18 @@
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->
-      </div> <!-- .with-border-left -->
+      </div> <!-- -->
     </section>
 
-    <section id="action" class="sml-pad-y3 med-pad-y6">
+    <section id="action" class="med-pad-y6 sml-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-grey text-center">{{ $t('action_title') }}</h2>
+            <h2>{{ $t('action_title') }}</h2>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="with-border-left sml-push-y2 med-push-y3">
+      <div class="sml-push-y2">
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
@@ -112,63 +120,42 @@
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->
-      </div> <!-- .with-border-left -->
+      </div> <!-- -->
     </section>
 
-    <section id="contribute" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
+    <section id="contribute" class="sml-pad-y3">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
+          <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
             <h2 id="contribute" class="text-center">
               {{ $t('contribute_title') }}
             </h2>
-            <h4 class="sml-push-y2 med-push-y3">
+            <p class="sml-push-y2 med-push-y3">
               {{ $t('contribute_description') }}
-            </h4>
+            </p>
             <ActionNetworkForm />
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="how" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+    <section id="how" class="sml-pad-y3 med-pad-y6">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-center">
+          <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
+            <h2 class="text-center bold-color-text">
               {{ $t('how_title') }}
             </h2>
-            <h4 class="sml-push-y2 med-push-y3">
-              {{ $t('how_description') }}
-            </h4>
+            <div class="sml-push-y2 med-push-y3 font-color-light-grey">
+              <div v-html="$t('how_description_html')"></div>
+            </div>
           </div> <!-- .c -->
           <Timeline />
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="resources" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
-      <div class="wrapper">
-        <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-center">{{ $t('resources.title') }}</h2>
-
-            <a v-for="(resource, index) in $t('resources.links')"
-               :key="`resource-${index}`"
-               class="sml-pad-2 sml-push-y2 with-border is-rounded flex-grid sml-flex-row"
-               :href="resource.link_url"
-               target="_blank">
-              <img src="~assets/images/link-icon.svg"
-                   :alt="$t('resources.link_icon_alt')"
-                   class="link-icon">
-              <span>{{ resource.title }}</span>
-            </a>
-          </div> <!-- .c -->
-        </div> <!-- .row -->
-      </div> <!-- .wrapper -->
-    </section>
-
-    <section id="faqs" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+    <section id="faqs" class="sml-pad-y3">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -176,10 +163,30 @@
 
             <div v-for="(faq, index) in $t('faqs.items')"
                  :key="`faq-${index}`"
-                 class="sml-pad-y2 with-border-bottom">
-              <h4 class="text-brand">{{ faq.question }}</h4>
-              <h4 class="sml-push-y1">{{ faq. answer }}</h4>
+                 class="sml-pad-y2">
+              <p class="bold-text">{{ faq.question }}</p>
+              <p class="sml-push-y1">{{ faq. answer }}</p>
             </div>
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+    </section>
+
+    <section id="resources" class="sml-pad-y3 med-pad-y6">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center">{{ $t('resources.title') }}</h2>
+
+            <a v-for="(resource, index) in $t('resources.links')"
+               :key="`resource-${index}`"
+               class="sml-pad-2 sml-push-y2 is-rounded no-padding flex-grid sml-flex-row"
+               :href="resource.link_url"
+               target="_blank">
+              <span>{{ resource.title }}</span>
+            </a>
+            <br>
+            <p v-html="$t('press_contact_html')"></p>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->

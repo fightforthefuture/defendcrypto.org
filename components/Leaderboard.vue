@@ -1,14 +1,9 @@
 <i18n src="~/locales/components/Leaderboard.yml"></i18n>
 
 <style lang="scss" scoped>
-.leaderboard {
-  @include respond-to-max(sml) {
-    text-align: center;
-  }
-}
 .leaderboard img.arrow {
   flex: 0 0 38px;
-  height: $base-font-size;
+  height: 8px;
 }
 .leaderboard .coin-logo {
   @include respond-to-max(sml) {
@@ -18,25 +13,34 @@
   }
 }
 .leaderboard .amount {
-  @include respond-to(med) {
+  color: $white;
+}
+.leaderboard .amount {
+  @include respond-to(sml) {
     text-align: right;
   }
 }
+.leaderboard .amount {
+  @include respond-to-max(sml) {
+    position: relative;
+    bottom: 25px;
+  }
+}
+
 </style>
 
 <template>
   <div class="leaderboard" v-show="currencies.length > 0">
-    <div class="fill-grey-dark sml-pad-2 is-rounded-top">
-      <h4 class="text-center">
-        <strong class="text-brand">{{ totalAmount }}</strong>
+    <div class="fill-blue-dark sml-pad-2 sml-pad-y6 is-rounded-top">
+      <h2 class="text-center">
+        <strong class="text-bold">{{ totalAmount }}</strong>
         {{ $t('currently_pledged_text') }}
-      </h4>
+      </h2>
     </div> <!-- .pad -->
-    <div class="fill-grey sml-pad-x2 sml-pad-y1 is-rounded-bottom">
+    <div class="fill-blue-dark sml-pad-x2 sml-pad-y2 is-rounded-bottom">
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
-           class="sml-pad-y1 flex-grid sml-flex-col med-flex-row"
-           :class="{ 'with-border-bottom': index < totalNumCurrencies - 1 }">
+           class="sml-pad-y1 flex-grid sml-flex-col med-flex-row">
         <div class="sml-flex-2 med-flex-1">
           <div class="coin-logo">
             <img :src="currency.logo" :alt="`${currency.name}-logo`">
@@ -46,7 +50,7 @@
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
              class="arrow sml-push-y-half sml-hide med-show">
-        <p class="amount text-brand">
+        <p class="amount text-bold">
           {{ currency.amount }}
         </p>
       </div> <!-- v-for -->
