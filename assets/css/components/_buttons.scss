@@ -9,9 +9,8 @@
   background: $brand-color;
   border: none;
   border-radius: $default-border-radius;
-  color: $grey-dark-color;
   cursor: pointer;
-  font-size:  $m-font-size-3;
+  font-size:  $m-font-size-4;
   font-weight: $bold-font-weight;
   outline: none;
   text-align: center;
@@ -21,20 +20,23 @@
     -webkit-user-select: none;
   user-select:           none;
   -webkit-appearance: none;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  color: $white;
 
   @include respond-to(med) {
     padding: $gutter*1.5 $gutter*4;
   }
 
   @include respond-to(lrg) {
-    font-size: $font-size-3;
+    font-size: $font-size-4;
   }
 }
 .btn:hover,
 .btn:focus {
   background: $brand-light-color;
   border: none;
-  color: $grey-dark-color;
+  color: $white;
 }
 button.btn {
   vertical-align: top;

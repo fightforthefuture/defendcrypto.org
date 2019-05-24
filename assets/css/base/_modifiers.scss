@@ -88,3 +88,13 @@ a.with-border:focus {
   background: $warn-color;
   color: $white;
 }
+.font-color-grey {
+  color: $grey-med-color;
+}
+.border-div {
+  width: 310px;
+  height: 7px;
+  background: $brand-color;
+  margin: 0 auto;
+  margin-top: 15px;
+}

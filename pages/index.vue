@@ -29,6 +29,11 @@
 #what, #why, #action {
   background: $grey-lightest-color;
 }
+
+#how {
+  background: $dark-blue-color;
+  color: $white;
+}
 </style>
 
 <template>
@@ -69,7 +74,7 @@
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="with-border-left sml-pad-y2 med-push-y3">
+      <div class="sml-pad-y2">
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
@@ -77,10 +82,10 @@
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->
-      </div> <!-- .with-border-left -->
+      </div> <!-- -->
     </section>
 
-    <section id="why" class="sml-pad-y3 med-pad-y6">
+    <section id="why">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -88,7 +93,7 @@
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="with-border-left sml-push-y2 med-push-y3">
+      <div class="sml-push-y2">
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
@@ -96,10 +101,10 @@
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->
-      </div> <!-- .with-border-left -->
+      </div> <!-- -->
     </section>
 
-    <section id="action" class="sml-pad-y3 med-pad-y6">
+    <section id="action" class="med-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -107,7 +112,7 @@
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="with-border-left sml-push-y2 med-push-y3">
+      <div class="sml-push-y2">
         <div class="wrapper">
           <div class="row">
             <div class="sml-c12 lrg-c8 grid-center">
@@ -115,42 +120,43 @@
             </div> <!-- .c -->
           </div> <!-- .row -->
         </div> <!-- .wrapper -->
-      </div> <!-- .with-border-left -->
+      </div> <!-- -->
     </section>
 
-    <section id="contribute" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
+    <section id="contribute" class="sml-pad-y3">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 id="contribute" class="text-center">
               {{ $t('contribute_title') }}
             </h2>
-            <h4 class="sml-push-y2 med-push-y3">
+            <div class="border-div"></div>
+            <p class="sml-push-y2 med-push-y3">
               {{ $t('contribute_description') }}
-            </h4>
+            </p>
             <ActionNetworkForm />
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="how" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+    <section id="how" class="sml-pad-y3 med-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-center">
               {{ $t('how_title') }}
             </h2>
-            <h4 class="sml-push-y2 med-push-y3">
+            <p class="sml-push-y2 med-push-y3">
               {{ $t('how_description') }}
-            </h4>
+            </p>
           </div> <!-- .c -->
           <Timeline />
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="resources" class="sml-pad-y3 med-pad-y6 fill-grey-dark">
+    <section id="resources" class="sml-pad-y3 med-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -171,7 +177,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="faqs" class="sml-pad-y3 med-pad-y6 fill-grey-darkest">
+    <section id="faqs" class="sml-pad-y3">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -179,10 +185,11 @@
 
             <div v-for="(faq, index) in $t('faqs.items')"
                  :key="`faq-${index}`"
-                 class="sml-pad-y2 with-border-bottom">
-              <h4 class="text-brand">{{ faq.question }}</h4>
-              <h4 class="sml-push-y1">{{ faq. answer }}</h4>
+                 class="sml-pad-y2">
+              <p class="text-brand">{{ faq.question }}</p>
+              <p class="sml-push-y1">{{ faq. answer }}</p>
             </div>
+            <p v-html="$t('press_contact_html')"></p>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->

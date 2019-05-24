@@ -87,7 +87,7 @@ en:
   defenders_description: >
     This project wouldn’t be possible without the support of many courageous
     individuals and organizations.
-  contribute_title: Help Us Win
+  contribute_title: Together We Can Win
   contribute_description: |
     If you want to receive email updates about the latest breaking news in the fight
     to defend crypto or want to find more ways to get involved, fill out the
@@ -101,6 +101,9 @@ en:
     as a currency. Below is a timeline of events going all the way back to the token sale.
     During this entire time, Kin has been trying to find a reasonable settlement but has
     been unable to do so.
+  press_contact_html: >
+    Questions and press inquiries:
+    <a href="mailto:info@kinecosystem.com">info@kinecosystem.com</a>
   faqs:
     title: FAQs
     items:
