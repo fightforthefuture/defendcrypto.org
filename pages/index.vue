@@ -167,9 +167,6 @@
                class="sml-pad-2 sml-push-y2 with-border is-rounded flex-grid sml-flex-row"
                :href="resource.link_url"
                target="_blank">
-              <img src="~assets/images/link-icon.svg"
-                   :alt="$t('resources.link_icon_alt')"
-                   class="link-icon">
               <span>{{ resource.title }}</span>
             </a>
           </div> <!-- .c -->
@@ -186,7 +183,7 @@
             <div v-for="(faq, index) in $t('faqs.items')"
                  :key="`faq-${index}`"
                  class="sml-pad-y2">
-              <p class="text-brand">{{ faq.question }}</p>
+              <p class="bold-text">{{ faq.question }}</p>
               <p class="sml-push-y1">{{ faq. answer }}</p>
             </div>
             <p v-html="$t('press_contact_html')"></p>
