@@ -35,6 +35,7 @@ li {
   .title {
     padding-top: $padding;
     color: $grey-med-color;
+    white-space: nowrap;
   }
 
   .description {
@@ -69,6 +70,18 @@ li {
     .divider {
       top: $spacer;
       right: 0;
+    }
+  }
+
+  @include respond-to-max(sml) {
+    font-size: 78%;
+
+    &:nth-child(odd) {
+      padding-left: $padding * .75;
+    }
+
+    &:nth-child(even) {
+      padding-right: $padding * .75;
     }
   }
 }
