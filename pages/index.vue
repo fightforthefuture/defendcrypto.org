@@ -139,7 +139,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="how" class="sml-pad-y3 med-pad-y6">
+    <section id="how" class="sml-pad-y3 med-pad-y4">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center sml-pad-y2 med-pad-y6">
