@@ -24,10 +24,10 @@ en:
       code: "CVC"
       address: "0x2e295457717E765Ab35C6Aeed4516ad95306ADe8"
       logo: "/coins/civic.svg"
-    # - name: "Dai"
-    #   code: "DAI"
-    #   address: "0xC2b1BbD137a01412b0B6634A2F5314617b192231"
-    #   logo: "/coins/dai.png"
+    - name: "Dai"
+      code: "DAI"
+      address: "0xC2b1BbD137a01412b0B6634A2F5314617b192231"
+      logo: "/coins/dai.png"
     - name: "Decentraland"
       code: "MANA"
       address: "0x5fF3e1b8B4f4ed6963541e2018984d0083edB9a1"
@@ -36,11 +36,11 @@ en:
       code: "DNT"
       address: "0x6B41b4ab063e1d552C5b2C56950DDA621EE4b99f"
       logo: "/coins/district0x.png"
-    # - name: EOS
-    #   code: EOS
-    #   address: coinbasebase
-    #   memo: 2774506585
-    #   logo: "/coins/eos.png"
+    - name: EOS
+      code: EOS
+      address: coinbasebase
+      memo: 2774506585
+      logo: "/coins/eos.png"
     - name: "Ethereum"
       code: "ETH"
       address: "0xa6f306743B6308C2cBB4bB41074812478dA7a0ae"
