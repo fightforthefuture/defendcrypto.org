@@ -41,7 +41,7 @@
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
            class="sml-pad-y1 flex-grid sml-flex-col med-flex-row">
-        <div class="sml-flex-2 med-flex-1">
+        <div class="sml-flex-2 med-flex-1 sml-smaller-text">
           <div class="coin-logo">
             <img :src="currency.logo" :alt="`${currency.name}-logo`">
           </div>
@@ -50,7 +50,7 @@
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
              class="arrow sml-push-y-half sml-hide med-show">
-        <p class="amount text-bold">
+        <p class="amount text-bold sml-smaller-text">
           {{ currency.amount }}
         </p>
       </div> <!-- v-for -->

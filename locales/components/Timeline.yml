@@ -7,7 +7,7 @@ en:
 
     - date: September 15, 2017
       description_html: >
-        SEC sends an inquiry<br>
+        SEC sends first inquiry<br>
 
     - date: December 2017
       description_html: 5k+ people using Kin in Kik
@@ -19,36 +19,56 @@ en:
     - date: February 6, 2018
       description_html: Kin gives a presentation to the SEC
 
-    - date: July 2018
-      description_html: 10k+ Monthly Active Spenders
+    - date: March - July 2018
+      description_html: SEC issues 8 more subpoenas
 
-    - date: Aug - Oct 2018
-      description_html: Formal testimonies
+    - date: July 2018
+      description_html: 10k monthly active spenders
+
+    - date: July 2018
+      description_html: SEC calls for first testimony
 
     - date: October 2018
-      description_html: 30 Live Apps
+      description_html: 30 apps live with Kin
+
+    - date: August - November 2018
+      description_html: SEC calls for 9 more testimonies
+
+    - date: November 2018
+      description_html: 50k monthly active spenders
 
     - date: November 16, 2018
-      description_html: SEC issues Kin a Wells Notice
-
-    - date: December 2018
-      description_html: 50k Monthly Active Spenders
+      description_html: SEC issues Wells Notice
 
     - date: December 10, 2018
-      description_html: Kin responds with a Wells Submission
+      description_html: Kin responds with Wells Submission
 
     - date: December 21, 2018
-      description_html: Kin gives another presentation to the SEC
+      description_html: SEC meets with Kin to discuss Wells Submission
+
+    - date: January 27, 2019
+      description_html: Kin publishes Wells Notice and Response
+
+    - date: January 2019
+      description_html: SEC reaches out to discuss settlement
 
     - date: February 2019
-      description_html: >
-        40 Live Apps / 100k Monthly Active Spenders
+      description_html: 40 apps live with Kin<br>100k monthly active spenders
+
+    - date: February 12, 2019
+      description_html: SEC requests more documents
 
     - date: March 29, 2019
       description_html: Kin gives another presentation to the SEC
 
+    - date: April 3, 2019
+      description_html: SEC issues ‘Digital Assets Framework’
+
     - date: April 2019
-      description_html: 200k Monthly Active Spenders
+      description_html: 200k monthly active spenders
 
     - date: May 2019
-      description_html: 300k Monthly Active Spenders
+      description_html: SEC gets an extension in the Wells process
+
+    - date: May 2019
+      description_html: 300k monthly active spenders

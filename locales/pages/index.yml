@@ -17,12 +17,15 @@ en:
       the Defend Crypto fund.
       <br>
       <br>
-      <strong>Want to Contribute?</strong>
+      <strong>Want to contribute?</strong>
       <br>
-      Select a cryptocurrency from the list below,
-      copy the <a href="https://www.coinbase.com/" target="_blank">
+      1. Choose a currency from the list below.
+      <br>
+      2. Copy the <a href="https://www.coinbase.com/" target="_blank">
         Coinbase</a>
-      address displayed and send it some crypto.
+      address displayed.
+      <br>
+      3. Send crypto to that address and see your contribution reflected in the table below.
     </p>
   scroll_down: Contribute
   what_title: What’s happening?
@@ -73,21 +76,25 @@ en:
     title: Additional Information
     link_icon_alt: Link icon
     links:
-      - title: "Protecting Innovation: The Kin Case, Litigating Decentralization, and Crypto Disclosures"
-        link_url: https://medium.com/@twhirty/protecting-innovation-the-kin-case-litigating-decentralization-and-crypto-disclosures-39e00499c306
-      - title: "A Legal Battle Every ICO Project Must Follow:  Kin vs. SEC"
+      - title: "WSJ: Are ICO Tokens Securities? Startup Wants a Judge to Decide"
+        link_url: https://www.wsj.com/articles/are-ico-tokens-securities-startup-wants-a-judge-to-decide-11548604800
+      - title: "A16z: Kik and the SEC: What’s Going On and What Does it Mean for Crypto?"
+        link_url: https://a16z.com/2019/05/15/kik-and-the-sec-whats-going-on-and-what-does-it-mean-for-crypto/
+      - title: "Blockchain Association: The Potential Kik and the Kin Foundation Case has Major Consequences for the Open Blockchain Ecosystem"
+        link_url: https://medium.com/@BlockchainAssoc/the-potential-kik-and-the-kin-foundation-case-has-major-consequences-for-the-open-blockchain-de8ed616a1c
+      - title: "Crowdfund Insider: Breaking Down Kik’s Fight Against the SEC and their $100 Million ICO"
+        link_url: https://www.crowdfundinsider.com/2019/02/143914-breaking-down-kiks-fight-against-the-sec-and-their-100-million-ico/
+      - title: "Crypto News: A Legal Battle Every ICO Project Must Follow:  Kin vs. SEC"
         link_url: https://cryptonews.com/news/a-legal-battle-every-ico-project-must-follow-kin-vs-sec-3275.htm
-      - title: Outcome of Kik’s Case against SEC will Affect Other Cryptos
-        link_url: https://coingape.com/outcome-kiks-against-sec-weiss-ratings/
-      - title: Social Media Platform Kik Promises to Challenge Proposed SEC Enforcement Against Its ICO
-        link_url: https://cointelegraph.com/news/social-media-platform-kik-promises-to-challenge-proposed-sec-enforcement-against-its-ico
-      - title: Under Fire from the SEC, Kik’s Crypto Project is Going to War
-        link_url: https://www.ccn.com/under-fire-from-the-sec-kiks-crypto-project-is-going-to-war
+      - title: "Alt-M: Protecting Innovation: The Kin Case, Litigating Decentralization, and Crypto Disclosures"
+        link_url: https://medium.com/@twhirty/protecting-innovation-the-kin-case-litigating-decentralization-and-crypto-disclosures-39e00499c306
+      - title: "Circle: Our take: Interpreting recent signals from US regulatory agencies"
+        link_url: https://blog.circle.com/2019/05/23/our-take-interpreting-recent-signals-from-us-regulatory-agencies/
   defenders_title: Top Defenders
   defenders_description: |
     This project wouldn’t be possible without the support of many courageous
     individuals and organizations.
-  contribute_title: Together We Can Win
+  contribute_title: Be Part of the Movement
   contribute_description: |
     If you want to receive email updates about the latest breaking news in the fight
     to defend crypto or want to find more ways to get involved, fill out the
@@ -95,19 +102,13 @@ en:
   how_title: How We Got Here
   how_description_html: |
     <p>
-    The SEC first reached out three days after the token sale, and since then Kin has
-    continued to comply with all of their requests and work hard to find a path forward
-    with the SEC.
+    The SEC first reached out to Kin three days after the token sale, and since then Kin has continued to comply with all of their requests and work hard to find a path forward with the SEC.
     <br>
     <br>
-    Despite the regulatory overhang, the Kin ecosystem continues to grow
-    with more and more developers building with Kin, and more and more people using Kin
-    as a currency.
+    Despite the regulatory overhang, the Kin ecosystem continues to grow with more and more developers building with Kin, and more and more people using Kin as a currency.
     <br>
     <br>
-    Below is a timeline of events going all the way back to the token sale.
-    During this entire time, Kin has been trying to find a reasonable settlement but has
-    been unable to do so.
+    Below is a timeline of events going all the way back to the token sale. During this entire time, Kin has been trying to find a reasonable settlement but has been unable to do so.
     </p>
   press_contact_html: >
     Questions and press inquiries:
@@ -115,31 +116,29 @@ en:
   faqs:
     title: FAQs
     items:
+      - question: Do I have to send from a Coinbase address?
+        answer: >
+          No. The Defend Crypto fund is hosted by Coinbase but you can send from any wallet or exchange.
       - question: How will I know that you are using the funds as you say?
         answer: >
-          We will be open and transparent about how we are spending funds, which
-          is intended to be used in the legal case against Kin initially. Kin
-          has already spent over $5MM on legal fees and expenses associated with
-          responding to the SEC’s inquiries, document productions and witness
-          testimony. Although we won’t share actual legal bills because they
-          contain privileged information, we will share summaries and amounts
-          billed on a monthly basis.
+          There will be open and transparent disclosures on how funds are spent, which is intended
+          to be used in the legal case against Kin initially. Although detailed legal bills will
+          not be shared because they contain privileged information, summaries and amounts billed
+          will be published on a monthly basis.
       - question: Is my contribution anonymous?
         answer: >
-          Yes. All contributions are anonymous by nature. The email sign up is
-          not specifically tied to contributions.
+          Yes. All contributions are anonymous by nature. The email sign up is not
+          specifically tied to contributions.
       - question: If I contribute, will it affect my project legally?
         answer: >
-          If you’re worried about being targeted because of your contribution to
-          this defense fund, all contributions are anonymous and not disclosed
-          publicly.
-      - question: If the funds are not used, what will be done with them?
+          If you’re worried about being targeted because of your contribution to this defense fund,
+          all contributions are anonymous and not disclosed publicly.
+      - question: What will happen to unused funds?
         answer: >
-          Once the case against Kin is finally resolved, all remaining funds,
-          including any portion of the $5MM in BTC, ETH and KIN that we’ve
-          contributed, will be rolled into a nonprofit organization to be used
-          for other initiatives that help with innovation in our industry.
+          Once the case against Kin is resolved, all remaining funds, including any portion
+          of the initial $5MM contribution by Kin, will be allocated to a nonprofit organization
+          to be used for other initiatives that help with innovation in our industry.
       - question: Is my contribution tax deductible?
         answer: >
-          No, contributions are not tax deductible, and you should consult with
-          your own tax advisors regarding the impact of making a contribution.
+          No, contributions are not tax deductible, and you should consult with your own
+          tax advisors regarding the impact of making a contribution.

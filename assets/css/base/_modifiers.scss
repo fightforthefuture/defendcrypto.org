@@ -113,3 +113,28 @@ a.with-border:focus {
 .no-padding {
   padding: 0;
 }
+.dont-show-on-mobile {
+  display: auto;
+
+  @include respond-to-max(med) {
+    display: none !important;
+  }
+}
+.show-on-mobile {
+  display: none;
+
+  @include respond-to-max(med) {
+    display: auto !important;
+  }
+}
+.side-padding {
+  @include respond-to-max(sml) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.sml-smaller-text {
+  @include respond-to-max(sml) {
+    font-size: 14px;
+  }
+}

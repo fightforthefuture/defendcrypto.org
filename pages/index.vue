@@ -139,7 +139,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="how" class="sml-pad-y3 med-pad-y6">
+    <section id="how" class="sml-pad-y3 med-pad-y4">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center sml-pad-y2 med-pad-y6">
@@ -191,6 +191,14 @@
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
+
+    <section id="logocloud">
+      <div class="row">
+        <div class="sml-c12 med-c10 med-pad-y2 grid-center">
+          <LogoCloud />
+        </div> <!-- .c -->
+      </div> <!-- row -->
+    </section> <!-- logos -->
   </DefaultLayout>
 </template>
 
@@ -198,6 +206,7 @@
 import { smoothScrollToElement } from '~/assets/js/helpers'
 import DefaultLayout from '~/components/DefaultLayout'
 import ActionNetworkForm from '~/components/ActionNetworkForm'
+import LogoCloud from '~/components/LogoCloud'
 import Cryptocurrencies from '~/components/Cryptocurrencies'
 import Leaderboard from '~/components/Leaderboard'
 import Timeline from '~/components/Timeline'
@@ -208,6 +217,7 @@ export default {
     ActionNetworkForm,
     Cryptocurrencies,
     Leaderboard,
+    LogoCloud,
     Timeline
   },
 
