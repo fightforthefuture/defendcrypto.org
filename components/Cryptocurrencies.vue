@@ -213,6 +213,10 @@ form input[type=text].input-inverted {
         :disabled="selectedCurrency === null"
         :placeholder="$t('choose_currency')"
         readonly />
+
+      <div v-if="selectedCurrency && selectedCurrency.note">
+        <label class="text-brand">{{ selectedCurrency.note }}</label>
+      </div>
     </form>
   </div>
 </template>
