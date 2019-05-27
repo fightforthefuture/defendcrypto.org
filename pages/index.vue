@@ -56,14 +56,6 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="logocloud" class="dont-show-on-mobile">
-      <div class="row">
-        <div class="sml-c12 med-c10 grid-center">
-          <LogoCloud />
-        </div> <!-- .c -->
-      </div> <!-- row -->
-    </section> <!-- logos -->
-
     <section id="leaderboard">
       <div class="wrapper">
         <div class="row">
@@ -199,6 +191,14 @@
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
+
+    <section id="logocloud">
+      <div class="row">
+        <div class="sml-c12 med-c10 med-pad-y2 grid-center">
+          <LogoCloud />
+        </div> <!-- .c -->
+      </div> <!-- row -->
+    </section> <!-- logos -->
   </DefaultLayout>
 </template>
 

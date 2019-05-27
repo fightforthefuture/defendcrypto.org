@@ -114,12 +114,22 @@ a.with-border:focus {
   padding: 0;
 }
 .dont-show-on-mobile {
-  @include respond-to-max(sml) {
-    display: none;
+  display: auto;
+
+  @include respond-to-max(med) {
+    display: none !important;
   }
 }
 .show-on-mobile {
+  display: none;
+
   @include respond-to-max(med) {
-    display: auto;
+    display: auto !important;
+  }
+}
+.side-padding {
+  @include respond-to-max(sml) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
