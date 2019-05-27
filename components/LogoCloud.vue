@@ -34,7 +34,7 @@
       </div> <!-- .c -->
       <div class="sml-c4 med-c4 sml-push-y1 med-push-y3">
         <div class="fill-white is-rounded sml-pad-1">
-          <img src="~assets/images/kin-logo-color-250x100.svg"
+          <img src="~assets/images/kin-logo-250x100.svg"
                class="grid-center"
                alt="Kin">
         </div> <!-- .fill -->
