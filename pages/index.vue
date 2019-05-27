@@ -56,6 +56,14 @@
       </div> <!-- .wrapper -->
     </section>
 
+    <section id="logocloud" class="dont-show-on-mobile">
+      <div class="row">
+        <div class="sml-c12 med-c10 grid-center">
+          <LogoCloud />
+        </div> <!-- .c -->
+      </div> <!-- row -->
+    </section> <!-- logos -->
+
     <section id="leaderboard">
       <div class="wrapper">
         <div class="row">
@@ -198,6 +206,7 @@
 import { smoothScrollToElement } from '~/assets/js/helpers'
 import DefaultLayout from '~/components/DefaultLayout'
 import ActionNetworkForm from '~/components/ActionNetworkForm'
+import LogoCloud from '~/components/LogoCloud'
 import Cryptocurrencies from '~/components/Cryptocurrencies'
 import Leaderboard from '~/components/Leaderboard'
 import Timeline from '~/components/Timeline'
@@ -208,6 +217,7 @@ export default {
     ActionNetworkForm,
     Cryptocurrencies,
     Leaderboard,
+    LogoCloud,
     Timeline
   },
 
