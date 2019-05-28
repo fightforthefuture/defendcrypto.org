@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row side-padding">
+    <div class="row">
       <div class="sml-c4 med-c4">
         <div class="fill-white is-rounded sml-pad-1 sml-push-y1">
           <img src="~assets/images/circle-logo-250x100.svg"
@@ -24,7 +24,7 @@
       </div> <!-- .c -->
     </div> <!-- .row -->
 
-    <div class="row side-padding">
+    <div class="row">
       <div class="sml-c4 med-c4 sml-push-y1 med-push-y3">
         <div class="fill-white is-rounded sml-pad-1">
           <img src="~assets/images/messari-logo-250x100.svg"

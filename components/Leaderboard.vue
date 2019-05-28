@@ -5,56 +5,40 @@
   flex: 0 0 38px;
   height: 8px;
 }
-.leaderboard .coin-logo {
+.sml-smaller-text {
   @include respond-to-max(sml) {
-    float: none;
-    display: inline-block;
-    vertical-align: bottom;
+    margin-top: $gutter/2;
+    font-size: $font-size-6;
   }
 }
-.leaderboard .amount {
-  color: $white;
-}
-.leaderboard .amount {
-  @include respond-to(sml) {
-    text-align: right;
-  }
-}
-.leaderboard .amount {
-  @include respond-to-max(sml) {
-    position: relative;
-    bottom: 25px;
-  }
-}
-
 </style>
 
 <template>
   <div class="leaderboard" v-show="currencies.length > 0">
-    <div class="fill-blue-dark sml-pad-2 sml-pad-y6 is-rounded-top">
-      <h2 class="text-center">
-        <strong class="text-bold">{{ totalAmount }}</strong>
-        {{ $t('currently_pledged_text') }}
-      </h2>
-    </div> <!-- .pad -->
-    <div class="fill-blue-dark sml-pad-x2 sml-pad-y2 is-rounded-bottom">
+    <h2 class="text-center">
+      <strong class="text-success">{{ totalAmount }}</strong>
+      {{ $t('currently_pledged_text') }}
+    </h2>
+    <div class="sml-push-y2 med-push-y3">
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
-           class="sml-pad-y1 flex-grid sml-flex-col med-flex-row">
-        <div class="sml-flex-2 med-flex-1 sml-smaller-text">
+           class="sml-pad-y1 flex-grid sml-flex-row">
+        <div class="sml-flex-2 med-flex-1">
           <div class="coin-logo">
             <img :src="currency.logo" :alt="`${currency.name}-logo`">
           </div>
-          {{ currency.name }} ({{ currency.code }})
+          <span class="sml-smaller-text">
+            {{ currency.name }} ({{ currency.code }})
+          </span>
         </div>
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
              class="arrow sml-push-y-half sml-hide med-show">
-        <p class="amount text-bold sml-smaller-text">
+        <p class="amount sml-smaller-text text-right">
           {{ currency.amount }}
         </p>
       </div> <!-- v-for -->
-    </div> <!-- .fill -->
+    </div> <!-- .push -->
   </div>
 </template>
 

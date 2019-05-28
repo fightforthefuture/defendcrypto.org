@@ -65,7 +65,7 @@
         <span v-if="isSending">{{ $t('global.common.sending') }}</span>
         <span v-else>{{ buttonText }}</span>
       </button>
-      <p class="font-color-grey sml-push-y1 text-center">
+      <p class="text-grey-med sml-push-y1 text-center">
         <small v-html="$t('privacy_html')"></small>
       </p>
     </form>
