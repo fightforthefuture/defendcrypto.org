@@ -12,16 +12,6 @@ $mutliselect-height: 68px;
   opacity: 0;
 }
 
-// Multiselect > Chosen Selection area
-.multiselect {
-  width: 60%;
-  margin: 0 auto;
-
-  @include respond-to-max(sml) {
-    width: 100%;
-  }
-}
-
 .multiselect,
 .multiselect__tags {
   min-height: $mutliselect-height;
@@ -139,21 +129,6 @@ $mutliselect-height: 68px;
 .multiselect__option--selected.multiselect__option--highlight {
   background: $brand-color; // NOTE: change to `$warn-color` if `:allow-empty="true"`
 }
-.wallet-address {
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 20px;
-  font-family: $monospace-stack;
-
-  @include respond-to-max(sml) {
-    width: 100%;
-  }
-}
-form input[type=text].input-inverted {
-  background: $grey-light-color;
-  border: none;
-  color: $black;
-}
 </style>
 
 <template>
@@ -186,7 +161,7 @@ form input[type=text].input-inverted {
       </template>
     </multiselect>
 
-    <form class="sml-push-y1 wallet-address" :class="{'no-currency': selectedCurrency === null}">
+    <form class="sml-push-y2" :class="{'no-currency': selectedCurrency === null}">
       <div v-if="selectedCurrency && selectedCurrency.memo">
         <label>{{ $t('memo_label') }}</label>
         <input

@@ -14,7 +14,10 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center sml-push-y4">
             <div v-html="$t('intro_html')"></div>
-
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+        <div class="row">
+          <div class="sml-c12 med-c8 lrg-c5 grid-center">
             <Cryptocurrencies class="sml-push-y2 med-push-y4 lrg-push-y6" />
           </div> <!-- .c -->
         </div> <!-- .row -->

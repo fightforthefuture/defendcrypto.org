@@ -60,8 +60,10 @@ form textarea.flat-top {
 
 // Forms > Text Inputs & Textareas > Inverted
 form input[type=text].input-inverted {
-  background: $white;
-  color: $grey-dark-color;
+  background: $grey-light-color;
+  border: none;
+  color: $black;
+  font-family: $monospace-stack;
 }
 form input[type=text].input-inverted:focus {
   box-shadow: 0 0 20px transparentize($grey-lighter-color, 0.2);
