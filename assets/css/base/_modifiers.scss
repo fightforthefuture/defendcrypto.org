@@ -41,6 +41,9 @@ a.with-border:focus {
 
 // Modifiers > Fills
 
+.fill-grey-lightest {
+  background: $grey-lighter-color;
+}
 .fill-grey-lighter {
   background: $grey-lighter-color;
 }
@@ -62,7 +65,7 @@ a.with-border:focus {
   background: $grey-darkest-color;
   color: $white;
 }
-.fill-blue-dark {
+.fill-dark-blue {
   background: $dark-blue-color;
   color: $white;
 }
@@ -103,9 +106,6 @@ a.with-border:focus {
 }
 .bold-text {
   font-weight: $bold-font-weight;
-}
-.bold-color-text {
-  color: $bold-color;
 }
 .serif-font {
   font-family: $serif-stack;

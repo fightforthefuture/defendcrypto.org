@@ -18,11 +18,11 @@ li {
   .divider {
     position: absolute;
     width: 40%;
-    border-top: 2px solid $bold-color;
+    border-top: 2px solid $success-color;
 
     &:after {
       content:"";
-      background: $bold-color;
+      background: $success-color;
       position: absolute;
       top: -7.5px;
       left: 0;
@@ -45,7 +45,7 @@ li {
   }
 
   &:nth-child(odd) {
-    border-left: 2px solid $bold-color;
+    border-left: 2px solid $success-color;
     padding-bottom: $spacer;
     padding-left: $padding;
     float: right;

@@ -5,10 +5,8 @@
 .video-hero {
   position: relative;
   overflow: hidden;
-  padding-bottom: $gutter*10;
   background: $grey-lightest-color;
   color: $black;
-  padding-top: 80px;
 
   @include respond-to-max(med) {
     background-size: contain;
@@ -22,23 +20,11 @@
 .video-hero .wrapper {
   position: relative; // to avoid strange video z-index behavior
 }
-
-#leaderboard {
-  background: $dark-blue-color;
-}
-#what, #why, #action {
-  background: $grey-lightest-color;
-}
-
-#how {
-  background: $dark-blue-color;
-  color: $white;
-}
 </style>
 
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y2 med-pad-y4">
+    <section class="video-hero sml-pad-y2 med-pad-y5">
       <div class="wrapper with-overflow">
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
@@ -56,7 +42,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="leaderboard">
+    <section id="leaderboard" class="sml-pad-y4 med-pad-y6 fill-dark-blue">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -66,7 +52,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="what" class="sml-pad-y6 med-pad-y6">
+    <section id="what" class="sml-pad-y4 med-pad-y6 fill-grey-lightest">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -85,7 +71,7 @@
       </div> <!-- -->
     </section>
 
-    <section id="why">
+    <section id="why" class="fill-grey-lightest">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -104,7 +90,7 @@
       </div> <!-- -->
     </section>
 
-    <section id="action" class="med-pad-y6 sml-pad-y6">
+    <section id="action" class="med-pad-y6 sml-pad-y6 fill-grey-lightest">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
@@ -154,11 +140,11 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="how" class="sml-pad-y3 med-pad-y4">
+    <section id="how" class="sml-pad-y3 med-pad-y4 fill-dark-blue">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center sml-pad-y2 med-pad-y6">
-            <h2 class="text-center bold-color-text">
+            <h2 class="text-center text-success">
               {{ $t('how_title') }}
             </h2>
             <div class="sml-push-y2 med-push-y3 font-color-light-grey">

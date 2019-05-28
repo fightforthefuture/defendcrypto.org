@@ -4,7 +4,7 @@
 $mutliselect-height: 68px;
 
 .currency-selector {
-  min-height: 243px; // Magic number
+  min-height: 215px; // Magic number
 }
 
 // Inactive
