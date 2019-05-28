@@ -8,6 +8,7 @@ $padding: $gutter * 1.5;
 ul {
   width: 600px;
   max-width: 96%;
+  min-width: 300px;
   margin: 0px auto;
 }
 
@@ -45,13 +46,25 @@ li {
   }
 
   &:nth-child(odd) {
-    border-left: 2px solid $success-color;
+    border-right: 2px solid $success-color;
     padding-bottom: $spacer;
-    padding-left: $padding;
-    float: right;
+    padding-right: $padding;
+    float: left;
+    text-align: right;
 
     .divider {
       top: 0;
+      right: 0;
+    }
+  }
+
+  &:nth-child(even) {
+    float: right;
+    padding-top: $spacer;
+    padding-left: $padding;
+
+    .divider {
+      top: $spacer;
       left: 0;
 
       &:after {
@@ -61,27 +74,17 @@ li {
     }
   }
 
-  &:nth-child(even) {
-    float: left;
-    padding-top: $spacer;
-    padding-right: $padding;
-    text-align: right;
+  $magic-number-where-things-break: 540px;
 
-    .divider {
-      top: $spacer;
-      right: 0;
-    }
-  }
-
-  @include respond-to-max(sml) {
+  @include respond-to-max($magic-number-where-things-break) {
     font-size: 78%;
 
     &:nth-child(odd) {
-      padding-left: $padding * .75;
+      padding-right: $padding * .75;
     }
 
     &:nth-child(even) {
-      padding-right: $padding * .75;
+      padding-left: $padding * .75;
     }
   }
 }
