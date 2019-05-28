@@ -42,7 +42,7 @@ a.with-border:focus {
 // Modifiers > Fills
 
 .fill-grey-lightest {
-  background: $grey-lighter-color;
+  background: $grey-lightest-color;
 }
 .fill-grey-lighter {
   background: $grey-lighter-color;
@@ -104,34 +104,8 @@ a.with-border:focus {
   margin: 0 auto;
   margin-top: 15px;
 }
-.bold-text {
-  font-weight: $bold-font-weight;
-}
 .serif-font {
   font-family: $serif-stack;
-}
-.no-padding {
-  padding: 0;
-}
-.dont-show-on-mobile {
-  display: auto;
-
-  @include respond-to-max(med) {
-    display: none !important;
-  }
-}
-.show-on-mobile {
-  display: none;
-
-  @include respond-to-max(med) {
-    display: auto !important;
-  }
-}
-.side-padding {
-  @include respond-to-max(sml) {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 .sml-smaller-text {
   @include respond-to-max(sml) {

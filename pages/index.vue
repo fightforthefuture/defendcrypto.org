@@ -1,30 +1,9 @@
 <i18n src="~/locales/pages/index.yml"></i18n>
 <i18n src="~/locales/global.yml"></i18n>
 
-<style lang="scss" scoped>
-.video-hero {
-  position: relative;
-  overflow: hidden;
-  background: $grey-lightest-color;
-  color: $black;
-
-  @include respond-to-max(med) {
-    background-size: contain;
-  }
-}
-.video-hero video {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.video-hero .wrapper {
-  position: relative; // to avoid strange video z-index behavior
-}
-</style>
-
 <template>
   <DefaultLayout>
-    <section class="video-hero sml-pad-y2 med-pad-y5">
+    <section class="sml-pad-y2 med-pad-y5 fill-grey-lightest">
       <div class="wrapper with-overflow">
         <img src="~assets/images/kin-logo.svg"
              :alt="$t('global.common.logo_kin_alt')"
@@ -52,85 +31,47 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="what" class="sml-pad-y4 med-pad-y6 fill-grey-lightest">
+    <section class="sml-pad-y4 med-pad-y6 fill-grey-lightest">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
-            <h2>{{ $t('what_title') }}</h2>
+            <h2 id="what">{{ $t('what_title') }}</h2>
+            <div class="sml-push-y2" v-html="$t('what_html')"></div>
+
+            <h2 id="why" class="sml-push-y3 med-push-y4">
+              {{ $t('why_title') }}
+            </h2>
+            <div class="sml-push-y2" v-html="$t('why_html')"></div>
+
+            <h2 id="action" class="sml-push-y3 med-push-y4">
+              {{ $t('action_title') }}
+            </h2>
+            <div class="sml-push-y2" v-html="$t('action_html')"></div>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="sml-pad-y2">
-        <div class="wrapper">
-          <div class="row">
-            <div class="sml-c12 lrg-c8 grid-center">
-              <div v-html="$t('what_html')"></div>
-            </div> <!-- .c -->
-          </div> <!-- .row -->
-        </div> <!-- .wrapper -->
-      </div> <!-- -->
     </section>
 
-    <section id="why" class="fill-grey-lightest">
+    <section id="logocloud" class="sml-pad-y4 med-pad-y6">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2>{{ $t('why_title') }}</h2>
-          </div> <!-- .c -->
-        </div> <!-- .row -->
-      </div> <!-- .wrapper -->
-      <div class="sml-push-y2">
-        <div class="wrapper">
-          <div class="row">
-            <div class="sml-c12 lrg-c8 grid-center">
-              <div v-html="$t('why_html')"></div>
-            </div> <!-- .c -->
-          </div> <!-- .row -->
-        </div> <!-- .wrapper -->
-      </div> <!-- -->
-    </section>
-
-    <section id="action" class="med-pad-y6 sml-pad-y6 fill-grey-lightest">
-      <div class="wrapper">
-        <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2>{{ $t('action_title') }}</h2>
-          </div> <!-- .c -->
-        </div> <!-- .row -->
-      </div> <!-- .wrapper -->
-      <div class="sml-push-y2">
-        <div class="wrapper">
-          <div class="row">
-            <div class="sml-c12 lrg-c8 grid-center">
-              <div v-html="$t('action_html')"></div>
-            </div> <!-- .c -->
-          </div> <!-- .row -->
-        </div> <!-- .wrapper -->
-      </div> <!-- -->
-    </section>
-
-    <section id="logocloud">
-      <div class="wrapper">
-        <div class="row">
-          <div class="sml-c12 lrg-c8 sml-pad-y4 med-pad-y4 grid-center text-center">
+          <div class="sml-c12 lrg-c8 grid-center text-center">
             <h2>{{ $t('logos_title') }}</h2>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="row">
-        <div class="sml-c12 med-c10 med-pad-y2 grid-center">
+      <div class="row sml-push-y2 med-push-y4">
+        <div class="sml-c11 med-c10 grid-center">
           <LogoCloud />
         </div> <!-- .c -->
       </div> <!-- row -->
     </section> <!-- logos -->
 
-    <section id="contribute" class="sml-pad-y3">
+    <section id="contribute" class="sml-pad-y-top3 sml-pad-y4 med-pad-y6">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center med-pad-y6">
-            <h2 id="contribute" class="text-center">
-              {{ $t('contribute_title') }}
-            </h2>
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center"> {{ $t('contribute_title') }}</h2>
             <p class="sml-push-y2 med-push-y3">
               {{ $t('contribute_description') }}
             </p>
@@ -140,13 +81,11 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="how" class="sml-pad-y3 med-pad-y4 fill-dark-blue">
+    <section id="how" class="sml-pad-y4 med-pad-y6 fill-dark-blue">
       <div class="wrapper">
         <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center sml-pad-y2 med-pad-y6">
-            <h2 class="text-center text-success">
-              {{ $t('how_title') }}
-            </h2>
+          <div class="sml-c12 lrg-c8 grid-center">
+            <h2 class="text-center text-success">{{ $t('how_title') }}</h2>
             <div class="sml-push-y2 med-push-y3 font-color-light-grey">
               <div v-html="$t('how_description_html')"></div>
             </div>
@@ -156,37 +95,28 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="faqs" class="sml-pad-y3">
+    <section class="sml-pad-y4 med-pad-y6">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-center">{{ $t('faqs.title') }}</h2>
+            <h2 id="faqs" class="text-center">{{ $t('faqs.title') }}</h2>
 
             <div v-for="(faq, index) in $t('faqs.items')"
                  :key="`faq-${index}`"
-                 class="sml-pad-y2">
-              <p class="bold-text">{{ faq.question }}</p>
+                 class="sml-push-y2 med-push-y4">
+              <p><strong>{{ faq.question }}</strong></p>
               <p class="sml-push-y1">{{ faq. answer }}</p>
             </div>
-          </div> <!-- .c -->
-        </div> <!-- .row -->
-      </div> <!-- .wrapper -->
-    </section>
 
-    <section id="resources" class="sml-pad-y3 med-pad-y6">
-      <div class="wrapper">
-        <div class="row">
-          <div class="sml-c12 lrg-c8 grid-center">
-            <h2 class="text-center">{{ $t('resources.title') }}</h2>
+            <h2 id="resources" class="text-center sml-push-y4 med-push-y6">
+              {{ $t('resources.title') }}
+            </h2>
 
-            <a v-for="(resource, index) in $t('resources.links')"
+            <p v-for="(resource, index) in $t('resources.links')"
                :key="`resource-${index}`"
-               class="sml-pad-2 sml-push-y2 is-rounded no-padding flex-grid sml-flex-row"
-               :href="resource.link_url"
-               target="_blank">
-              <span>{{ resource.title }}</span>
-            </a>
-            <br>
+               class="sml-push-y2">
+              <a :href="resource.link_url" target="_blank">{{ resource.title }}</a>
+            </p>
             <p v-html="$t('press_contact_html', { email: $t('global.contact.email') })"></p>
           </div> <!-- .c -->
         </div> <!-- .row -->
