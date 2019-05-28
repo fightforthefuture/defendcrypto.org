@@ -120,7 +120,10 @@
                class="sml-push-y2">
               <a :href="resource.link_url" target="_blank">{{ resource.title }}</a>
             </p>
-            <p v-html="$t('press_contact_html', { email: $t('global.contact.email') })"></p>
+            <p class="sml-push-y3">
+              <strong v-html="$t('press_contact_html', { email: $t('global.contact.email') })">
+              </strong>
+            </p>
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
