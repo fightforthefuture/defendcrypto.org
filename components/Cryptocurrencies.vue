@@ -165,30 +165,26 @@ $mutliselect-height: 68px;
     <form class="sml-push-y2" :class="{'no-currency': selectedCurrency === null}">
       <div v-if="selectedCurrency && selectedCurrency.memo">
         <label>{{ $t('memo_label') }}</label>
-        <input
-          type="text"
-          class="text-input input-inverted"
-          :value="selectedCurrency.memo"
-          readonly />
+        <ClickToCopy :text-to-copy="`${selectedCurrency.memo}`" />
       </div> <!-- v-if -->
       <div v-if="selectedCurrency && selectedCurrency.tag">
         <label>{{ $t('tag_label') }}</label>
-        <input
-          type="text"
-          class="text-input input-inverted"
-          :value="selectedCurrency.tag"
-          readonly />
+        <ClickToCopy :text-to-copy="`${selectedCurrency.tag}`" />
       </div> <!-- v-if -->
       <label :class="{'sml-push-y-half': selectedCurrency && (selectedCurrency.memo || selectedCurrency.tag) }">
         {{ $t('address_label') }}
       </label>
       <input
+        v-if="selectedCurrency === null"
         type="text"
         class="text-input input-inverted"
-        :value="selectedCurrency !== null ? selectedCurrency.address : null"
-        :disabled="selectedCurrency === null"
+        :value="null"
+        :disabled="true"
         :placeholder="$t('choose_currency')"
         readonly />
+      <ClickToCopy
+        v-if="selectedCurrency !== null"
+        :text-to-copy="selectedCurrency.address" />
 
       <div v-if="selectedCurrency && selectedCurrency.note">
         <label class="text-brand">{{ selectedCurrency.note }}</label>
@@ -208,10 +204,12 @@ $mutliselect-height: 68px;
 
 <script>
 import ShareButton from '~/components/ShareButton'
+import ClickToCopy from '~/components/ClickToCopy'
 
 export default {
   components: {
-    ShareButton
+    ShareButton,
+    ClickToCopy
   },
 
   data() {
