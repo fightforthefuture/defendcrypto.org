@@ -4,15 +4,6 @@
 <style lang="scss">
 $mutliselect-height: 68px;
 
-.currency-selector {
-  min-height: 256px; // Magic number
-}
-
-// Inactive
-.no-currency {
-  opacity: 0;
-}
-
 .multiselect,
 .multiselect__tags {
   min-height: $mutliselect-height;
@@ -162,31 +153,21 @@ $mutliselect-height: 68px;
       </template>
     </multiselect>
 
-    <form class="sml-push-y2" :class="{'no-currency': selectedCurrency === null}">
-      <div v-if="selectedCurrency && selectedCurrency.memo">
+    <form class="sml-push-y2" v-if="selectedCurrency !== null">
+      <div v-if="selectedCurrency.memo">
         <label>{{ $t('memo_label') }}</label>
         <ClickToCopy :text-to-copy="`${selectedCurrency.memo}`" />
       </div> <!-- v-if -->
-      <div v-if="selectedCurrency && selectedCurrency.tag">
+      <div v-if="selectedCurrency.tag">
         <label>{{ $t('tag_label') }}</label>
         <ClickToCopy :text-to-copy="`${selectedCurrency.tag}`" />
       </div> <!-- v-if -->
-      <label :class="{'sml-push-y-half': selectedCurrency && (selectedCurrency.memo || selectedCurrency.tag) }">
+      <label :class="{'sml-push-y-half': (selectedCurrency.memo || selectedCurrency.tag) }">
         {{ $t('address_label') }}
       </label>
-      <input
-        v-if="selectedCurrency === null"
-        type="text"
-        class="text-input input-inverted"
-        :value="null"
-        :disabled="true"
-        :placeholder="$t('choose_currency')"
-        readonly />
-      <ClickToCopy
-        v-if="selectedCurrency !== null"
-        :text-to-copy="selectedCurrency.address" />
+      <ClickToCopy :text-to-copy="selectedCurrency.address" />
 
-      <div v-if="selectedCurrency && selectedCurrency.note">
+      <div v-if="selectedCurrency.note">
         <label class="text-brand">{{ selectedCurrency.note }}</label>
       </div>
 
