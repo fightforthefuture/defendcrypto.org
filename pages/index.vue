@@ -86,7 +86,7 @@
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
             <h2 class="text-center text-success">{{ $t('how_title') }}</h2>
-            <div class="sml-push-y2 med-push-y3 font-color-light-grey">
+            <div class="sml-push-y2 med-push-y3 text-grey-light">
               <div v-html="$t('how_description_html')"></div>
             </div>
           </div> <!-- .c -->

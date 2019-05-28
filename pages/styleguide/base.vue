@@ -290,6 +290,7 @@ export default {
         'text-left',
         'text-white',
         'text-meta',
+        'text-grey-light',
         'text-grey-med',
         'text-grey',
         'text-brand',

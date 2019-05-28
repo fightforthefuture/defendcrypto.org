@@ -5,11 +5,10 @@
   flex: 0 0 38px;
   height: 8px;
 }
-.leaderboard .coin-logo {
+.sml-smaller-text {
   @include respond-to-max(sml) {
-    float: none;
-    display: inline-block;
-    vertical-align: bottom;
+    margin-top: $gutter/2;
+    font-size: $font-size-6;
   }
 }
 </style>
@@ -24,11 +23,13 @@
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
            class="sml-pad-y1 flex-grid sml-flex-row">
-        <div class="sml-flex-2 med-flex-1 sml-smaller-text">
+        <div class="sml-flex-2 med-flex-1">
           <div class="coin-logo">
             <img :src="currency.logo" :alt="`${currency.name}-logo`">
           </div>
-          {{ currency.name }} ({{ currency.code }})
+          <span class="sml-smaller-text">
+            {{ currency.name }} ({{ currency.code }})
+          </span>
         </div>
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
