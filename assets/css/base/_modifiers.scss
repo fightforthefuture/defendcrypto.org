@@ -91,3 +91,18 @@ a.with-border:focus {
   background: $warn-color;
   color: $white;
 }
+.fill-triangle-top {
+  position: relative;
+}
+.fill-triangle-top:before {
+  display: block;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -8px;
+  border: 16px solid transparent;
+  border-top-color: $white;
+}

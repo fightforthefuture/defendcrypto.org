@@ -24,7 +24,7 @@
       </div> <!-- .wrapper -->
     </section>
 
-    <section id="leaderboard" class="sml-pad-y4 med-pad-y6 fill-dark-blue">
+    <section id="leaderboard" class="sml-pad-y4 med-pad-y6 fill-dark-blue fill-triangle-top">
       <div class="wrapper">
         <div class="row">
           <div class="sml-c12 lrg-c8 grid-center">
