@@ -3,6 +3,9 @@ en:
   address_label: "Deposit Address:"
   memo_label: "Memo ID:"
   tag_label: "Tag:"
+  share_title: >
+    Tweet and share in your community that you contributed to #defendcrypto
+  share_tweet: "I contributed to #defendcrypto"
   coins:
     - name: "Augur"
       code: "REP"

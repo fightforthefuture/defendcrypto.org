@@ -48,6 +48,13 @@ h4 {
     font-size: $font-size-4;
   }
 }
+h6 {
+  font-size: $m-font-size-6;
+
+  @include respond-to(lrg) {
+    font-size: $font-size-6;
+  }
+}
 
 // Typography > Text
 p {

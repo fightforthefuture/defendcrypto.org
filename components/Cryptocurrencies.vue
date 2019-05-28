@@ -1,10 +1,11 @@
 <i18n src="~/locales/components/Cryptocurrencies.yml"></i18n>
+<i18n src="~/locales/global.yml"></i18n>
 
 <style lang="scss">
 $mutliselect-height: 68px;
 
 .currency-selector {
-  min-height: 215px; // Magic number
+  min-height: 256px; // Magic number
 }
 
 // Inactive
@@ -108,7 +109,7 @@ $mutliselect-height: 68px;
 
 // Multi Select > Drop down options container
 .multiselect__content-wrapper {
-  height: 150px;
+  height: 190px;
   box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
 
@@ -192,12 +193,27 @@ $mutliselect-height: 68px;
       <div v-if="selectedCurrency && selectedCurrency.note">
         <label class="text-brand">{{ selectedCurrency.note }}</label>
       </div>
+
+      <h6 class="sml-push-y2">{{ $t('share_title') }}</h6>
+      <ShareButton
+        network="twitter"
+        class="btn-sml btn-block sml-push-y1"
+        :text="$t('share_tweet')"
+        @click.native="$trackClick(`twitter_share_button_crypto_field`)">
+        <span>{{ $t('global.common.tweet') }}</span>
+      </ShareButton>
     </form>
   </div>
 </template>
 
 <script>
+import ShareButton from '~/components/ShareButton'
+
 export default {
+  components: {
+    ShareButton
+  },
+
   data() {
     return {
       selectedCurrency: null
