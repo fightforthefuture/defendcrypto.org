@@ -123,6 +123,21 @@
       </div> <!-- -->
     </section>
 
+    <section id="logocloud">
+      <div class="wrapper">
+        <div class="row">
+          <div class="sml-c12 lrg-c8 sml-pad-y4 med-pad-y4 grid-center text-center">
+            <h2>{{ $t('logos_title') }}</h2>
+          </div> <!-- .c -->
+        </div> <!-- .row -->
+      </div> <!-- .wrapper -->
+      <div class="row">
+        <div class="sml-c12 med-c10 med-pad-y2 grid-center">
+          <LogoCloud />
+        </div> <!-- .c -->
+      </div> <!-- row -->
+    </section> <!-- logos -->
+
     <section id="contribute" class="sml-pad-y3">
       <div class="wrapper">
         <div class="row">
@@ -191,14 +206,6 @@
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
     </section>
-
-    <section id="logocloud">
-      <div class="row">
-        <div class="sml-c12 med-c10 med-pad-y2 grid-center">
-          <LogoCloud />
-        </div> <!-- .c -->
-      </div> <!-- row -->
-    </section> <!-- logos -->
   </DefaultLayout>
 </template>
 
