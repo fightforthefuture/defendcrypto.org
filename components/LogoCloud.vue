@@ -8,11 +8,11 @@
                alt="Circle">
         </div> <!-- .fill -->
       </div> <!-- .c -->
-      <div class="sml-c4">
-        <div class="fill-white is-rounded sml-pad-1 sml-push-y1 med-push-y0">
-          <img src="~assets/images/coinbase-logo-250x100.svg"
+      <div class="sml-c4 sml-push-y1 med-push-y0">
+        <div class="fill-white is-rounded sml-pad-1">
+          <img src="~assets/images/kin-logo-250x100.svg"
                class="grid-center"
-               alt="Coinbase">
+               alt="Kin">
         </div> <!-- .fill -->
       </div> <!-- .c -->
       <div class="sml-c4 sml-push-y1 med-push-y0">
@@ -34,9 +34,9 @@
       </div> <!-- .c -->
       <div class="sml-c4 sml-push-y1 med-push-y3">
         <div class="fill-white is-rounded sml-pad-1">
-          <img src="~assets/images/kin-logo-250x100.svg"
+          <img src="~assets/images/arrington-capital-logo.svg"
                class="grid-center"
-               alt="Kin">
+               alt="Arrington Capital">
         </div> <!-- .fill -->
       </div> <!-- .c -->
       <div class="sml-c4 sml-push-y1 med-push-y3">
@@ -44,16 +44,6 @@
           <img src="~assets/images/fftf-logo-dark-250x100.svg"
                class="grid-center"
                alt="Fight For The Future">
-        </div> <!-- .fill -->
-      </div> <!-- .c -->
-    </div> <!-- .row -->
-
-    <div class="row">
-      <div class="sml-s4 sml-c4 sml-push-y1 med-push-y3">
-        <div class="fill-white is-rounded sml-pad-1">
-          <img src="~assets/images/arrington-capital-logo.svg"
-               class="grid-center"
-               alt="Arrington Capital">
         </div> <!-- .fill -->
       </div> <!-- .c -->
     </div> <!-- .row -->
