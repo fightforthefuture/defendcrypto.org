@@ -23,13 +23,16 @@
       <div v-for="(currency, index) in currencies"
            :key="`top-currency-${index}`"
            class="sml-pad-y1 flex-grid sml-flex-row">
-        <div class="sml-flex-2 med-flex-1">
+        <div class="sml-flex-3 med-flex-2">
+          <p class="sml-pull-left sml-smaller-text tuck-bottom">
+            #{{ index + 1 }}
+          </p>
           <div class="coin-logo">
             <img :src="currency.logo" :alt="`${currency.name}-logo`">
           </div>
-          <span class="sml-smaller-text">
+          <p class="sml-smaller-text">
             {{ currency.name }} ({{ currency.code }})
-          </span>
+          </p>
         </div>
         <img src="~assets/images/arrow-right.svg"
              :alt="$t('arrow_alt')"
