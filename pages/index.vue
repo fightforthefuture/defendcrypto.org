@@ -63,11 +63,9 @@
           </div> <!-- .c -->
         </div> <!-- .row -->
       </div> <!-- .wrapper -->
-      <div class="row sml-push-y2 med-push-y4">
-        <div class="sml-c11 med-c10 grid-center">
-          <LogoCloud />
-        </div> <!-- .c -->
-      </div> <!-- row -->
+      <div class="sml-push-y2 med-push-y4">
+        <LogoCloud class="sml-c11 med-c10 grid-center" />
+      </div> <!-- .push -->
     </section> <!-- logos -->
 
     <section id="contribute" class="sml-pad-y-top3 sml-pad-y4 med-pad-y6">
