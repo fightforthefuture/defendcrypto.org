@@ -11,10 +11,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $bold-font-weight;
 }
 h1 {
-  font-family: $heading-stack;
   font-size: $m-font-size-1;
   font-weight: $bold-font-weight;
-  line-height: 0.85;
+  line-height: 1;
   text-transform: capitalize;
 
   @include respond-to(lrg) {
@@ -22,7 +21,6 @@ h1 {
   }
 }
 h2 {
-  font-family: $heading-stack;
   font-size: $m-font-size-2;
   font-weight: $bold-font-weight;
   line-height: 1.1;
