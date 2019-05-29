@@ -8,8 +8,8 @@ en:
         innovation</a>.
       <br>
       <br>
-      Kin is unwilling to let that happen and is setting aside $5MM with
-      Coinbase to take them on in court.
+      Kin is unwilling to let that happen and is setting aside $5MM in our
+      Coinbase account to take them on in court.
       <br>
       <br>
       But with the future of crypto on the line,
@@ -56,15 +56,15 @@ en:
       for how cryptocurrencies are regulated in the United States. That’s why Kin set
       up the Defend Crypto fund to ensure that the funds are there to do this the right
       way. Kin has already spent over $5MM and is committing another $5MM of BTC, ETH,
-      and KIN in a Coinbase account to fight this out on behalf of the industry.
+      and KIN in our Coinbase account to fight this out on behalf of the industry.
     </p>
   action_title: What can you do?
   action_html: |
     <p>
       If you too are fed up with this innovation tax, we encourage you to
       contribute also as we take on the SEC on behalf of the future of crypto
-      in the US. Any additional contributions will be held with Coinbase and
-      will only be used if that $5MM isn’t enough. In that case, expenses
+      in the US. Any additional contributions will be held in our Coinbase account
+      and will only be used if that $5MM isn’t enough. In that case, expenses
       will be disclosed, and &mdash; after a court decision is made &mdash; the
       Defend Crypto fund will allocate the remaining resources to other initiatives.
       <br>
@@ -119,7 +119,8 @@ en:
     items:
       - question: Do I have to send from a Coinbase address?
         answer: >
-          No. The Defend Crypto fund is hosted by Coinbase but you can send from any wallet or exchange.
+          No. The Defend Crypto fund is held in a Coinbase account but you can send from any wallet 
+          or exchange.
       - question: How will I know that you are using the funds as you say?
         answer: >
           There will be open and transparent disclosures on how funds are spent, which is intended
