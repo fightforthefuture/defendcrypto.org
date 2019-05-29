@@ -14,9 +14,9 @@
 </style>
 
 <template>
-  <div class="leaderboard" v-show="currencies.length > 0">
+  <div class="leaderboard">
     <h2 class="text-center">
-      <strong class="text-success">{{ totalAmount }}</strong>
+      <strong class="text-success">{{ totalAmount | formatCurrency }}</strong>
       {{ $t('currently_pledged_text') }}
     </h2>
     <div class="sml-push-y2 med-push-y3">
@@ -28,7 +28,7 @@
             #{{ index + 1 }}
           </p>
           <div class="coin-logo">
-            <img :src="currency.logo" :alt="`${currency.name}-logo`">
+            <img :src="currencyLogo(currency)" :alt="`${currency.name}-logo`">
           </div>
           <p class="sml-smaller-text">
             {{ currency.name }} ({{ currency.code }})
@@ -38,7 +38,7 @@
              :alt="$t('arrow_alt')"
              class="arrow sml-push-y-half sml-hide med-show">
         <p class="amount sml-smaller-text text-right">
-          {{ currency.amount }}
+          {{ currency.usd_balance | formatCurrency }}
         </p>
       </div> <!-- v-for -->
     </div> <!-- .push -->
@@ -46,42 +46,17 @@
 </template>
 
 <script>
-function formatCurrency(value) {
-  return '$' + value.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')
-}
+import leaderboard from '~/assets/data/leaderboard'
 
 export default {
-  data() {
-    return {
-      currencies: [],
-      totalAmount: null
-    }
-  },
-
   computed: {
-    totalNumCurrencies() {
-      return Object.keys(this.currencies).length
-    }
-  },
-
-  created() {
-    this.fetchCurrencies()
+    currencies: () => leaderboard.currencies,
+    totalAmount: () => leaderboard.usd_total
   },
 
   methods: {
-    async fetchCurrencies() {
-      const { data } = await this.$axios.get('https://api.defendcrypto.org/leaderboard')
-
-      for (const account of data.currencies) {
-        this.currencies.push({
-          name: account.name,
-          code: account.code,
-          logo: `/currencies/${account.name.toLowerCase().replace(/\s/g, '-')}.png`,
-          amount: formatCurrency(account.usd_balance)
-        })
-      }
-
-      this.totalAmount = formatCurrency(data.usd_total)
+    currencyLogo({ name }) {
+      return `/currencies/${name.toLowerCase().replace(/\s/g, '-')}.png`
     }
   }
 }
