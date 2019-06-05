@@ -1,13 +1,6 @@
 <template>
   <div>
     <div class="row">
-      <div class="sml-c4">
-        <div class="fill-white is-rounded sml-pad-1 sml-push-y1">
-          <img src="~assets/images/circle-logo-250x100.svg"
-               class="grid-center"
-               alt="Circle">
-        </div> <!-- .fill -->
-      </div> <!-- .c -->
       <div class="sml-c4 sml-push-y1 med-push-y0">
         <div class="fill-white is-rounded sml-pad-1">
           <img src="~assets/images/kin-logo-250x100.svg"
