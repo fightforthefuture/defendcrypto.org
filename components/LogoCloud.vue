@@ -19,7 +19,7 @@
         <div class="fill-white is-rounded sml-pad-1">
           <img src="~assets/images/blockchain_association.png"
                class="grid-center"
-               alt="Shapeshift">
+               alt="BlockchainAssociation">
         </div> <!-- .fill -->
       </div> <!-- .c -->
     </div> <!-- .row -->
