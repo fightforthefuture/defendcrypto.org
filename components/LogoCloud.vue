@@ -15,6 +15,13 @@
                alt="Shapeshift">
         </div> <!-- .fill -->
       </div> <!-- .c -->
+      <div class="sml-c4 sml-push-y1 med-push-y0">
+        <div class="fill-white is-rounded sml-pad-1">
+          <img src="~assets/images/blockchain_association.png"
+               class="grid-center"
+               alt="Shapeshift">
+        </div> <!-- .fill -->
+      </div> <!-- .c -->
     </div> <!-- .row -->
 
     <div class="row">
