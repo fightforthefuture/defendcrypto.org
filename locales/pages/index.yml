@@ -2,9 +2,10 @@ en:
   page_title: "Defend Crypto"
   intro_html: |
     <p>
-      <span style="font-weight: bold;">UPDATE: Kik has allocated $2MM to other projects
-      taking on their own fight and the Blockchain Association is coming on board to govern the fund.
-      More details here: <a href="https://medium.com/@tanner.philp/defend-crypto-expanding-the-reach-and-impact-with-the-blockchain-association-70be168d775f?postPublishedType=initial" target="_blank">Defend Crypto: Expanding the Reach and Impact with the Blockchain Association</a></span>
+      <span style="font-weight: bold;">      UPDATE: Kik has filed their Answer to the SEC Complaint, spanning
+       130 pages and refuting the allegations paragraph-by-paragraph. You can
+      read the response in full here: 
+      <a href="https://www.scribd.com/document/420996750/2019-08-06-Answer-dckt-22-0">Answer to Complaint US Securities and Exchange Commission v. Kik Interactive Inc.</a></span>
       <br>
       <br>
       The SEC has been shaping the future of crypto behind the scenes with
@@ -13,18 +14,19 @@ en:
         innovation</a>.
       <br>
       <br>
-      Kik is unwilling to let that happen so has set aside $5MM in a separate Coinbase account to take
-      them on in court. But it is not just Kik that is impacted by the regulatory uncertainty. Many other
-      projects are facing pressure behind the scenes. Many of which don’t have the resources to fight and
-      are being forced to simply fold and walk away.
+      Kik is unwilling to let that happen and has created DefendCrypto, a fund dedicated to 
+      supporting legal initiatives that impact the crypto industry. It is not just
+      Kik that is impacted by the regulatory uncertainty. Many other projects are
+      facing pressure behind the scenes, and many do not have the resources to
+      fight and are being forced to simply fold and walk away.  That is why Kik,
+      along with other contributors, have already donated $2MM to assisting other
+      projects that are dealing with fights of their own, and is calling on others to do the same.
       <br>
       <br>
-      So going forward, the Defend Crypto fund will be dedicated to helping other projects outside of Kik
-      in their fight to Defend Crypto. Kik has moved its initial $5MM commitment into a separate account
-      and has committed an additional $2MM to the Defend Crypto fund, along with the other outside contributions,
-      and is calling on others to do the same. All contributions will be governed by the 
-      <a href="https://theblockchainassociation.org/" targe"_blank">Blockchain Association</a> and will go towards
-      other litigation that impacts the broader crypto industry.
+      In order to assure that DefendCrypto is governed fairly, all use of proceeds will be overseen by
+      the <a href="https://theblockchainassociation.org/" targe"_blank">Blockchain Association</a>, which
+      is an organization advocating for innovation and collaboration
+      in this pivotal new industry.
       <br>
       <br>
       <strong>Want to contribute?</strong>
@@ -76,10 +78,10 @@ en:
       to ensure that the funds are there for the industry to work together to do this the right way. 
       <br>
       <br>
-      Kin has already spent over $5MM and is committing another $5MM of BTC, ETH,
-      and KIN in our Coinbase account to fight this out on behalf of the industry. Many others 
-      don’t have those resources and will need our support. Kik has allocated an additional $500k 
-      of Kin to other projects, along with the appreciation on its initial $5MM commitment. 
+      Kik has already spent over $6MM taking on the SEC and has committed another $5MM to help bring
+      the regulatory clarity the industry needs to light. There are many others facing pressure behind
+      the scenes but don't have the resources to take a stand, so Kik has also committed an additional
+      $2MM to help those take on their own important fights.
     </p>
   action_title: What can you do?
   action_html: |
@@ -92,6 +94,8 @@ en:
     title: Additional Information
     link_icon_alt: Link icon
     links:
+      - title: "Kik Answers SEC Complaint"
+        link_url: https://www.prnewswire.com/news-releases/kik-answers-sec-complaint-300897681.html?tc=portal_CAP
       - title: "Unchained: Kin Sets up $5 Million Defence Fund to Take on the SEC"
         link_url: https://unchainedpodcast.com/kin-sets-up-5-million-defendcrypto-org-to-take-on-the-sec/
       - title: "Off the Chain: Ted Livingston, CEO of Kik: Defending Crypto"
