@@ -16,14 +16,15 @@
 <template>
   <div class="leaderboard">
     <h2 class="text-center">
-      <strong class="text-success">{{ <!-- totalAmount --> $1,654,781 | formatCurrency }}</strong>
+      <!-- <strong class="text-success">{{ totalAmount | formatCurrency }}</strong> -->
+      <strong>$1,654,781</strong>
       {{ $t('currently_pledged_text') }}
     </h2>
     
-    <h3 class="text-center">
+    <h5 class="text-center">
       The leaderboard section with donated amounts per asset is currently being updated as the funds have been moved into
       the control of Blockchain Association.  Please check back soon.
-    </h3>
+    </h5>
     
     <!-- <div class="sml-push-y2 med-push-y3">
       <div v-for="(currency, index) in currencies"
