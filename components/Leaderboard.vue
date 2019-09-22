@@ -21,6 +21,7 @@
       {{ $t('currently_pledged_text') }}
     </h2>
     <br>
+    <br>
     <h5 class="text-center">
       The leaderboard section with donated amounts per asset is currently being updated as the funds have been moved into
       the control of Blockchain Association.  Please check back soon.
