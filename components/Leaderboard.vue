@@ -22,10 +22,10 @@
     </h2>
     <br>
     <br>
-    <!-- <h5 class="text-center">
+    <h5 class="text-center">
       The leaderboard section with donated amounts per asset is currently being updated as the funds have been moved into
       the control of Blockchain Association.  Please check back soon.
-    </h5> -->
+    </h5>
     
     <!-- <div class="sml-push-y2 med-push-y3">
       <div v-for="(currency, index) in currencies"
