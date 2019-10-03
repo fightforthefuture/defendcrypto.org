@@ -51,7 +51,7 @@ async function fetchCoinbasePrimeAccounts() {
 }
 
 async function fetchKinAccount() {
-  const { data } = await axios.get('https://horizon-block-explorer.kininfrastructure.com/accounts/GBJHE4MXYF5YI6VRXRWSFXLJZ5G6YCK44I4VI3MDTMEXT3UQM2R5FSRQ')
+  const { data } = await axios.get('https://horizon-block-explorer.kininfrastructure.com/accounts/GABLHVNEENBZD6BDDZZJX44WKA5YRMAOONAIFS5JT5HZZRQP5F35OK5X')
   const balance = parseFloat(data.balances[0].balance)
 
   return {
