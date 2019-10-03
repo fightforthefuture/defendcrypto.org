@@ -1,0 +1,143 @@
+{
+  "currencies": [
+    {
+      "code": "BTC",
+      "name": "Bitcoin",
+      "balance": 91.75100287,
+      "usd_balance": 746550.0640358013
+    },
+    {
+      "code": "ETH",
+      "name": "Ethereum",
+      "balance": 1452.76467265,
+      "usd_balance": 250736.04981877803
+    },
+    {
+      "code": "USDC",
+      "name": "USD Coin",
+      "balance": 1507.8983,
+      "usd_balance": 1507.8983
+    },
+    {
+      "code": "EOS",
+      "name": "EOS",
+      "balance": 247.5698,
+      "usd_balance": 720.5174621653084
+    },
+    {
+      "code": "LTC",
+      "name": "Litecoin",
+      "balance": 10.374457,
+      "usd_balance": 568.1520810514786
+    },
+    {
+      "code": "DAI",
+      "name": "Dai",
+      "balance": 359.00085,
+      "usd_balance": 360.69612177233
+    },
+    {
+      "code": "ETC",
+      "name": "Ethereum Classic",
+      "balance": 23.39958,
+      "usd_balance": 106.50696404187529
+    },
+    {
+      "code": "XLM",
+      "name": "Stellar",
+      "balance": 1082.0607334,
+      "usd_balance": 62.983744668218854
+    },
+    {
+      "code": "BAT",
+      "name": "Basic Attention Token",
+      "balance": 300.73043388,
+      "usd_balance": 51.37178576699693
+    },
+    {
+      "code": "ZRX",
+      "name": "0x",
+      "balance": 131.48257555,
+      "usd_balance": 26.822230834353327
+    },
+    {
+      "code": "ZEC",
+      "name": "ZCash",
+      "balance": 0.56867226,
+      "usd_balance": 21.140232713754646
+    },
+    {
+      "code": "KIN",
+      "name": "Kin",
+      "balance": 0.22012,
+      "usd_balance": 0.0000018995255242054451
+    },
+    {
+      "code": "ALGO",
+      "name": "ALGO",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "REP",
+      "name": "Augur",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "LINK",
+      "name": "ChainLink",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "CVC",
+      "name": "Civic",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "DASH",
+      "name": "Dash",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "MANA",
+      "name": "Decentraland",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "DNT",
+      "name": "district0x",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "GNT",
+      "name": "Golem Network Token",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "LOOM",
+      "name": "Loom Network",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "XRP",
+      "name": "Ripple",
+      "balance": 0,
+      "usd_balance": 0
+    },
+    {
+      "code": "XTZ",
+      "name": "Tezos",
+      "balance": 0,
+      "usd_balance": 0
+    }
+  ],
+  "usd_total": 1000712.2027794933
+}
