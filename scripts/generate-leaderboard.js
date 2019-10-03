@@ -9,7 +9,7 @@ const path = require('path')
 cryptocurrencies.XRP = 'Ripple'
 
 // hide these currencies from the leaderboard
-const HIDDEN_CURRENCIES = [ 'USD' , 'BCH' ]
+const HIDDEN_CURRENCIES = [ 'USD' , 'BCH', 'ALGO' ]
 
 async function fetchCoinbasePrimeAccounts() {
   const timestamp = Date.now() / 1000
