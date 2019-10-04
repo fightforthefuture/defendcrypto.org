@@ -58,7 +58,7 @@ en:
       logo: "/coins/golem.png"
     - name: "Kin"
       code: "KIN"
-      address: "GBJHE4MXYF5YI6VRXRWSFXLJZ5G6YCK44I4VI3MDTMEXT3UQM2R5FSRQ"
+      address: "GABLHVNEENBZD6BDDZZJX44WKA5YRMAOONAIFS5JT5HZZRQP5F35OK5X"
       logo: "/coins/kin-logo.png"
     - name: "Litecoin"
       code: "LTC"
