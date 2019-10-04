@@ -7,17 +7,17 @@ en:
     Tweet and share in your community that you contributed to #defendcrypto
   share_tweet: "I contributed to #defendcrypto"
   coins:
-    - name: "Augur"
-      code: "REP"
-      address: "0x2B4B2CD261b911BF89cA4f4d76c959c7c2E4770d"
-      logo: "/coins/augur.png"
-    - name: "Basic Attention Token"
-      code: "BAT"
-      address: "0x9b0ee2669Fc1D36992B73762419bF37dC246f110"
-      logo: "/coins/bat.png"
+#     - name: "Augur"
+#       code: "REP"
+#       address: "0x2B4B2CD261b911BF89cA4f4d76c959c7c2E4770d"
+#       logo: "/coins/augur.png"
+#     - name: "Basic Attention Token"
+#       code: "BAT"
+#       address: "0x9b0ee2669Fc1D36992B73762419bF37dC246f110"
+#       logo: "/coins/bat.png"
     - name: "Bitcoin"
       code: "BTC"
-      address: "3NVEvcb2tbWYLQgcN67qQaCFsjcHEdqtUa"
+      address: "37C2YJxmDeAFBPhu9hgg7sQ19FJnUo2RXu"
       logo: "/coins/bitcoin.svg"
     # - name: "Bitcoin Cash"
     #   code: "BCH"
@@ -25,36 +25,36 @@ en:
     #   logo: "/coins/bitcoin-cash.png"
     - name: "Civic"
       code: "CVC"
-      address: "0x2e295457717E765Ab35C6Aeed4516ad95306ADe8"
+      address: "0x1F577e44B8d48040B6FCf3248673399Bc2888Dca"
       logo: "/coins/civic.svg"
     - name: "Dai"
       code: "DAI"
-      address: "0xC2b1BbD137a01412b0B6634A2F5314617b192231"
+      address: "0xcA347Bd88196Dbe3f1De678f5DC9E6ED5D63b339"
       logo: "/coins/dai.png"
     - name: "Decentraland"
       code: "MANA"
-      address: "0x5fF3e1b8B4f4ed6963541e2018984d0083edB9a1"
+      address: "0xe96601921Cad1945734dab08ECF9361d460eef8b"
       logo: "/coins/mana.png"
     - name: "district0x"
       code: "DNT"
-      address: "0x6B41b4ab063e1d552C5b2C56950DDA621EE4b99f"
+      address: "0x7a5366B1D03222D27c36396E0bfbF8c28e328d63"
       logo: "/coins/district0x.png"
     - name: EOS
       code: EOS
       address: coinbasebase
-      memo: 2774506585
+      memo: 2548259710
       logo: "/coins/eos.png"
     - name: "Ethereum"
       code: "ETH"
-      address: "0xa6f306743B6308C2cBB4bB41074812478dA7a0ae"
+      address: "0x9d6628af31b886DfdEb94ea94485D68A06D236e6"
       logo: "/coins/ethereum.svg"
     - name: "Ethereum Classic"
       code: "ETC"
-      address: "0x509Dd1b4085E1cB234da1B74d80622893ac1d3EA"
+      address: "0x8A113e56165D2489c770f6bA34E74bbD8C1B18d6"
       logo: "/coins/ethereum-classic.svg"
     - name: "Golem"
       code: "GNT"
-      address: "0x18478D3a54d8c20573eaAb84c4A310373ddE4A63"
+      address: "0xF2a8608e1B28264965b0E784e27C0D0D7Bf7aCAE"
       logo: "/coins/golem.png"
     - name: "Kin"
       code: "KIN"
@@ -62,34 +62,34 @@ en:
       logo: "/coins/kin-logo.png"
     - name: "Litecoin"
       code: "LTC"
-      address: "MCyfmLfTzvy55PfTnBp3fQxk7K2ePe1kof"
+      address: "MVutEtVUE8YkyGarCji25vi7yre9jBRhWv"
       logo: "/coins/litecoin.svg"
       note: Please ensure the source of the LTC transaction supports LTC addresses with M prefixes.
     - name: "Loom Network"
       code: "LOOM"
-      address: "0xCA76D7AA9e902fc154109C7749C8D7F0BC16A1Ee"
+      address: "0xdE5e683C97FBC2cb26d1e0f48B60EAcC3635702D"
       logo: "/coins/loom.png"
     - name: Ripple
       code: XRP
       address: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
-      tag:  3715048635
+      tag:  3362367398
       logo: "/coins/ripple.png"
     - name: Stellar
       code: XLM
       address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37
-      memo:  3892875212
+      memo:  3735377640
       logo: "/coins/stellar.svg"
     - name: "US Dollar Coin"
       code: "USDC"
-      address: "0x00C6216069DCF99F54E6371f097dE6613C16fA42"
+      address: "0x852Ad104A625Ec0849e6Ba405D6296D868350C67"
       logo: "/coins/us-dollar-coin.png"
     - name: "Zcash"
       code: "ZEC"
-      address: "t1T3QLVvFyuypTs7azCKcP9wrwJnpEsBYxH"
+      address: "t1VLNs7NKHTGquzxhUMzoY6smtJYgJc9xDA"
       logo: "/coins/zcash.png"
     - name: "0x"
       code: "ZRX"
-      address: "0x8b8c8829dd800bA6F6Ea234f4F4c02762E71E6F2"
+      address: "0x08bB634ed0869E5ae45d5F336768B5D333D030c0"
       logo: "/coins/0x.png"
 
 
