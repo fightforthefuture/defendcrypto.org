@@ -7,10 +7,10 @@ en:
     Tweet and share in your community that you contributed to #defendcrypto
   share_tweet: "I contributed to #defendcrypto"
   coins:
-#     - name: "Augur"
-#       code: "REP"
-#       address: "0x2B4B2CD261b911BF89cA4f4d76c959c7c2E4770d"
-#       logo: "/coins/augur.png"
+    - name: "Augur"
+      code: "REP"
+      address: "0x82FD6F1772e3651695636AA4819B2316Db9648aD"
+      logo: "/coins/augur.png"
 #     - name: "Basic Attention Token"
 #       code: "BAT"
 #       address: "0x9b0ee2669Fc1D36992B73762419bF37dC246f110"
