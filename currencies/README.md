@@ -1,0 +1,1 @@
+Logos borrowed from [here](https://github.com/giekaton/cryptocurrency-logos)

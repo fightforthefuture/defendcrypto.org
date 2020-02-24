@@ -1,0 +1,55 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # circleci/ruby:2.4-node-browsers + awscli
+      - image: kenmickles/fftf-static-site-builder:0.0.2
+
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "56:3b:20:9a:c2:e1:e4:4e:3c:fc:08:03:b8:eb:6d:14"
+
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package-lock.json" }}
+
+      - run:
+          name: Install dependencies
+          command: |
+            npm install
+
+      - save_cache:
+          paths:
+          - node_modules
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
+
+      - run:
+          name: Build
+          command: |
+            npm run generate
+
+      - deploy:
+          name: Deploy Site
+          command: |
+            git config --global user.email "team@fightforthefuture.org"
+            git config --global user.name "CircleCI"
+            npm run deploy
+
+      - run:
+          name: Purge CloudFlare cache
+          command: |
+            curl -X DELETE "https://cloudflare.fftf.xyz/zones/${CLOUDFLARE_ZONE_ID}/cache" \
+              -H "X-Auth-Key: ${CLOUDFLARE_ZONE_KEY}"
+
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
