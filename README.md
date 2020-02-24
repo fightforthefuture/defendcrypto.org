@@ -1,6 +1,6 @@
 # DefendCrypto.org
 
-> A Kin & Fight for the Future website
+> A Kin & Fight for the Future website 
 
 ## Build Setup
 
