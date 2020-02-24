@@ -4,6 +4,7 @@ const cryptocurrencies = require('cryptocurrencies')
 const crypto = require('crypto')
 const fs = require('fs')
 const path = require('path')
+require('dotenv').config()
 
 // add missing currencies
 cryptocurrencies.XRP = 'Ripple'
